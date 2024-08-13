@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "description": "A personal blog framework built on Nuxt.js and Nuxt Content",
+  "author": "hanyujie2002",
+  "license": "MIT",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
