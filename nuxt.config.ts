@@ -6,5 +6,5 @@ export default defineNuxtConfig({
   plugins: [
     // '~/plugins/vue-awesome-paginate.js'
   ],
-  ssr: false
+  // ssr: false
 })

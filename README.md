@@ -1,76 +1,29 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 # Vardar
+
+🎉 **Welcome to Vardar!** 🎉
+
+A personal blog framework built on **Nuxt.js** and **Nuxt Content**. 🚀
+
+## Key Features
+
+- **Instant Blog Addition**: Add new blogs by dropping a `.md` file into the `/content/blog` folder. 🥧
+- **Paginated Blog Menu**: Easily navigate through blogs with our paginated menu at `/blog`. 📄➡️📄
+
+## Quick Start
+
+1. **Install Dependencies**:
+   ```bash
+   yarn install
+   ```
+
+2. **Start Development Server**:
+   ```bash
+   yarn dev
+   ```
+
+3. **Generate Static Content**:
+   ```bash
+   yarn generate
+   ```
+
+Happy blogging! ✍️😊
