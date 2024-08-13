@@ -10,7 +10,7 @@
     </nav>
 
     <!-- 页面主内容 -->
-    <main class="overflow-auto mx-[3vw]">
+    <main class="overflow-auto mx-[3vw] ">
       <slot />
     </main>
 
