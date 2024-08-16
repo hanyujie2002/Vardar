@@ -10,3 +10,7 @@ I am thrilled to announce the release of Vardar, a personal blog framework built
 - **Blog Menu with Pagination**: Navigate through your blogs with ease using our paginated blog menu at `/blog`. Just use the navigation bar to switch pages seamlessly! 📄➡️📄
 
 Stay tuned for more updates and happy blogging! ✍️😊
+
+## v1.1.0
+
+- **RSS Support**: Now you can get blog updates in a jiffy with our new RSS feed feature! Check it out at `/feed.xml`. 📡✨

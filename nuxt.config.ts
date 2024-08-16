@@ -7,4 +7,9 @@ export default defineNuxtConfig({
     // '~/plugins/vue-awesome-paginate.js'
   ],
   // ssr: false
+  generate: {
+    routes: [
+      '/feed.xml'
+    ]
+  }
 })
