@@ -14,3 +14,7 @@ Stay tuned for more updates and happy blogging! ✍️😊
 ## v1.1.0
 
 - **RSS Support**: Now you can get blog updates in a jiffy with our new RSS feed feature! Check it out at `/feed.xml`. 📡✨
+
+## v1.2.0
+
+- **UI Overhaul**: We’ve given the user interface a fresh, modern look to enhance your blogging experience. Enjoy a more visually appealing and intuitive design!

@@ -2,6 +2,8 @@
 
 🎉 **Welcome to Vardar!** 🎉
 
+![screenshot of Vardar](./screenshot.png)
+
 A personal blog framework built on **Nuxt.js** and **Nuxt Content**. 🚀
 
 ## Key Features

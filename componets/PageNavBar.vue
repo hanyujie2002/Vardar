@@ -44,26 +44,18 @@ const onPageChange = async (page) => {
 }
 
 .paginate-buttons {
-    @apply bg-gray-100 h-9 w-9 cursor-pointer rounded sm:h-12 sm:w-12;
-}
-
-.paginate-buttons:hover {
-    @apply bg-gray-300;
+    @apply transition-all text-white backdrop-brightness-95 h-9 w-9 cursor-pointer rounded sm:h-12 sm:w-12 hover:backdrop-brightness-90 active:backdrop-brightness-75;
 }
 
 .active-page {
-    @apply bg-gray-900 text-white;
-}
-
-.active-page:hover {
-    @apply bg-gray-800 text-white;
+    @apply backdrop-brightness-75 hover:backdrop-brightness-75;
 }
 
 .back-button, .next-button {
-    @apply bg-gray-100 text-gray-700 mx-4;
+    @apply mx-4;
 }
 
-.disabled-paginate-buttons, .disabled-paginate-buttons:hover {
-    @apply bg-white cursor-auto;
+.disabled-paginate-buttons {
+    @apply backdrop-brightness-100 cursor-auto hover:backdrop-brightness-100 hover:cursor-auto;
 }
 </style>
