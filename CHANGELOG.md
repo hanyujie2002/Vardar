@@ -24,3 +24,7 @@ Stay tuned for more updates and happy blogging! ✍️😊
 - **Sticky Header**: The header now sticks to the top of the page like your favorite hat on a windy day. 🎩✨
 - **Table of Contents**: We've added a handy table of contents on the right side of your blog content. Now you can navigate your posts faster than a cat chasing a laser pointer! 📑➡️🐱
 - **Switched to pnpm**: We've switched from Yarn to pnpm for faster and more efficient package management. It's like upgrading from a bicycle to a rocket! 🚀
+
+## v1.3.1
+
+- **Refactor Table of Contents**: Improve speed by using a set for active TOC IDs and enhanced sensitivity with updated thresholds. 🚀
