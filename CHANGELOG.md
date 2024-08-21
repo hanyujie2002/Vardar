@@ -18,3 +18,9 @@ Stay tuned for more updates and happy blogging! ✍️😊
 ## v1.2.0
 
 - **UI Overhaul**: We’ve given the user interface a fresh, modern look to enhance your blogging experience. Enjoy a more visually appealing and intuitive design!
+
+## v1.3.0
+
+- **Sticky Header**: The header now sticks to the top of the page like your favorite hat on a windy day. 🎩✨
+- **Table of Contents**: We've added a handy table of contents on the right side of your blog content. Now you can navigate your posts faster than a cat chasing a laser pointer! 📑➡️🐱
+- **Switched to pnpm**: We've switched from Yarn to pnpm for faster and more efficient package management. It's like upgrading from a bicycle to a rocket! 🚀
