@@ -3,10 +3,10 @@
     <!-- 导航栏 -->
     <nav class="flex flex-auto sticky top-0 h-[--header-height] text-white backdrop-blur-2xl z-50">
       <ul class="flex max-w-screen-xl w-full mx-auto gap-4 my-auto">
-        <li class="list-item"><NuxtLink class="transition-colors flex flex-auto text-lg font-bold py-2 px-4 rounded hover:text-rose-100" to="/">主页</NuxtLink></li>
-        <li class="list-item"><NuxtLink class="transition-colors flex flex-auto text-lg font-bold py-2 px-4 rounded hover:text-rose-100" to="/about">个人介绍</NuxtLink></li>
-        <li class="list-item"><NuxtLink class="transition-colors flex flex-auto text-lg font-bold py-2 px-4 rounded hover:text-rose-100" to="/blog">博客文章</NuxtLink></li>
-        <li class="list-item ml-auto"><NuxtLink target="_blank" to="/feed.xml"><Icon name="mdi:rss" class="transition-colors size-12 hover:text-rose-100"></Icon></NuxtLink></li>
+        <li class="list-item"><NuxtLink class="transition-colors flex flex-auto text-lg font-bold py-2 px-4 rounded hover:text-yellow-100" :class="{ active: isMainPage }" to="/">主页</NuxtLink></li>
+        <li class="list-item"><NuxtLink class="transition-colors flex flex-auto text-lg font-bold py-2 px-4 rounded hover:text-yellow-100" :class="{ active: isAboutPage }" to="/about">个人介绍</NuxtLink></li>
+        <li class="list-item"><NuxtLink class="transition-colors flex flex-auto text-lg font-bold py-2 px-4 rounded hover:text-yellow-100" :class="{ active: isBlogPage }" to="/blog">博客文章</NuxtLink></li>
+        <li class="list-item ml-auto"><NuxtLink target="_blank" to="/feed.xml"><Icon name="mdi:rss" class="transition-colors size-12 hover:text-yellow-100"></Icon></NuxtLink></li>
       </ul>
     </nav>
 
@@ -22,5 +22,22 @@
   </div>
 </template>
 
+<script setup lang="ts">
+const route = useRoute();
+
+const isMainPage = computed(() => {
+  return route.path === "/";
+})
+const isAboutPage = computed(() => {
+  return route.path.startsWith("/about")
+}) 
+const isBlogPage = computed(() => {
+  return route.path.startsWith("/blog")
+}) 
+</script>
+
 <style scoped>
+.active {
+  @apply text-yellow-200 hover:text-yellow-200
+}
 </style>

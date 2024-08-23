@@ -66,6 +66,6 @@ onMounted((): void => {
 
 <style scoped>
 .active {
-  @apply text-indigo-300;
+  @apply text-yellow-200;
 }
 </style>
