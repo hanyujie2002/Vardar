@@ -29,7 +29,7 @@ Stay tuned for more updates and happy blogging! ✍️😊
 
 - **Refactor Table of Contents**: Improve speed by using a set for active TOC IDs and enhanced sensitivity with updated thresholds. 🚀
 
-## v1.4.1
+## v1.4.0
 
 - **Prose Polish**: We've refined the prose components of Nuxt content to make your blog posts look even more polished and professional. ✨🖋️
 - **Code Block Enhancements**: Added a sleek new bar on code blocks displaying the code language, file name, and a handy copy button for quick copying. 🖥️📋
