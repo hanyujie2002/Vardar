@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   },
 
   devtools: { enabled: true },
-  modules: ['@nuxt/content', "@nuxtjs/tailwindcss", "@nuxt/icon"],
+  modules: ['@nuxt/content', "@nuxtjs/tailwindcss", "@nuxt/icon", "@nuxt/image"],
   plugins: [
     // '~/plugins/vue-awesome-paginate.js'
   ],
@@ -35,7 +35,7 @@ export default defineNuxtConfig({
       ]
     },
     markdown: {
-      remarkPlugins: ['remark-math'],
+      remarkPlugins: ['remark-math', 'remark-gfm'],
       rehypePlugins: {
         'rehype-katex': {
           output: 'html' // the default value is 'htmlAndMathml'
