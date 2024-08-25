@@ -37,3 +37,7 @@ Stay tuned for more updates and happy blogging! ✍️😊
 ## v1.4.1
 
 - **Code Copy Button Update**: Enhanced the UI of the code copy button for a more seamless and visually appealing experience when it becomes active.
+
+## v1.5.0
+
+- **Mermaid Support**: We've added support for Mermaid diagrams! Now you can create beautiful and interactive diagrams directly in your blog posts using the ` ```mermaid ``` ` syntax. Whether it's flowcharts, sequence diagrams, or Gantt charts, Mermaid makes it easy to visualize your ideas. 🖼️✨
