@@ -33,3 +33,7 @@ Stay tuned for more updates and happy blogging! ✍️😊
 
 - **Prose Polish**: We've refined the prose components of Nuxt content to make your blog posts look even more polished and professional. ✨🖋️
 - **Code Block Enhancements**: Added a sleek new bar on code blocks displaying the code language, file name, and a handy copy button for quick copying. 🖥️📋
+
+## v1.4.1
+
+- **Code Copy Button Update**: Enhanced the UI of the code copy button for a more seamless and visually appealing experience when it becomes active.
