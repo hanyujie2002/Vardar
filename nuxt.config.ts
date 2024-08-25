@@ -18,6 +18,7 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content', "@nuxtjs/tailwindcss", "@nuxt/icon", "@nuxt/image"],
   plugins: [
     // '~/plugins/vue-awesome-paginate.js'
+    '~/plugins/mermaid.client.js'
   ],
   generate: {
     routes: [
@@ -35,11 +36,12 @@ export default defineNuxtConfig({
       ]
     },
     markdown: {
-      remarkPlugins: ['remark-math', 'remark-gfm'],
+      remarkPlugins: ['remark-math', 'remark-gfm', 'remark-mermaid'],
       rehypePlugins: {
         'rehype-katex': {
           output: 'html' // the default value is 'htmlAndMathml'
-        }
+        },
+        'remark-mermaid': { simple: true }
       }
     },
   },
