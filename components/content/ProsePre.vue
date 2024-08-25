@@ -3,7 +3,7 @@
     <div v-if="language || filename" class="flex h-12 gap-1.5 items-center rounded-t bg-violet-800">
       <Icon v-if="language" :name="getIconName(language)" class="ml-3 text-2xl"></Icon>
       <span v-if="filename" class="ml-3 text-violet-200">{{ filename }}</span>
-      <button @click="copyButtonHandleClick" class="transition-all flex ml-auto mr-3 p-1 rounded hover:backdrop-brightness-125"><Icon :name="copyButtonIconName" class="text-2xl"></Icon></button>
+      <button @click="copyButtonHandleClick" :class="`transition-all flex ml-auto mr-3 p-1 gap-1 rounded hover:backdrop-brightness-125 ${isCopyButtonActive ? 'backdrop-brightness-125':''}`"><span v-show="isCopyButtonActive">Copied</span><Icon :name="copyButtonIconName" class="text-2xl"></Icon></button>
     </div>
     <div :class="[$props.class, 'flex bg-violet-900 px-4 py-3 overflow-x-auto text-white shadow-xl', filename || language? 'rounded-b': 'rounded']">
       <slot />
@@ -13,6 +13,7 @@
 
 <script setup lang="ts">
 const copyButtonIconName = ref<string>("tabler:copy")
+const isCopyButtonActive = ref<boolean>(false)
 
 const props = defineProps({
   code: {
@@ -45,9 +46,11 @@ const copyButtonHandleClick = async (): Promise<void> => {
   await navigator.clipboard.writeText(props.code);
 
   copyButtonIconName.value = 'tabler:copy-check'
+  isCopyButtonActive.value = true
 
   setTimeout(() => {
     copyButtonIconName.value = 'tabler:copy'
+    isCopyButtonActive.value = false
   }, 2000);
 }
 
