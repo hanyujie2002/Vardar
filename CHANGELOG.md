@@ -41,3 +41,11 @@ Stay tuned for more updates and happy blogging! ✍️😊
 ## v1.5.0
 
 - **Mermaid Support**: We've added support for Mermaid diagrams! Now you can create beautiful and interactive diagrams directly in your blog posts using the ` ```mermaid ``` ` syntax. Whether it's flowcharts, sequence diagrams, or Gantt charts, Mermaid makes it easy to visualize your ideas. 🖼️✨
+
+## v1.5.1
+
+- **Placeholder Articles**: Added demo articles to showcase blog features. 🎬✨
+
+## v1.5.2
+
+- **Static Site Generation Fix**: Smooth static site generation with `pnpm run generate`. 🚀🔧
