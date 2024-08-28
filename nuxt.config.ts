@@ -36,7 +36,7 @@ export default defineNuxtConfig({
       ]
     },
     markdown: {
-      remarkPlugins: ['remark-math', 'remark-gfm', 'remark-mermaid'],
+      remarkPlugins: ['remark-math', 'remark-gfm'],
       rehypePlugins: {
         'rehype-katex': {
           output: 'html' // the default value is 'htmlAndMathml'
