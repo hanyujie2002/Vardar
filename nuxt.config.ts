@@ -26,6 +26,12 @@ export default defineNuxtConfig({
     ]
   },
 
+  nitro: {
+    prerender: {
+      failOnError: false
+    }
+  },
+
   content: {
     highlight: {
       theme: 'monokai',
