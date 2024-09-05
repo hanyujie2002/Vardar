@@ -6,5 +6,15 @@
     </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
+const { $mermaid } = useNuxtApp();
+
+onMounted(async () => {
+    $mermaid().initialize({
+        startOnLoad: true,
+        deterministicIds: true
+    });
+    await nextTick();
+    $mermaid().init();
+});
 </script>
