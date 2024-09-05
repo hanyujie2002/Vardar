@@ -15,7 +15,14 @@ export default defineNuxtConfig({
   },
 
   devtools: { enabled: true },
-  modules: ['@nuxt/content', "@nuxtjs/tailwindcss", "@nuxt/icon", "@nuxt/image"],
+  css: ['~/assets/css/main.css'],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
+  },
+  modules: ['@nuxt/content', "@nuxt/icon", "@nuxt/image", "nuxt-toc"],
   plugins: [
     // '~/plugins/vue-awesome-paginate.js'
     '~/plugins/mermaid.client.js'
@@ -34,7 +41,7 @@ export default defineNuxtConfig({
 
   content: {
     highlight: {
-      theme: 'monokai',
+      theme: 'everforest-dark',
       preload: [
         'python',
         'c',
