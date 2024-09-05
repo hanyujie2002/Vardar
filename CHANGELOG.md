@@ -1,5 +1,12 @@
 # Changelog of Vardar
 
+## v1.6.0
+
+- **TOC Refactor**: Separated the Table of Contents (TOC) component code into a dedicated npm package. 📦✨
+- **Tailwind Refactor**: Adopted the standard installation method for Tailwind CSS, moving away from the Nuxt module. 🎨🔧
+- **UI Enhancement**: Improved the table design in the blog template for a more polished look. 🖼️✨
+- **Mermaid Fix**: Resolved the duplicate ID issue in Mermaid graphs. 🐛🔧
+
 ## v1.5.3
 
 - **Static Site Generation Fix**: Resolved an issue where prerendering failed upon encountering 404 links. 🚀🔧
