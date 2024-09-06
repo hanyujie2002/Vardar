@@ -43,8 +43,8 @@ importers:
         version: 1.2.0
     devDependencies:
       '@iconify-json/catppuccin':
-        specifier: ^1.1.4
-        version: 1.1.4
+        specifier: ^1.2.0
+        version: 1.2.0
       '@iconify-json/mdi':
         specifier: ^1.1.68
         version: 1.1.68
@@ -723,8 +723,8 @@ packages:
     resolution: {integrity: sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==}
     engines: {node: '>=14'}
 
-  '@iconify-json/catppuccin@1.1.4':
-    resolution: {integrity: sha512-s9PFVBEZu65f6mV42HNIe3ffQuWoUrCL8HBtrhtjU7W3ZrLevOL2aDZGW0Kqwirq0rtSULdoOMTVDHjknOIsdw==}
+  '@iconify-json/catppuccin@1.2.0':
+    resolution: {integrity: sha512-YzvXhOA4toptnD+c7P2f/T8wp1aw6nkE1qBW15qnbA8/RaxbDhhIXnNiaWfgh44Qu55DnyFyQsk+/p/1C9iMUA==}
 
   '@iconify-json/mdi@1.1.68':
     resolution: {integrity: sha512-7//TKCiXLU6kNWeOJRTBbisofVO7rF1sD1TZTL4/V9nqlmVNczQ5IOY0GgKOTsitkcTnX9GXgrgbjw3OI5B69w==}
@@ -4924,7 +4924,7 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@iconify-json/catppuccin@1.1.4':
+  '@iconify-json/catppuccin@1.2.0':
     dependencies:
       '@iconify/types': 2.0.0
 
