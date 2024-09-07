@@ -33,6 +33,12 @@ export default defineNuxtConfig({
     ]
   },
 
+  icon: {
+    clientBundle: {
+      scan: true,
+    }
+  },
+
   nitro: {
     prerender: {
       failOnError: false
