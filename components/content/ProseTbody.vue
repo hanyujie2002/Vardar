@@ -1,5 +1,5 @@
 <template>
-  <tbody class="border-b divide-y divide-violet-400">
+  <tbody class="divide-y divide-violet-400 border-b">
     <slot />
   </tbody>
 </template>

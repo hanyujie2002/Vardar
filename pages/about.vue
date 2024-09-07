@@ -1,26 +1,29 @@
 <template>
+  <div>
     这里是个人介绍页
-    {{page}}
+    {{ page }}
     <button @click="onClick">test</button>
+  </div>
 </template>
 
 <script setup>
-    const route = useRoute()
+const route = useRoute();
 
-    const page = ref(parseInt(route.query.page))
+const page = ref(parseInt(route.query.page));
 
-    watch(() => route.query.page, (newPage) => {
-        page.value = newPage
-    })
+watch(
+  () => route.query.page,
+  (newPage) => {
+    page.value = newPage;
+  }
+);
 
-    const router = useRouter()
-    const onClick = async () => {
-        await navigateTo({
-            path: '/about',
-            query: {
-                page: 3
-            }
-        })
-    }
-
+const onClick = async () => {
+  await navigateTo({
+    path: '/about',
+    query: {
+      page: 3,
+    },
+  });
+};
 </script>

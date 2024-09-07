@@ -20,11 +20,13 @@ A personal blog framework built on **Nuxt.js** and **Nuxt Content**. 🚀
 ## Quick Start
 
 1. **Install Dependencies**:
+
    ```bash
    pnpm install
    ```
 
 2. **Start Development Server**:
+
    ```bash
    pnpm run dev
    ```

@@ -1,5 +1,5 @@
 <template>
-  <thead class="sticky z-10 top-0 border-b bg-violet-100 text-violet-600">
+  <thead class="sticky top-0 z-10 border-b bg-violet-100 text-violet-600">
     <slot />
   </thead>
 </template>
