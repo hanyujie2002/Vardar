@@ -71,7 +71,9 @@ function getIconName(language: string | null): string {
         c: 'catppuccin:c',
         cpp: 'catppuccin:cpp',
         vue: 'catppuccin:vue',
-        react: 'catppuccin:javascript-react'
+        react: 'catppuccin:javascript-react',
+        go: 'catppuccin:go',
+        golang: 'catppuccin:go'
     };
     return langMap[language.toLowerCase()] || '';
 }
