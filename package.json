@@ -40,7 +40,7 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
-    "mermaid": "^11.0.2",
+    "mermaid": "^11.1.1",
     "nuxt-toc": "^1.0.1",
     "postcss-custom-properties": "^14.0.0",
     "rehype-katex": "^7.0.0",
