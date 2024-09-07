@@ -4,14 +4,17 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      link: [{
-        rel: 'stylesheet',
-        href: 'https://cdn.jsdelivr.net/npm/katex@*/dist/katex.min.css'
-      }, {
-          rel: "stylesheet",
-          href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        }]
-    }
+      link: [
+        {
+          rel: 'stylesheet',
+          href: 'https://cdn.jsdelivr.net/npm/katex@*/dist/katex.min.css',
+        },
+        {
+          rel: 'stylesheet',
+          href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css',
+        },
+      ],
+    },
   },
 
   devtools: { enabled: true },
@@ -22,47 +25,46 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['@nuxt/content', "@nuxt/icon", "@nuxt/image", "nuxt-toc"],
+  modules: [
+    '@nuxt/content',
+    '@nuxt/icon',
+    '@nuxt/image',
+    'nuxt-toc',
+    '@nuxt/eslint',
+  ],
   plugins: [
     // '~/plugins/vue-awesome-paginate.js'
-    '~/plugins/mermaid.client.js'
+    '~/plugins/mermaid.client.js',
   ],
   generate: {
-    routes: [
-      '/feed.xml'
-    ]
+    routes: ['/feed.xml'],
   },
 
   icon: {
     clientBundle: {
       scan: true,
-    }
+    },
   },
 
   nitro: {
     prerender: {
-      failOnError: false
-    }
+      failOnError: false,
+    },
   },
 
   content: {
     highlight: {
       theme: 'everforest-dark',
-      preload: [
-        'python',
-        'c',
-        'java',
-        'go'
-      ]
+      preload: ['python', 'c', 'java', 'go'],
     },
     markdown: {
       remarkPlugins: ['remark-math', 'remark-gfm'],
       rehypePlugins: {
         'rehype-katex': {
-          output: 'html' // the default value is 'htmlAndMathml'
+          output: 'html', // the default value is 'htmlAndMathml'
         },
-        'remark-mermaid': { simple: true }
-      }
+        'remark-mermaid': { simple: true },
+      },
     },
   },
-})
+});
