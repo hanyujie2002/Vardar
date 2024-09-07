@@ -1,3 +1,3 @@
 <template>
-    这里是主页
+  <div>这里是主页</div>
 </template>
