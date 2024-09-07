@@ -46,6 +46,7 @@ export default defineNuxtConfig({
         'python',
         'c',
         'java',
+        'go'
       ]
     },
     markdown: {
