@@ -1,5 +1,10 @@
 # Changelog of Vardar
 
+## v1.7.0
+
+- **Responsive Design**: Implemented responsive design for mobile devices. 📱✨
+
+
 ## v1.6.1
 
 - **Icon Fix**: Resolved the glitch affecting icons within code blocks. 🛠️✨
