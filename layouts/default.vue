@@ -40,9 +40,7 @@
     </nav>
 
     <!-- 页面主内容 -->
-    <main
-      class="mx-auto flex min-h-[calc(100vh-var(--header-height))] w-full max-w-screen-xl lg:px-8"
-    >
+    <main class="mx-auto flex min-h-[calc(100vh-var(--header-height))] w-full">
       <slot />
     </main>
 

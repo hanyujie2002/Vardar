@@ -1,11 +1,13 @@
 <template>
-  <div class="w-full lg:grid lg:grid-cols-10 lg:gap-8">
+  <div class="w-full">
     <ContentDoc
-      class="overflow-x-auto hyphens-auto text-wrap text-slate-200 lg:col-span-8"
+      class="mx-auto max-w-3xl overflow-x-auto hyphens-auto text-wrap px-3 text-slate-200"
     />
-    <TableOfContents
-      class="sticky top-[--header-height] flex max-h-[calc(100vh-var(--header-height))] overflow-y-auto text-sm/6 text-slate-200 lg:col-span-2"
-    />
+    <div
+      class="fixed top-[calc(4rem+var(--header-height))] ml-8 hidden max-h-[calc(100vh-var(--header-height))] max-w-72 flex-col overflow-y-auto text-sm/6 text-slate-200 xl:flex"
+    >
+      <TableOfContents />
+    </div>
   </div>
 </template>
 
@@ -21,8 +23,3 @@ onMounted(async () => {
   $mermaid().init();
 });
 </script>
-<style>
-input[type='checkbox'] {
-  @apply !bg-red-500 checked:!bg-blue-500;
-}
-</style>
