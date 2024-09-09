@@ -1,8 +1,10 @@
 <template>
-  <main class="mx-auto flex min-h-full w-full max-w-screen-xl flex-col pt-4">
+  <main class="mx-auto flex min-h-full w-full flex-col pt-4">
     <ContentList :query="query">
       <template #default="{ list }">
-        <ul class="mb-auto flex w-full flex-col divide-y divide-dashed">
+        <ul
+          class="mx-auto mb-auto flex w-full max-w-4xl flex-col divide-y divide-dashed"
+        >
           <li v-for="article in list" :key="article._path">
             <NuxtLink
               :to="article._path"
