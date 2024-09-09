@@ -1,5 +1,13 @@
 # Changelog of Vardar
 
+## v1.6.1
+
+- **Icon Fix**: Resolved the glitch affecting icons within code blocks. 🛠️✨
+- **Code Block Enhancement**: Added language highlighting and an icon for Golang. 🖥️🔍
+- **Dependency Management**: Integrated Dependabot for automated dependency version updates. 🤖📦
+- **Version Updates**: Bumped dependency versions to the latest releases. ⬆️📈
+- **Transition Animation**: Implemented smooth transition animations between pages. 🎬✨
+
 ## v1.6.0
 
 - **TOC Refactor**: Separated the Table of Contents (TOC) component code into a dedicated npm package. 📦✨
