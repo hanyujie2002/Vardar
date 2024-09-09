@@ -4,7 +4,6 @@
 
 - **Responsive Design**: Implemented responsive design for mobile devices. 📱✨
 
-
 ## v1.6.1
 
 - **Icon Fix**: Resolved the glitch affecting icons within code blocks. 🛠️✨
