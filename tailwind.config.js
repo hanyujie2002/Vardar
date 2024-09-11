@@ -1,4 +1,5 @@
 const plugin = require('tailwindcss/plugin');
+const colors = require('tailwindcss/colors')
 
 /** @type {import('tailwindcss').Config} */
 
@@ -16,6 +17,9 @@ module.exports = {
       animation: {
         spinSlow: 'spin 10s linear infinite'    
       },
+      colors: {
+        themeColor: colors.violet,
+      }
     },
   },
   plugins: [
