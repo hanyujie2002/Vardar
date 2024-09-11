@@ -1,5 +1,13 @@
 # Changelog of Vardar
 
+## v1.8.0
+
+- **Main Page Interface**: Enhanced the main page interface for a better user experience. 🖥️✨
+- **Text Selection UI**: Improved the UI for active text selection. 📝✨
+- **Screenshots Update**: Updated screenshots in the documentation. 📸📝
+- **Content Availability Fix**: Resolved the issue of contents not being available in Deploy on Vercel forks. 🛠️🔧
+- **Vercel Integration**: Added a "Deploy with Vercel" button. 🚀✨
+
 ## v1.7.0
 
 - **Responsive Design**: Implemented responsive design for mobile devices. 📱✨
