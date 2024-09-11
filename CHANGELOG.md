@@ -1,5 +1,9 @@
 # Changelog of Vardar
 
+## v1.9.0
+
+- **Color Theme Support**: Implemented support for color themes. 🎨✨
+
 ## v1.8.0
 
 - **Main Page Interface**: Enhanced the main page interface for a better user experience. 🖥️✨
