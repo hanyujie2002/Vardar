@@ -12,7 +12,7 @@
       </NuxtLink>
 
       <NuxtLink to="mailto:example@example.com" target="_blank">
-        <Icon name="material-symbols:alternate-email" class="transition-colors bg-violet-200 hover:bg-yellow-200"></Icon>
+        <Icon name="mdi:email" class="transition-colors bg-violet-200 hover:bg-yellow-200"></Icon>
       </NuxtLink>
 
       <NuxtLink to="https://twitter.com/Twitter" target="_blank">
