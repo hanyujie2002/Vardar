@@ -13,7 +13,7 @@
 <style>
 :root {
   --header-height: 4rem;
-  @apply scroll-smooth bg-gradient-to-r from-violet-700 to-violet-400;
+  @apply scroll-smooth bg-gradient-to-r from-violet-700 to-violet-400 selection:bg-violet-100 selection:text-violet-400;
   scroll-behavior: smooth;
   scroll-margin-top: 1000px;
 }
