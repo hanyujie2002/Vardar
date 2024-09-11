@@ -39,3 +39,5 @@ A personal blog framework built on **Nuxt.js** and **Nuxt Content**. 🚀
    ```
 
 Happy blogging! ✍️😊
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhanyujie2002%2FVardar&build-command=pnpm%20run%20generate&output-directory=.output%2Fpublic)
