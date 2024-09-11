@@ -1,11 +1,11 @@
 <template>
   <pre class="my-4 flex flex-col">
-        <div v-if="language || filename" class="flex h-12 gap-1.5 items-center rounded-t bg-violet-800">
+        <div v-if="language || filename" class="flex h-12 gap-1.5 items-center rounded-t bg-themeColor-800">
             <Icon v-if="language" :name="getIconName(language)" class="ml-3 text-2xl"/>
-            <span v-if="filename" class="ml-3 text-violet-200">{{ filename }}</span>
+            <span v-if="filename" class="ml-3 text-themeColor-200">{{ filename }}</span>
             <button :class="`transition-all flex ml-auto mr-3 p-1 gap-1 rounded hover:backdrop-brightness-125 ${isCopyButtonActive ? 'backdrop-brightness-125' : ''}`" @click="copyButtonHandleClick"><span v-show="isCopyButtonActive">Copied</span><Icon :name="copyButtonIconName" class="text-2xl"/></button>
         </div>
-        <div :class="[$props.class, 'flex bg-violet-900 px-4 py-3 overflow-x-auto text-white shadow-xl', filename || language ? 'rounded-b' : 'rounded']">
+        <div :class="[$props.class, 'flex bg-themeColor-900 px-4 py-3 overflow-x-auto text-white shadow-xl', filename || language ? 'rounded-b' : 'rounded']">
             <slot />
         </div>
     </pre>
