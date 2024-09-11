@@ -12,7 +12,11 @@ module.exports = {
     './error.vue',
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        spinSlow: 'spin 10s linear infinite'    
+      },
+    },
   },
   plugins: [
     plugin(function ({ addVariant }) {
