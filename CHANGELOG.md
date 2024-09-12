@@ -1,5 +1,9 @@
 # Changelog of Vardar
 
+## v1.10.0
+
+- **About Page UI**: Enhanced the user interface of the about page. 🖼️✨
+
 ## v1.9.0
 
 - **Color Theme Support**: Implemented support for color themes. 🎨✨
