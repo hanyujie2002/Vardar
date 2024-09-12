@@ -1,29 +1,18 @@
 <template>
-  <div>
-    这里是个人介绍页
-    {{ page }}
-    <button @click="onClick">test</button>
+  <div class="w-full">
+    <ContentDoc class="mx-auto max-w-3xl overflow-x-auto hyphens-auto text-wrap px-3 text-slate-200" />
   </div>
 </template>
 
 <script setup>
-const route = useRoute();
+const { $mermaid } = useNuxtApp();
 
-const page = ref(parseInt(route.query.page));
-
-watch(
-  () => route.query.page,
-  (newPage) => {
-    page.value = newPage;
-  }
-);
-
-const onClick = async () => {
-  await navigateTo({
-    path: '/about',
-    query: {
-      page: 3,
-    },
+onMounted(async () => {
+  $mermaid().initialize({
+    startOnLoad: true,
+    deterministicIds: true,
   });
-};
+  await nextTick();
+  $mermaid().init();
+});
 </script>
