@@ -4,7 +4,7 @@
       <img
         class="mx-auto w-48 rounded-full object-cover shadow-2xl shadow-themeColor-100 md:hover:animate-spinSlow"
         src="~/assets/img/avatar.png"
-      />
+      >
     </div>
     <div class="mx-auto mt-5 font-serif text-3xl font-bold text-themeColor-100">
       Vardar's example site
