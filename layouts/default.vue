@@ -7,26 +7,25 @@
       <ul class="mx-auto my-auto flex w-full max-w-screen-xl gap-4">
         <li class="list-item">
           <NuxtLink
-            class="flex flex-auto rounded px-4 py-2 text-lg font-bold transition-colors hover:text-yellow-100"
-            :class="{ active: isMainPage }"
+            class="flex flex-auto rounded px-4 py-2 text-2xl font-extrabold transition-colors"
             to="/"
-            >主页</NuxtLink
+            >Alex Johnson</NuxtLink
           >
         </li>
-        <li class="list-item">
+        <li class="my-auto list-item">
           <NuxtLink
-            class="flex flex-auto rounded px-4 py-2 text-lg font-bold transition-colors hover:text-yellow-100"
+            class="my-auto flex flex-auto rounded px-4 py-2 text-lg font-bold transition-colors hover:text-yellow-100"
             :class="{ active: isAboutPage }"
             to="/about"
-            >个人介绍</NuxtLink
+            >About</NuxtLink
           >
         </li>
-        <li class="list-item">
+        <li class="my-auto list-item">
           <NuxtLink
             class="flex flex-auto rounded px-4 py-2 text-lg font-bold transition-colors hover:text-yellow-100"
             :class="{ active: isBlogPage }"
             to="/blog"
-            >博客文章</NuxtLink
+            >Blog</NuxtLink
           >
         </li>
         <li class="ml-auto list-item">
@@ -67,9 +66,6 @@
 <script setup lang="ts">
 const route = useRoute();
 
-const isMainPage = computed(() => {
-  return route.path === '/';
-});
 const isAboutPage = computed(() => {
   return route.path.startsWith('/about');
 });
