@@ -13,7 +13,7 @@ A personal blog framework built on **Nuxt.js** and **Nuxt Content**.
 - **Instant Blog Addition**: Add new blogs by dropping a `.md` file into the `/content/blog` folder.
 - **Theme Support**: Choose your color theme for a personalized look and feel.
 - **Paginated Blog Menu**: Easily navigate through blogs with our paginated menu at `/blog`.
-- **RSS Support**: Get your blog updates with RSS feed at `/feed.xml`. 
+- **RSS Support**: Get your blog updates with RSS feed at `/feed.xml`.
 - **Table of Contents**: Navigate your posts with ease using the table of contents.
 - **Sticky Header**: The header sticks to the top of the page for easy navigation.
 - **Mermaid Support**: Create beautiful and interactive diagrams directly in your blog posts using the ` ```mermaid ``` ` syntax.

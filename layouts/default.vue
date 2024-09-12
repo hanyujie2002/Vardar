@@ -30,23 +30,36 @@
           >
         </li>
         <li class="ml-auto list-item">
-          <NuxtLink target="_blank" to="/feed.xml"
-            ><Icon
+          <NuxtLink target="_blank" to="/feed.xml">
+            <Icon
               name="mdi:rss"
               class="size-12 transition-colors hover:text-yellow-100"
-          /></NuxtLink>
+            />
+          </NuxtLink>
         </li>
       </ul>
     </nav>
 
     <!-- 页面主内容 -->
-    <main class="mx-auto flex min-h-[calc(100vh-var(--header-height))] w-full">
+    <main
+      class="mx-auto mb-8 flex min-h-[calc(100vh-var(--header-height))] w-full"
+    >
       <slot />
     </main>
 
     <!-- 页脚 -->
-    <footer class="py-4 text-center text-white">
-      <p>This blog is supported by Nuxt</p>
+    <footer class="mx-auto flex w-full max-w-7xl flex-row px-4 py-8">
+      <div>
+        <span class="text-themeColor-300">Copyright © 2024</span>
+        <span class="ml-3 text-themeColor-300">Alex Johnson</span>
+      </div>
+      <span class="ml-auto text-slate-200">Powered by</span>
+      <NuxtLink
+        class="ml-1 text-yellow-200 hover:underline"
+        to="https://github.com/hanyujie2002/Vardar"
+        target="_blank"
+        >Vardar blog template</NuxtLink
+      >
     </footer>
   </div>
 </template>
