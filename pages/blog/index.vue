@@ -42,7 +42,7 @@ if (!(Array.isArray(page) || page === null)) {
 }
 
 const query: QueryBuilderParams = computed(() => {
-  return { skip: (pageNumber.value - 1) * 15, limit: 15 };
+  return { path: '/blog', skip: (pageNumber.value - 1) * 15, limit: 15 };
 });
 
 watch(
