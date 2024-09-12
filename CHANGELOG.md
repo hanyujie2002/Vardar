@@ -1,5 +1,10 @@
 # Changelog of Vardar
 
+## v1.10.1
+
+- **RSS Domain Link Update**: Updated the RSS domain link. 🔗✨
+- **Code Rendering Fix**: Corrected code rendering issue in RSS reader. 🛠️✨
+
 ## v1.10.0
 
 - **About Page UI**: Enhanced the user interface of the about page. 🖼️✨
