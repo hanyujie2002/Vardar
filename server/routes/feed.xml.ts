@@ -1,7 +1,7 @@
 import { serverQueryContent } from '#content/server';
 
 export default defineEventHandler(async (event) => {
-  const domain = 'http://127.0.0.1:3000';
+  const domain = 'https://vardar-example.vercel.app/';
 
   let rssContent = '';
 
