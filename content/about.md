@@ -5,6 +5,7 @@ Hello! I'm **Alex Johnson** 👋, a passionate software developer and tech enthu
 ## Professional Background
 
 - **Software Developer** at **Tech Innovators Inc.** 🏢
+
   - Developed and maintained web applications using **JavaScript**, **React**, and **Node.js**.
   - Collaborated with cross-functional teams to deliver high-quality software products 🤝.
   - Implemented best practices for code quality, testing, and performance optimization 🛠️.
@@ -36,4 +37,4 @@ Feel free to connect with me on [LinkedIn](https://www.linkedin.com) or check ou
 
 ---
 
-*This is a fictional "About Me" section created for illustrative purposes.*
+_This is a fictional "About Me" section created for illustrative purposes._

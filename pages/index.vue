@@ -1,22 +1,35 @@
 <template>
-  <div class="flex flex-col m-auto">
+  <div class="m-auto flex flex-col">
     <div>
-      <img class="shadow-2xl shadow-themeColor-100 w-48 object-cover rounded-full mx-auto md:hover:animate-spinSlow"
-        src="../assets/img/avatar.png"></img>
+      <img
+        class="mx-auto w-48 rounded-full object-cover shadow-2xl shadow-themeColor-100 md:hover:animate-spinSlow"
+        src="~/assets/img/avatar.png"
+      />
     </div>
-    <div class="mx-auto text-themeColor-100 mt-5 font-bold font-serif text-3xl">Vardar's example site</div>
+    <div class="mx-auto mt-5 font-serif text-3xl font-bold text-themeColor-100">
+      Vardar's example site
+    </div>
 
-    <div class="mx-auto text-3xl space-x-5 my-3">
+    <div class="mx-auto my-3 space-x-5 text-3xl">
       <NuxtLink to="https://github.com/hanyujie2002/Vardar" target="_blank">
-        <Icon name="mdi:github-face" class="transition-all bg-themeColor-200 hover:bg-neutral-900"></Icon>
+        <Icon
+          name="mdi:github-face"
+          class="bg-themeColor-200 transition-all hover:bg-neutral-900"
+        />
       </NuxtLink>
 
       <NuxtLink to="mailto:example@example.com" target="_blank">
-        <Icon name="mdi:email" class="transition-colors bg-themeColor-200 hover:bg-yellow-200"></Icon>
+        <Icon
+          name="mdi:email"
+          class="bg-themeColor-200 transition-colors hover:bg-yellow-200"
+        />
       </NuxtLink>
 
       <NuxtLink to="https://twitter.com/Twitter" target="_blank">
-        <Icon name="mdi:twitter" class="transition-colors bg-themeColor-200 hover:bg-sky-300"></Icon>
+        <Icon
+          name="mdi:twitter"
+          class="bg-themeColor-200 transition-colors hover:bg-sky-300"
+        />
       </NuxtLink>
     </div>
   </div>
