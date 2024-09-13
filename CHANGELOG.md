@@ -1,5 +1,9 @@
 # Changelog of Vardar
 
+## v1.12.1
+
+- **Page Highlight Fix**: Ensured the current page button in page navigation bar is consistently highlighted. 🔍✨
+
 ## v1.12.0
 
 - **Fixed Menu**: Implemented burger menu and side navigation bar for small screens. 🍔✨
