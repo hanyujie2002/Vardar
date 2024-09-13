@@ -1,5 +1,10 @@
 # Changelog of Vardar
 
+## v1.12.0
+
+- **Fixed Menu**: Implemented burger menu and side navigation bar for small screens. 🍔✨
+- **Scrolling Restriction**: Restricted scrolling when the side navigation bar is open. 🚫🖱️
+
 ## v1.11.0
 
 - **i18n Support**: Implemented internationalization (i18n) support. 🌐✨
