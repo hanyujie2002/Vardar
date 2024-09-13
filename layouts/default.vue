@@ -17,7 +17,7 @@
             class="my-auto flex flex-auto rounded px-4 py-2 text-lg font-bold transition-colors hover:text-yellow-100"
             :class="{ active: isAboutPage }"
             to="/about"
-            >About</NuxtLink
+            >{{ $t('about') }}</NuxtLink
           >
         </li>
         <li class="my-auto list-item">
@@ -25,7 +25,7 @@
             class="flex flex-auto rounded px-4 py-2 text-lg font-bold transition-colors hover:text-yellow-100"
             :class="{ active: isBlogPage }"
             to="/blog"
-            >Blog</NuxtLink
+            >{{ $t('blog') }}</NuxtLink
           >
         </li>
         <li class="ml-auto list-item">
@@ -65,7 +65,6 @@
 
 <script setup lang="ts">
 const route = useRoute();
-
 const isAboutPage = computed(() => {
   return route.path.startsWith('/about');
 });
