@@ -37,7 +37,7 @@ const page: (string | null) | (string | null)[] = route.query.page;
 
 const pageNumber: globalThis.Ref<number> = ref(1);
 
-if (!(Array.isArray(page) || page === null)) {
+if (!(Array.isArray(page) || page === undefined || page === null)) {
   pageNumber.value = parseInt(page);
 }
 
