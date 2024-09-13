@@ -1,5 +1,9 @@
 # Changelog of Vardar
 
+## v1.11.0
+
+- **i18n Support**: Implemented internationalization (i18n) support. 🌐✨
+
 ## v1.10.1
 
 - **RSS Domain Link Update**: Updated the RSS domain link. 🔗✨
