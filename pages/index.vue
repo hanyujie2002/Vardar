@@ -6,7 +6,9 @@
         src="~/assets/img/avatar.png"
       >
     </div>
-    <div class="mx-auto mt-5 font-serif text-3xl text-center font-bold text-themeColor-100">
+    <div
+      class="mx-auto mt-5 text-center font-serif text-3xl font-bold text-themeColor-100"
+    >
       Vardar's example site
     </div>
 
@@ -35,5 +37,4 @@
   </div>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
