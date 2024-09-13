@@ -1,7 +1,7 @@
 <template>
   <div>
     <VueAwesomePaginate
-      v-model="currentPage"
+      v-model="pageNumber"
       :total-items="totalRecords"
       :items-per-page="perPage"
       :max-pages-shown="3"
@@ -13,7 +13,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { VueAwesomePaginate } from 'vue-awesome-paginate';
 
 const contentQuery = await queryContent('blog').find();
@@ -23,9 +23,15 @@ const perPage = ref(15);
 
 const route = useRoute();
 
-const currentPage = ref(parseInt(route.query.page) | 1);
+const page: (string | null) | (string | null)[] = route.query.page;
 
-const onPageChange = async (page) => {
+const pageNumber: globalThis.Ref<number> = ref(1);
+
+if (!(Array.isArray(page) || page === null)) {
+  pageNumber.value = parseInt(page);
+}
+
+const onPageChange = async (page: number) => {
   await navigateTo({
     path: '/blog',
     query: {
@@ -35,6 +41,17 @@ const onPageChange = async (page) => {
 
   window.scrollTo(0, 0);
 };
+
+watch(
+  () => route.query.page,
+  (newPage) => {
+    if (newPage === null || Array.isArray(newPage)) {
+      pageNumber.value = 1;
+    } else {
+      pageNumber.value = parseInt(newPage);
+    }
+  }
+);
 </script>
 
 <style>
