@@ -34,12 +34,16 @@ A personal blog framework built on **Nuxt.js** and **Nuxt Content**.
    pnpm run dev
    ```
 
-3. **Generate Static Content**:
+3. **Production**:
 
    ```bash
-   pnpm run generate
+   pnpm run build
+   ```
+
+   ```bash
+   node .output/server/index.mjs
    ```
 
 Happy blogging! ✍️
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhanyujie2002%2FVardar&build-command=pnpm%20run%20generate&output-directory=.output%2Fpublic)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fhanyujie2002%2FVardar)
