@@ -1,5 +1,12 @@
 # Changelog of Vardar
 
+## v1.13.0
+
+- **Favicon Update**: Updated the favicon for better visibility. 🌟
+- **Lazy Loading**: Implemented lazy loading for images to enhance performance. 🖼️🚀
+- **Documentation**: Updated the README with new deploy commands and buttons. 📚🔄
+- **Loading Indicator**: Added a loading indicator to improve user experience. ⏳✨
+
 ## v1.12.1
 
 - **Page Highlight Fix**: Ensured the current page button in page navigation bar is consistently highlighted. 🔍✨
