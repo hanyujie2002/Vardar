@@ -5,6 +5,7 @@
 </template> -->
 
 <template>
+  <CustomLoadingIndicator />
   <NuxtLayout>
     <NuxtPage />
   </NuxtLayout>
