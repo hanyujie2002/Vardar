@@ -7,6 +7,7 @@
     :height="height"
     placeholder
     class="mx-auto my-4 max-w-full rounded"
+    loading="lazy"
   />
 </template>
 
