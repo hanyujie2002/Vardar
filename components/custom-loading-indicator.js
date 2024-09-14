@@ -43,7 +43,7 @@ export default defineComponent({
       clear
     });
     return () => h("div", {
-      class: "nuxt-loading-indicator bg-themeColor-200",
+      class: "nuxt-loading-indicator bg-gradient-to-r from-themeColor-200 to-themeColor-200",
       style: {
         position: "fixed",
         top: 0,
@@ -53,7 +53,6 @@ export default defineComponent({
         width: "auto",
         height: `${props.height}px`,
         opacity: isLoading.value ? 1 : 0,
-        // background: error.value ? props.errorColor : props.color || void 0,
         backgroundSize: `${100 / progress.value * 100}% auto`,
         transform: `scaleX(${progress.value}%)`,
         transformOrigin: "left",
