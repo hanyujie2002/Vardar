@@ -1,7 +1,7 @@
 <template>
   <h3
     :id="id"
-    class="mb-4 mt-4 scroll-mt-[--header-height] text-lg font-semibold"
+    class="mb-4 mt-4 scroll-mt-[calc(16px+var(--header-height))] text-lg font-semibold"
   >
     <a v-if="id && generate" :href="`#${id}`">
       <slot />
