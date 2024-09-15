@@ -7,7 +7,7 @@ export default defineNuxtConfig({
       link: [
         {
           rel: 'stylesheet',
-          href: 'https://cdn.jsdelivr.net/npm/katex@*/dist/katex.min.css',
+          href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css',
         },
         {
           rel: 'stylesheet',
