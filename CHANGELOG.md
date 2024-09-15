@@ -1,5 +1,10 @@
 # Changelog of Vardar
 
+## v1.13.1
+
+- **Loading Indicator Fix**: Resolved the UI issue with the loading indicator. ⏳🔧
+- **Typography Enhancement**: Implemented line clamp and word break features for better text handling. ✍️✨
+
 ## v1.13.0
 
 - **Favicon Update**: Updated the favicon for better visibility. 🌟
