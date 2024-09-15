@@ -2,7 +2,7 @@
   <div>
     <VueAwesomePaginate
       v-model="currentPage"
-      :total-items="totalRecords"
+      :total-items="totalRecords ?? 0"
       :items-per-page="perPage"
       :max-pages-shown="3"
       :disable-breakpoint-buttons="true"
@@ -16,7 +16,7 @@
 <script setup lang="ts">
 import { VueAwesomePaginate } from 'vue-awesome-paginate';
 
-const totalRecords = await queryContent('blog').count();
+const { data: totalRecords } = await useAsyncData('totalRecords', () => queryContent('blog').count());
 
 const perPage = ref(15);
 
