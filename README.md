@@ -2,9 +2,10 @@
 
 **Welcome to Vardar!** 🚀
 
-![screenshot of Vardar 1](./screenshot1.png)
-![screenshot of Vardar 2](./screenshot2.png)
-![screenshot of Vardar 3](./screenshot3.png)
+![screenshot of Vardar 1](./screenshots/screenshot1.png)
+![screenshot of Vardar 2](./screenshots/screenshot2.png)
+![screenshot of Vardar 3](./screenshots/screenshot3.png)
+![screenshot of Vardar 4](./screenshots/screenshot4.png)
 
 A personal blog framework built on **Nuxt.js** and **Nuxt Content**.
 
