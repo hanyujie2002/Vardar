@@ -85,7 +85,7 @@
 
       <!-- 页面主内容 -->
       <main
-        class="mx-auto mb-8 flex min-h-[calc(100vh-var(--header-height))] w-full"
+        class="mx-auto mb-8 flex break-words min-h-[calc(100vh-var(--header-height))] w-full"
       >
         <slot />
       </main>
