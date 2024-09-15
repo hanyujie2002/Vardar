@@ -28,6 +28,13 @@
 </template>
 
 <script setup lang="ts">
+useHead({
+  title: 'Article List',
+  meta: [
+    { name: 'description', content: 'Article List' }
+  ]
+})
+
 import type { QueryBuilderParams } from '@nuxt/content';
 import PageNavBar from '~/components/PageNavBar.vue';
 
