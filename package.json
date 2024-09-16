@@ -38,7 +38,7 @@
     "tailwindcss": "^3.4.10",
     "typescript": "^5.5.4",
     "vue": "^3.5.3",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.4.5"
   },
   "dependencies": {
     "mermaid": "^11.1.1",
