@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v1.13.3
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.13.2...v1.13.3)
+
+### 🎨 Styles
+
+- Linting codes ([ebd5e81](https://github.com/hanyujie2002/Vardar/commit/ebd5e81))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v1.13.2
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.13.1...v1.13.2)
