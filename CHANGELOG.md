@@ -1,5 +1,47 @@
 # Changelog of Vardar
 
+## v1.13.2
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.13.1...v1.13.2)
+
+### 🚀 Enhancements
+
+- Update scroll margin top values ([e6cadaf](https://github.com/hanyujie2002/Vardar/commit/e6cadaf))
+- **SEO:** Added meta info for blog list and add open graph info ([e35d5b4](https://github.com/hanyujie2002/Vardar/commit/e35d5b4))
+- Update favicon.ico to have a transparent background ([efdae2f](https://github.com/hanyujie2002/Vardar/commit/efdae2f))
+
+### 🔥 Performance
+
+- **page nav bar:** Implement caching ([1ee9fdb](https://github.com/hanyujie2002/Vardar/commit/1ee9fdb))
+
+### 💅 Refactors
+
+- Compressed favicon.ico ([46e8840](https://github.com/hanyujie2002/Vardar/commit/46e8840))
+- Use cloudflare cdn instead of jsdeliver ([aaae5df](https://github.com/hanyujie2002/Vardar/commit/aaae5df))
+
+### 📖 Documentation
+
+- **screenshots:** Update screenshots ([4ce381a](https://github.com/hanyujie2002/Vardar/commit/4ce381a))
+- **README-zh:** Add Chinese translation of README ([b34225d](https://github.com/hanyujie2002/Vardar/commit/b34225d))
+- **README:** Update README contents ([c4f287a](https://github.com/hanyujie2002/Vardar/commit/c4f287a))
+
+### 📦 Build
+
+- **deps-dev:** Bump @nuxt/eslint from 0.5.6 to 0.5.7 ([3be2dff](https://github.com/hanyujie2002/Vardar/commit/3be2dff))
+- **deps-dev:** Bump @iconify-json/tabler from 1.2.0 to 1.2.2 ([5e0f6a7](https://github.com/hanyujie2002/Vardar/commit/5e0f6a7))
+- **deps:** Bump shiki from 1.16.2 to 1.17.6 ([9695462](https://github.com/hanyujie2002/Vardar/commit/9695462))
+- **deps-dev:** Bump vue-router from 4.4.3 to 4.4.5 ([51f3b91](https://github.com/hanyujie2002/Vardar/commit/51f3b91))
+- **deps-dev:** Bump typescript from 5.5.4 to 5.6.2 ([a33f22e](https://github.com/hanyujie2002/Vardar/commit/a33f22e))
+
+### 🏡 Chore
+
+- Bump version of nuxt-toc ([3296f9e](https://github.com/hanyujie2002/Vardar/commit/3296f9e))
+- **release:** Add automated release script ([2a9cd07](https://github.com/hanyujie2002/Vardar/commit/2a9cd07))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v1.13.1
 
 - **Loading Indicator Fix**: Resolved the UI issue with the loading indicator. ⏳🔧
