@@ -28,15 +28,15 @@
 </template>
 
 <script setup lang="ts">
+import type { QueryBuilderParams } from '@nuxt/content';
+import PageNavBar from '~/components/PageNavBar.vue';
+
 useHead({
   title: 'Article List',
   meta: [
     { name: 'description', content: 'Article List' }
   ]
 })
-
-import type { QueryBuilderParams } from '@nuxt/content';
-import PageNavBar from '~/components/PageNavBar.vue';
 
 const route = useRoute();
 
