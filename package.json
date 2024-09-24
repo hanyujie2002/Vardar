@@ -37,7 +37,7 @@
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-vue": "^9.28.0",
     "nuxt": "^3.13.2",
-    "nuxt-toc": "^2.2.1",
+    "nuxt-toc": "^2.6.6",
     "postcss": "^8.4.45",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.6",
