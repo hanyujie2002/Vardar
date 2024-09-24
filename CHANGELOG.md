@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v1.14.1
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.14.0...v1.14.1)
+
+### 📦 Build
+
+- **deps-dev:** Bump vue from 3.5.3 to 3.5.8 ([a24474e](https://github.com/hanyujie2002/Vardar/commit/a24474e))
+- **deps-dev:** Bump tailwindcss from 3.4.10 to 3.4.13 ([eaec894](https://github.com/hanyujie2002/Vardar/commit/eaec894))
+- **deps-dev:** Bump nuxt-toc from 2.2.1 to 2.6.6 ([a9595f9](https://github.com/hanyujie2002/Vardar/commit/a9595f9))
+- **deps:** Bump shiki from 1.17.6 to 1.18.0 ([c68916c](https://github.com/hanyujie2002/Vardar/commit/c68916c))
+- **deps-dev:** Bump @nuxtjs/i18n from 8.5.3 to 8.5.5 ([cdd7b71](https://github.com/hanyujie2002/Vardar/commit/cdd7b71))
+
 ## v1.14.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.13.3...v1.14.0)
