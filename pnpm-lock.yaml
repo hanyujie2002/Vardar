@@ -100,8 +100,8 @@ importers:
         specifier: ^0.6.6
         version: 0.6.6(prettier@3.3.3)
       tailwindcss:
-        specifier: ^3.4.10
-        version: 3.4.10
+        specifier: ^3.4.13
+        version: 3.4.13
       typescript:
         specifier: ^5.6.2
         version: 5.6.2
@@ -4863,8 +4863,8 @@ packages:
     resolution: {integrity: sha512-ulAk51I9UVUyJgxlv9M6lFot2WP3e7t8Kz9+IS6D4rVba1tR9kON+Ey69f+1R4Q8cd45Lod6a4IcJIxnzGc/zA==}
     engines: {node: '>=18'}
 
-  tailwindcss@3.4.10:
-    resolution: {integrity: sha512-KWZkVPm7yJRhdu4SRSl9d4AK2wM3a50UsvgHZO7xY77NQr2V+fIrEuoDGQcbvswWvFGbS2f6e+jC/6WJm1Dl0w==}
+  tailwindcss@3.4.13:
+    resolution: {integrity: sha512-KqjHOJKogOUt5Bs752ykCeiwvi0fKVkr5oqsFNt/8px/tA8scFPIlkygsf6jXrfCqGHz7VflA6+yytWuM+XhFw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -6101,7 +6101,7 @@ snapshots:
       mlly: 1.7.1
       mrmime: 2.0.0
       open: 10.1.0
-      picocolors: 1.0.1
+      picocolors: 1.1.0
       ws: 8.18.0
     transitivePeerDependencies:
       - bufferutil
@@ -6223,7 +6223,7 @@ snapshots:
       js-yaml: 4.1.0
       json5: 2.2.3
       pathe: 1.1.2
-      picocolors: 1.0.1
+      picocolors: 1.1.0
       source-map-js: 1.2.0
       unplugin: 1.13.1(webpack-sources@3.2.3)
     optionalDependencies:
@@ -7549,7 +7549,7 @@ snapshots:
       '@vue/shared': 3.5.4
       estree-walker: 2.0.2
       magic-string: 0.30.11
-      postcss: 8.4.45
+      postcss: 8.4.47
       source-map-js: 1.2.0
 
   '@vue/compiler-sfc@3.5.6':
@@ -10729,24 +10729,24 @@ snapshots:
     dependencies:
       postcss: 8.4.47
 
-  postcss-import@15.1.0(postcss@8.4.45):
+  postcss-import@15.1.0(postcss@8.4.47):
     dependencies:
-      postcss: 8.4.45
+      postcss: 8.4.47
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.8
 
-  postcss-js@4.0.1(postcss@8.4.45):
+  postcss-js@4.0.1(postcss@8.4.47):
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.4.45
+      postcss: 8.4.47
 
-  postcss-load-config@4.0.2(postcss@8.4.45):
+  postcss-load-config@4.0.2(postcss@8.4.47):
     dependencies:
       lilconfig: 3.1.2
-      yaml: 2.5.0
+      yaml: 2.5.1
     optionalDependencies:
-      postcss: 8.4.45
+      postcss: 8.4.47
 
   postcss-merge-longhand@7.0.4(postcss@8.4.47):
     dependencies:
@@ -10787,9 +10787,9 @@ snapshots:
       postcss: 8.4.47
       postcss-selector-parser: 6.1.2
 
-  postcss-nested@6.2.0(postcss@8.4.45):
+  postcss-nested@6.2.0(postcss@8.4.47):
     dependencies:
-      postcss: 8.4.45
+      postcss: 8.4.47
       postcss-selector-parser: 6.1.2
 
   postcss-normalize-charset@7.0.0(postcss@8.4.47):
@@ -11554,7 +11554,7 @@ snapshots:
       css-tree: 2.3.1
       css-what: 6.1.0
       csso: 5.0.5
-      picocolors: 1.0.1
+      picocolors: 1.1.0
 
   synckit@0.9.1:
     dependencies:
@@ -11563,7 +11563,7 @@ snapshots:
 
   system-architecture@0.1.0: {}
 
-  tailwindcss@3.4.10:
+  tailwindcss@3.4.13:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
@@ -11578,12 +11578,12 @@ snapshots:
       micromatch: 4.0.7
       normalize-path: 3.0.0
       object-hash: 3.0.0
-      picocolors: 1.0.1
-      postcss: 8.4.45
-      postcss-import: 15.1.0(postcss@8.4.45)
-      postcss-js: 4.0.1(postcss@8.4.45)
-      postcss-load-config: 4.0.2(postcss@8.4.45)
-      postcss-nested: 6.2.0(postcss@8.4.45)
+      picocolors: 1.1.0
+      postcss: 8.4.47
+      postcss-import: 15.1.0(postcss@8.4.47)
+      postcss-js: 4.0.1(postcss@8.4.47)
+      postcss-load-config: 4.0.2(postcss@8.4.47)
+      postcss-nested: 6.2.0(postcss@8.4.47)
       postcss-selector-parser: 6.1.2
       resolve: 1.22.8
       sucrase: 3.35.0
@@ -11964,7 +11964,7 @@ snapshots:
     dependencies:
       browserslist: 4.23.3
       escalade: 3.1.2
-      picocolors: 1.0.1
+      picocolors: 1.1.0
 
   uqr@0.1.2: {}
 
@@ -12246,7 +12246,7 @@ snapshots:
     dependencies:
       eslint-visitor-keys: 3.4.3
       lodash: 4.17.21
-      yaml: 2.5.0
+      yaml: 2.5.1
 
   yaml@2.5.0: {}
 
