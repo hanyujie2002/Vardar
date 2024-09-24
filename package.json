@@ -12,7 +12,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "release": "npm run lint changelogen --release --minor git push --follow-tags",
+    "release": "npm run lint && changelogen --release --minor git push --follow-tags",
     "release:patch": "npm run lint && changelogen --release --patch && git push --follow-tags",
     "release:minor": "npm run lint && changelogen --release --minor && git push --follow-tags",
     "release:major": "npm run lint && changelogen --release --major && git push --follow-tags",
