@@ -53,7 +53,7 @@
     "remark-gfm": "^4.0.0",
     "remark-math": "^6.0.0",
     "remark-mermaid": "^0.2.0",
-    "shiki": "^1.17.6",
+    "shiki": "^1.18.0",
     "ufo": "^1.5.4",
     "unist-util-visit": "^5.0.0",
     "vue-awesome-paginate": "^1.2.0"
