@@ -1,5 +1,22 @@
 # Changelog of Vardar
 
+## v1.14.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.13.3...v1.14.0)
+
+### 🚀 Enhancements
+
+- **search:** Implemented full text search ([a126637](https://github.com/hanyujie2002/Vardar/commit/a126637))
+
+### 🩹 Fixes
+
+- Resolved an error in release script ([30331bd](https://github.com/hanyujie2002/Vardar/commit/30331bd))
+- Resolved another problem ([184da0e](https://github.com/hanyujie2002/Vardar/commit/184da0e))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v1.13.3
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.13.2...v1.13.3)
