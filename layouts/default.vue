@@ -77,13 +77,13 @@
     </div>
 
     <!-- 搜索框 -->
-    <dialog ref="dialogRef" class="w-screen h-screen max-h-none max-w-none sm:h-[28rem] sm:w-full custom-max-width bg-transparent backdrop:backdrop-blur-sm"
+    <dialog ref="dialogRef" class="w-screen h-screen max-h-none max-w-none sm:h-[28rem] sm:w-full custom-max-width bg-themeColor-600 sm:bg-themeColor-600/80 backdrop:backdrop-blur-sm"
       @click="handleBackdropClicked" @keydown="handleEscKeyDown">
-      <div class="flex flex-col w-full h-full rounded backdrop-blur-md text-slate-100 shadow-xl border border-themeColor-200/50">
+      <div class="flex flex-col w-full h-full rounded text-slate-100 shadow-xl">
         <div class="relative flex items-center border-b border-themeColor-200/30">
           <Icon name="mdi:search" class="flex m-3 h-10 w-10 sm:h-5 sm:w-5" />
           <input v-model="search" placeholder="search blog"
-            class="flex h-[--header-height] sm:h-12 flex-grow bg-transparent backdrop-blur-xl focus:outline-none placeholder:text-themeColor-200/50">
+            class="flex h-[--header-height] sm:h-12 flex-grow bg-transparent focus:outline-none placeholder:text-themeColor-200/50">
           <button class="group" @click="hideSearchModal">
             <Icon name="mdi:close" class="flex h-10 w-10 sm:h-5 sm:w-5 m-3 group-hover:text-yellow-300" />
           </button>
