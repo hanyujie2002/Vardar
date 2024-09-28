@@ -77,7 +77,7 @@
     </div>
 
     <!-- 搜索框 -->
-    <dialog ref="dialogRef" class="w-screen h-screen max-h-none max-w-none sm:h-[28rem] sm:w-full custom-max-width bg-themeColor-600 sm:bg-themeColor-600/80 backdrop:backdrop-blur-sm"
+    <dialog ref="dialogRef" class="w-screen h-dvh max-h-none max-w-none sm:h-[28rem] sm:w-full custom-max-width bg-themeColor-600 sm:bg-themeColor-600/80 backdrop:backdrop-blur-sm"
       @click="handleBackdropClicked" @keydown="handleEscKeyDown">
       <div class="flex flex-col w-full h-full rounded text-slate-100 shadow-xl">
         <div class="relative flex items-center border-b border-themeColor-200/30">
