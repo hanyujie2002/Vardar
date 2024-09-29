@@ -78,9 +78,9 @@
             <button @click="switchColorMode">
               <Icon
                 :name="
-                  savedTheme !== 'dark'
-                    ? 'material-symbols:sunny-outline-rounded'
-                    : 'material-symbols:dark-mode-outline-rounded'
+                  savedTheme === 'dark'
+                    ? 'material-symbols:dark-mode-outline-rounded'
+                    : 'material-symbols:sunny-outline-rounded'
                 "
                 class="size-10 transition-colors hover:text-yellow-500 active:text-yellow-400 sm:size-12 dark:hover:text-yellow-100 dark:active:text-yellow-200"
               />
@@ -201,7 +201,7 @@ const documentElement = ref();
 const burgerMenuIconName = ref<string>('mdi:menu');
 
 const savedTheme = useCookie('saved_theme');
-savedTheme.value = savedTheme.value || 'light';
+savedTheme.value = savedTheme.value || '';
 
 const search = ref<string>('');
 const dialogRef = ref<HTMLDialogElement>();
@@ -215,7 +215,7 @@ watch(search, async (newSearch: string) => {
 
 useHead({
   htmlAttrs: {
-    class: savedTheme.value === 'dark' ? 'dark' : '',
+    class: computed(() => savedTheme.value === 'dark' ? 'dark' : ''),
   },
 });
 
@@ -256,12 +256,12 @@ const hideSearchModal = () => {
   dialogRef.value?.close();
 };
 const switchColorMode = () => {
-  if (savedTheme.value === 'light') {
+  if (savedTheme.value === 'dark') {
+    documentElement.value.classList.remove('dark');
+    savedTheme.value = '';
+  } else {
     documentElement.value.classList.add('dark');
     savedTheme.value = 'dark';
-  } else {
-    documentElement.value.classList.remove('dark');
-    savedTheme.value = 'light';
   }
 };
 
