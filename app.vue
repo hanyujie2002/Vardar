@@ -31,7 +31,7 @@ useSeoMeta({
 <style>
 :root {
   --header-height: 4rem;
-  @apply scroll-smooth bg-gradient-to-r from-themeColor-700 to-themeColor-400 selection:bg-themeColor-100 selection:text-themeColor-400;
+  @apply transition-all delay-1000 scroll-smooth bg-gradient-to-r from-themeColor-50 to-themeColor-100 dark:from-themeColor-700 dark:to-themeColor-400 selection:bg-themeColor-100 selection:text-themeColor-400;
   scroll-behavior: smooth;
   scroll-margin-top: 1000px;
 }

@@ -4,6 +4,7 @@ const colors = require('tailwindcss/colors');
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
+  darkMode: 'selector',
   content: [
     './components/**/*.{js,vue,ts}',
     './layouts/**/*.vue',
@@ -18,7 +19,7 @@ module.exports = {
         spinSlow: 'spin 10s linear infinite',
       },
       colors: {
-        themeColor: colors.violet,
+        themeColor: colors.amber,
       },
     },
   },

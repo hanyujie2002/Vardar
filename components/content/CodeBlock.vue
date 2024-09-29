@@ -2,18 +2,18 @@
   <div class="my-4 flex flex-col">
     <div
       v-if="language || filename"
-      class="flex h-12 items-center gap-1.5 rounded-t bg-themeColor-800"
+      class="flex h-12 items-center gap-1.5 rounded-t border-b border-themeColor-200 bg-themeColor-50 dark:border-none dark:bg-themeColor-800"
     >
       <Icon
         v-if="language"
         :name="getIconName(language)"
         class="ml-3 text-2xl"
       />
-      <span v-if="filename" class="ml-3 text-themeColor-200">{{
+      <span v-if="filename" class="ml-3 text-themeColor-400 dark:text-themeColor-200">{{
         filename
       }}</span>
       <button
-        :class="`ml-auto mr-3 flex gap-1 rounded p-1 transition-all hover:backdrop-brightness-125 ${isCopyButtonActive ? 'backdrop-brightness-125' : ''}`"
+        :class="`ml-auto mr-3 flex gap-1 rounded p-1 transition-all hover:backdrop-brightness-95 dark:hover:backdrop-brightness-125 ${isCopyButtonActive ? 'backdrop-brightness-95 dark:backdrop-brightness-125' : ''}`"
         @click="copyButtonHandleClick"
       >
         <span v-show="isCopyButtonActive">Copied</span
@@ -23,7 +23,7 @@
     <pre
       :class="[
         $props.class,
-        'overflow-x-auto bg-themeColor-900 px-4 py-3 text-white shadow-xl',
+        'overflow-x-auto bg-themeColor-50 dark:bg-themeColor-900 px-4 py-3 text-black dark:text-white shadow-xl',
         filename || language ? 'rounded-b' : 'rounded',
       ]"
     ><slot /></pre>

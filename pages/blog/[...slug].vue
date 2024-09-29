@@ -1,10 +1,10 @@
 <template>
   <div class="w-full">
     <ContentDoc
-      class="mx-auto max-w-3xl overflow-x-auto text-wrap px-3 text-slate-200"
+      class="mx-auto max-w-3xl overflow-x-auto text-wrap px-3 text-slate-700 dark:text-slate-200"
     />
     <div
-      class="fixed top-[calc(4rem+var(--header-height))] ml-8 hidden max-h-[calc(100vh-var(--header-height))] max-w-72 flex-col overflow-y-auto text-sm/6 text-slate-200 xl:flex"
+      class="fixed top-[calc(4rem+var(--header-height))] ml-8 hidden max-h-[calc(100vh-var(--header-height))] max-w-72 flex-col overflow-y-auto text-sm/6 text-slate-700 dark:text-slate-200 xl:flex"
     >
       <TableOfContents />
     </div>
@@ -23,3 +23,13 @@ onMounted(async () => {
   $mermaid().init();
 });
 </script>
+
+<style>
+#toc-title {
+  @apply font-bold text-xl mb-3;
+}
+
+.active-toc-item {
+  @apply text-yellow-500 dark:text-yellow-200;
+}
+</style>

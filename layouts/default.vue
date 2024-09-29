@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav
-      class="fixed top-[--header-height] z-50 h-[calc(100vh-var(--header-height))] w-screen text-white backdrop-blur-2xl"
+      class="fixed top-[--header-height] z-50 h-[calc(100vh-var(--header-height))] w-screen text-slate-600 dark:text-white backdrop-blur-2xl"
       :class="{ hidden: isFixedNavHidden }">
       <ul class="mx-auto mt-5 flex w-full flex-col">
         <li class="">
@@ -23,7 +23,7 @@
 
     <div class="flex w-full flex-col rounded">
       <!-- 导航栏 -->
-      <nav class="sticky top-0 z-40 flex h-[--header-height] flex-auto text-white backdrop-blur-2xl">
+      <nav class="sticky top-0 z-40 flex h-[--header-height] flex-auto text-black dark:text-white backdrop-blur-2xl">
         <ul class="mx-auto my-auto flex w-full max-w-screen-xl gap-4">
           <li class="list-item">
             <NuxtLink class="flex flex-auto rounded px-4 py-2 text-2xl font-extrabold transition-colors" to="/"
@@ -31,30 +31,38 @@
           </li>
           <li class="my-auto hidden sm:list-item">
             <NuxtLink
-              class="my-auto flex flex-auto rounded px-4 py-2 text-lg font-bold transition-colors hover:text-yellow-100"
+              class="my-auto flex flex-auto rounded px-4 py-2 text-lg font-bold transition-colors hover:text-yellow-500 dark:hover:text-yellow-100"
               :class="{ active: isAboutPage }" to="/about">{{ $t('about') }}</NuxtLink>
           </li>
           <li class="my-auto hidden sm:list-item">
-            <NuxtLink class="flex flex-auto rounded px-4 py-2 text-lg font-bold transition-colors hover:text-yellow-100"
+            <NuxtLink
+              class="flex flex-auto rounded px-4 py-2 text-lg font-bold transition-colors hover:text-yellow-500 dark:hover:text-yellow-100"
               :class="{ active: isBlogPage }" to="/blog">{{ $t('blog') }}</NuxtLink>
           </li>
-          <li class="ml-auto list-item">
+          <li class="ml-auto my-auto list-item">
             <button @click="showSearchModal">
-              <Icon name="mdi:search" class="size-12 transition-colors hover:text-yellow-100 active:text-yellow-200" />
+              <Icon name="mdi:search"
+                class="size-10 sm:size-12 transition-colors hover:text-yellow-500 active:text-yellow-400 dark:hover:text-yellow-100 dark:active:text-yellow-200" />
             </button>
           </li>
-          <li class="hidden sm:list-item">
+          <li class="list-item my-auto">
+            <button @click="switchColorMode">
+              <Icon :name="savedTheme !== 'dark' ? 'material-symbols:sunny-outline-rounded' : 'material-symbols:dark-mode-outline-rounded'"
+                class="size-10 sm:size-12 transition-colors hover:text-yellow-500 active:text-yellow-400 dark:hover:text-yellow-100 dark:active:text-yellow-200" />
+            </button>
+          </li>
+          <li class="hidden my-auto sm:list-item">
             <NuxtLink target="_blank" to="/feed.xml">
-              <Icon name="mdi:rss" class="size-12 transition-colors hover:text-yellow-100" />
+              <Icon name="mdi:rss"
+                class="size:5 sm:size-12 transition-colors hover:text-yellow-500 active:text-yellow-400 dark:hover:text-yellow-100 dark:active:text-yellow-200" />
             </NuxtLink>
           </li>
+          <li class="mr-2 my-auto sm:hidden">
+            <button @click="toggleFixedMenuState">
+              <Icon :name="burgerMenuIconName" class="size-10 sm:size-12" />
+            </button>
+          </li>
         </ul>
-
-        <div class="my-auto mr-2 flex sm:hidden">
-          <button @click="toggleFixedMenuState">
-            <Icon :name="burgerMenuIconName" class="h-10 w-10" />
-          </button>
-        </div>
       </nav>
 
       <!-- 页面主内容 -->
@@ -69,27 +77,30 @@
           <span class="ml-3 text-themeColor-300">Alex Johnson</span>
         </div>
         <div class="order-1 mx-auto sm:order-2 sm:ml-auto sm:mr-0">
-          <span class="ml-auto text-slate-200">Powered by</span>
-          <NuxtLink class="ml-1 text-yellow-200 hover:underline" to="https://github.com/hanyujie2002/Vardar"
-            target="_blank">Vardar blog template</NuxtLink>
+          <span class="ml-auto text-slate-700 dark:text-slate-200">Powered by</span>
+          <NuxtLink class="ml-1 text-yellow-400 dark:text-yellow-200 hover:underline"
+            to="https://github.com/hanyujie2002/Vardar" target="_blank">Vardar blog template</NuxtLink>
         </div>
       </footer>
     </div>
 
     <!-- 搜索框 -->
-    <dialog ref="dialogRef" class="w-screen h-dvh max-h-none max-w-none sm:h-[28rem] sm:w-full custom-max-width bg-themeColor-600 sm:bg-themeColor-600/80 backdrop:backdrop-blur-sm"
+    <dialog ref="dialogRef"
+      class="w-screen h-dvh max-h-none max-w-none sm:h-[28rem] sm:w-full custom-max-width bg-themeColor-100 sm:bg-themeColor-100/80 dark:bg-themeColor-600 dark:sm:bg-themeColor-600/80 backdrop:backdrop-blur-sm"
       @click="handleBackdropClicked" @keydown="handleEscKeyDown">
-      <div class="flex flex-col w-full h-full rounded text-slate-100 shadow-xl">
-        <div class="relative flex items-center border-b border-themeColor-200/30">
+      <div class="flex flex-col w-full h-full rounded text-slate-700 dark:text-slate-100 shadow-xl">
+        <div class="relative flex items-center border-b border-themeColor-300/50 dark:border-themeColor-200/30">
           <Icon name="mdi:search" class="flex m-3 h-10 w-10 sm:h-5 sm:w-5" />
           <input v-model="search" placeholder="search blog"
-            class="flex h-[--header-height] sm:h-12 flex-grow bg-transparent focus:outline-none placeholder:text-themeColor-200/50">
+            class="flex h-[--header-height] sm:h-12 flex-grow bg-transparent focus:outline-none placeholder:text-themeColor-400/50 dark:placeholder:text-themeColor-200/50">
           <button class="group" @click="hideSearchModal">
-            <Icon name="mdi:close" class="flex h-10 w-10 sm:h-5 sm:w-5 m-3 group-hover:text-yellow-300" />
+            <Icon name="mdi:close"
+              class="flex h-10 w-10 sm:h-5 sm:w-5 m-3 group-hover:text-yellow-500 dark:group-hover:text-yellow-300" />
           </button>
         </div>
         <div v-if="search.length" class="flex flex-col overflow-y-auto">
-          <div v-for="result in results" :key="result.id" class="border-b border-themeColor-200/30">
+          <div v-for="result in results" :key="result.id"
+            class="border-b border-themeColor-200 dark:border-themeColor-200/30">
             <NuxtLink class="flex flex-col p-4 hover:backdrop-brightness-95 active:backdrop-brightness-90"
               :to="result.id" @click="hideSearchModal">
               <h3 class="text-lg font-semibold result.title line-clamp-2">
@@ -100,7 +111,7 @@
                   {{ result.title }}
                 </span>
               </h3>
-              <p class="text-sm text-themeColor-200 line-clamp-2">{{ result.content }}</p>
+              <p class="text-sm text-themeColor-400 dark:text-themeColor-200 line-clamp-2">{{ result.content }}</p>
             </NuxtLink>
           </div>
         </div>
@@ -118,6 +129,9 @@ const isFixedNavHidden = ref<boolean>(true);
 const documentElement = ref();
 const burgerMenuIconName = ref<string>('mdi:menu');
 
+const savedTheme = useCookie('saved_theme')
+savedTheme.value = savedTheme.value || 'light'
+
 const search = ref<string>('')
 const dialogRef = ref<HTMLDialogElement>()
 
@@ -126,6 +140,12 @@ const results = ref()
 watch(search, async (newSearch: string) => {
   const res = await searchContent(newSearch);
   results.value = res.value;
+})
+
+useHead({
+  htmlAttrs: {
+    class: savedTheme.value === 'dark' ? 'dark' : ''
+  }
 })
 
 onMounted(() => {
@@ -164,6 +184,15 @@ const hideSearchModal = () => {
   search.value = '';
   dialogRef.value?.close()
 }
+const switchColorMode = () => {
+  if (savedTheme.value === 'light') {
+    documentElement.value.classList.add('dark');
+    savedTheme.value = 'dark';
+  } else {
+    documentElement.value.classList.remove('dark');
+    savedTheme.value = 'light';
+  }
+}
 
 const handleBackdropClicked = (event: MouseEvent) => {
   if (event.target == dialogRef.value) {
@@ -181,7 +210,7 @@ const handleEscKeyDown = (event: KeyboardEvent) => {
 
 <style scoped>
 .active {
-  @apply text-yellow-200 hover:text-yellow-200;
+  @apply text-yellow-400 hover:text-yellow-400 dark:text-yellow-200 dark:hover:text-yellow-200;
 }
 
 @media (min-width: 640px) {

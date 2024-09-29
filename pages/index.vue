@@ -7,7 +7,7 @@
       >
     </div>
     <div
-      class="mx-auto mt-5 text-center font-serif text-3xl font-bold text-themeColor-100"
+      class="mx-auto mt-5 text-center font-serif text-3xl font-bold text-themeColor-400 dark:text-themeColor-100"
     >
       Vardar's example site
     </div>
@@ -16,21 +16,21 @@
       <NuxtLink to="https://github.com/hanyujie2002/Vardar" target="_blank">
         <Icon
           name="mdi:github-face"
-          class="bg-themeColor-200 transition-all hover:bg-neutral-900"
+          class="bg-themeColor-300 dark:bg-themeColor-200 transition-all hover:bg-neutral-900"
         />
       </NuxtLink>
 
       <NuxtLink to="mailto:example@example.com" target="_blank">
         <Icon
           name="mdi:email"
-          class="bg-themeColor-200 transition-colors hover:bg-yellow-200"
+          class="bg-themeColor-300 dark:bg-themeColor-200 transition-colors hover:bg-yellow-400 dark:hover:bg-yellow-200"
         />
       </NuxtLink>
 
       <NuxtLink to="https://twitter.com/Twitter" target="_blank">
         <Icon
           name="mdi:twitter"
-          class="bg-themeColor-200 transition-colors hover:bg-sky-300"
+          class="bg-themeColor-300 dark:bg-themeColor-200 transition-colors hover:bg-sky-300"
         />
       </NuxtLink>
     </div>
