@@ -1,5 +1,21 @@
 # Changelog of Vardar
 
+## v1.16.1
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.16.0...v1.16.1)
+
+### 🩹 Fixes
+
+- Resolved a color mode problem ([6ebbb7d](https://github.com/hanyujie2002/Vardar/commit/6ebbb7d))
+
+### 🏡 Chore
+
+- Installed material-symbols icon package ([51c60ae](https://github.com/hanyujie2002/Vardar/commit/51c60ae))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v1.16.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.15.1...v1.16.0)
