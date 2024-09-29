@@ -4,7 +4,7 @@
       class="mx-auto max-w-3xl overflow-x-auto text-wrap px-3 text-slate-700 dark:text-slate-200"
     />
     <div
-      class="fixed top-[calc(4rem+var(--header-height))] ml-8 hidden max-h-[calc(100vh-var(--header-height))] max-w-72 flex-col overflow-y-auto text-sm/6 text-slate-700 dark:text-slate-200 xl:flex"
+      class="fixed top-[calc(4rem+var(--header-height))] ml-8 hidden max-h-[calc(100vh-var(--header-height))] max-w-72 flex-col overflow-y-auto text-sm/6 text-slate-700 xl:flex dark:text-slate-200"
     >
       <TableOfContents />
     </div>
@@ -26,7 +26,7 @@ onMounted(async () => {
 
 <style>
 #toc-title {
-  @apply font-bold text-xl mb-3;
+  @apply mb-3 text-xl font-bold;
 }
 
 .active-toc-item {

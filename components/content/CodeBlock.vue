@@ -9,9 +9,11 @@
         :name="getIconName(language)"
         class="ml-3 text-2xl"
       />
-      <span v-if="filename" class="ml-3 text-themeColor-400 dark:text-themeColor-200">{{
-        filename
-      }}</span>
+      <span
+        v-if="filename"
+        class="ml-3 text-themeColor-400 dark:text-themeColor-200"
+        >{{ filename }}</span
+      >
       <button
         :class="`ml-auto mr-3 flex gap-1 rounded p-1 transition-all hover:backdrop-brightness-95 dark:hover:backdrop-brightness-125 ${isCopyButtonActive ? 'backdrop-brightness-95 dark:backdrop-brightness-125' : ''}`"
         @click="copyButtonHandleClick"
@@ -23,7 +25,7 @@
     <pre
       :class="[
         $props.class,
-        'overflow-x-auto bg-themeColor-50 dark:bg-themeColor-900 px-4 py-3 text-black dark:text-white shadow-xl',
+        'overflow-x-auto bg-themeColor-50 px-4 py-3 text-black shadow-xl dark:bg-themeColor-900 dark:text-white',
         filename || language ? 'rounded-b' : 'rounded',
       ]"
     ><slot /></pre>

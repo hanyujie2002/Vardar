@@ -15,23 +15,26 @@
 useHead({
   title: 'Vardar Example Site',
   meta: [
-    { name: 'description', content: 'Example site of Vardar for demenstration' }
-  ]
-})
+    {
+      name: 'description',
+      content: 'Example site of Vardar for demenstration',
+    },
+  ],
+});
 
 useSeoMeta({
   title: 'Vardar Example Site',
   ogTitle: 'Vardar Example Site',
   description: 'Example site of Vardar for demenstration',
   ogDescription: 'Example site of Vardar for demenstration',
-  ogImage: 'https://vardar-example.vercel.app/ogImage.png'
-})
+  ogImage: 'https://vardar-example.vercel.app/ogImage.png',
+});
 </script>
 
 <style>
 :root {
   --header-height: 4rem;
-  @apply transition-all delay-1000 scroll-smooth bg-gradient-to-r from-themeColor-50 to-themeColor-100 dark:from-themeColor-700 dark:to-themeColor-400 selection:bg-themeColor-100 selection:text-themeColor-400;
+  @apply scroll-smooth bg-gradient-to-r from-themeColor-50 to-themeColor-100 transition-all delay-1000 selection:bg-themeColor-100 selection:text-themeColor-400 dark:from-themeColor-700 dark:to-themeColor-400;
   scroll-behavior: smooth;
   scroll-margin-top: 1000px;
 }

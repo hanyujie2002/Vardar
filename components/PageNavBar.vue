@@ -16,7 +16,9 @@
 <script setup lang="ts">
 import { VueAwesomePaginate } from 'vue-awesome-paginate';
 
-const { data: totalRecords } = await useAsyncData('totalRecords', () => queryContent('blog').count());
+const { data: totalRecords } = await useAsyncData('totalRecords', () =>
+  queryContent('blog').count()
+);
 
 const perPage = ref(15);
 

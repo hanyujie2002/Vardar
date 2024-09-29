@@ -2,7 +2,7 @@
   <NuxtLink
     :href="href"
     :target="target"
-    class="text-yellow-500 dark:text-yellow-200 scroll-mt-[calc(16px+var(--header-height))] hover:underline"
+    class="scroll-mt-[calc(16px+var(--header-height))] text-yellow-500 hover:underline dark:text-yellow-200"
   >
     <slot />
   </NuxtLink>

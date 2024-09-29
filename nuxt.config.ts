@@ -26,7 +26,14 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['@nuxt/content', '@nuxt/icon', '@nuxt/image', '@nuxt/eslint', '@nuxtjs/i18n', 'nuxt-toc'],
+  modules: [
+    '@nuxt/content',
+    '@nuxt/icon',
+    '@nuxt/image',
+    '@nuxt/eslint',
+    '@nuxtjs/i18n',
+    'nuxt-toc',
+  ],
   i18n: {
     vueI18n: './i18n.config.ts', // if you are using custom path, default
     defaultLocale: 'en',
@@ -73,8 +80,8 @@ export default defineNuxtConfig({
   content: {
     experimental: {
       search: {
-        indexed: true
-      }
+        indexed: true,
+      },
     },
     highlight: {
       theme: 'everforest-dark',
