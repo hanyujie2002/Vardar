@@ -8,10 +8,14 @@ export default defineNuxtConfig({
         {
           rel: 'stylesheet',
           href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css',
+          media: 'print',
+          onload: "this.media='all'",
         },
         {
           rel: 'stylesheet',
           href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css',
+          media: 'print',
+          onload: "this.media='all'",
         },
       ],
     },
