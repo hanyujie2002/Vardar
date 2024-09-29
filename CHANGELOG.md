@@ -1,5 +1,25 @@
 # Changelog of Vardar
 
+## v1.16.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.15.1...v1.16.0)
+
+### 🚀 Enhancements
+
+- Implemented color mode ([14a20da](https://github.com/hanyujie2002/Vardar/commit/14a20da))
+
+### 🩹 Fixes
+
+- Search box offset in mobile phone browser ([48be459](https://github.com/hanyujie2002/Vardar/commit/48be459))
+
+### 🎨 Styles
+
+- Linted codes ([b4ddad4](https://github.com/hanyujie2002/Vardar/commit/b4ddad4))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v1.15.1
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.15.0...v1.15.1)
