@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       mermaid:
-        specifier: ^11.1.1
-        version: 11.1.1
+        specifier: ^11.2.1
+        version: 11.2.1
       postcss-custom-properties:
         specifier: ^14.0.0
         version: 14.0.1(postcss@8.4.45)
@@ -3530,8 +3530,8 @@ packages:
     deprecated: This package is no longer being updated. Please use the @mermaid-js/mermaid-cli package instead.
     hasBin: true
 
-  mermaid@11.1.1:
-    resolution: {integrity: sha512-bdHVu86yrjCkTPRxWHG+B5YucXE8wGaniTnWwhMJe/l253QdX1cuLgYt4ZVvApV1ZXCTsz5ilxoS8KX95U7gdw==}
+  mermaid@11.2.1:
+    resolution: {integrity: sha512-F8TEaLVVyxTUmvKswVFyOkjPrlJA5h5vNR1f7ZnSWSpqxgEZG1hggtn/QCa7znC28bhlcrNh10qYaIiill7q4A==}
 
   micromark-core-commonmark@2.0.1:
     resolution: {integrity: sha512-CUQyKr1e///ZODyD1U3xit6zXwy1a8q2a1S1HKtIlmgvurrEpaw/Y9y6KSIbF8P59cn/NjzHyO+Q2fAyYLQrAA==}
@@ -9796,7 +9796,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  mermaid@11.1.1:
+  mermaid@11.2.1:
     dependencies:
       '@braintree/sanitize-url': 7.1.0
       '@iconify/utils': 2.1.32
