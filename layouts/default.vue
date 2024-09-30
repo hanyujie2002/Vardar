@@ -10,8 +10,8 @@
             class="flex px-4 py-2 text-3xl font-bold transition-colors"
             :class="{ active: isAboutPage }"
             to="/about"
-            @click="hideFixedMenu"
             aria-label="About Page"
+            @click="hideFixedMenu"
             >{{ $t('about') }}</NuxtLink
           >
         </li>
@@ -20,8 +20,8 @@
             class="flex px-4 py-2 text-3xl font-bold transition-colors"
             :class="{ active: isBlogPage }"
             to="/blog"
-            @click="hideFixedMenu"
             aria-lable="Blog List Page"
+            @click="hideFixedMenu"
             >{{ $t('blog') }}</NuxtLink
           >
         </li>
@@ -30,9 +30,9 @@
             class="flex px-4 py-2 text-3xl font-bold transition-colors"
             target="_blank"
             to="/feed.xml"
-            @click="hideFixedMenu"
             title="RSS Feed"
             aria-label="RSS Feed"
+            @click="hideFixedMenu"
           >
             RSS
           </NuxtLink>
@@ -50,9 +50,9 @@
             <NuxtLink
               class="flex flex-auto rounded px-4 py-2 text-2xl font-extrabold transition-colors"
               to="/"
-              @click="hideFixedMenu"
               title="Home"
               aria-label="Home Page"
+              @click="hideFixedMenu"
               >Alex Johnson</NuxtLink
             >
           </li>
@@ -75,7 +75,11 @@
             >
           </li>
           <li class="my-auto ml-auto list-item">
-            <button @click="showSearchModal" title="Search" aria-label="Open Search Modal">
+            <button
+              title="Search"
+              aria-label="Open Search Modal"
+              @click="showSearchModal"
+            >
               <Icon
                 name="mdi:search"
                 class="size-10 transition-colors hover:text-yellow-500 active:text-yellow-400 sm:size-12 dark:hover:text-yellow-100 dark:active:text-yellow-200"
@@ -83,7 +87,11 @@
             </button>
           </li>
           <li class="my-auto list-item">
-            <button @click="switchColorMode" title="Switch Color Mode" aria-label="Switch Color Mode">
+            <button
+              title="Switch Color Mode"
+              aria-label="Switch Color Mode"
+              @click="switchColorMode"
+            >
               <Icon
                 :name="
                   savedTheme === 'dark'
@@ -95,7 +103,12 @@
             </button>
           </li>
           <li class="my-auto hidden sm:list-item">
-            <NuxtLink target="_blank" to="/feed.xml" title="RSS" aria-label="RSS Feed">
+            <NuxtLink
+              target="_blank"
+              to="/feed.xml"
+              title="RSS"
+              aria-label="RSS Feed"
+            >
               <Icon
                 name="mdi:rss"
                 class="size:5 transition-colors hover:text-yellow-500 active:text-yellow-400 sm:size-12 dark:hover:text-yellow-100 dark:active:text-yellow-200"
@@ -103,7 +116,7 @@
             </NuxtLink>
           </li>
           <li class="my-auto mr-2 sm:hidden">
-            <button @click="toggleFixedMenuState" aria-label="Toggle Menu">
+            <button aria-label="Toggle Menu" @click="toggleFixedMenuState">
               <Icon :name="burgerMenuIconName" class="size-10 sm:size-12" />
             </button>
           </li>
@@ -223,7 +236,7 @@ watch(search, async (newSearch: string) => {
 
 useHead({
   htmlAttrs: {
-    class: computed(() => savedTheme.value === 'dark' ? 'dark' : ''),
+    class: computed(() => (savedTheme.value === 'dark' ? 'dark' : '')),
   },
 });
 
