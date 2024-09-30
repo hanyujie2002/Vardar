@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v1.17.1
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.17.0...v1.17.1)
+
+### 📦 Build
+
+- **deps:** Bump mermaid from 11.1.1 to 11.2.1 ([3631ee8](https://github.com/hanyujie2002/Vardar/commit/3631ee8))
+- **deps-dev:** Bump @nuxt/icon from 1.5.1 to 1.5.2 ([6d3bdcc](https://github.com/hanyujie2002/Vardar/commit/6d3bdcc))
+- **deps-dev:** Bump eslint from 9.10.0 to 9.11.1 ([1605a5e](https://github.com/hanyujie2002/Vardar/commit/1605a5e))
+- **deps:** Bump shiki from 1.18.0 to 1.21.0 ([b4895ee](https://github.com/hanyujie2002/Vardar/commit/b4895ee))
+- **deps-dev:** Bump @iconify-json/catppuccin from 1.2.0 to 1.2.4 ([b26b7f9](https://github.com/hanyujie2002/Vardar/commit/b26b7f9))
+
 ## v1.17.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.16.2...v1.17.0)
