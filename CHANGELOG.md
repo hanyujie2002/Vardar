@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v1.17.2
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.17.1...v1.17.2)
+
+### 🏡 Chore
+
+- Remove shiki dependency ([32b0000](https://github.com/hanyujie2002/Vardar/commit/32b0000))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v1.17.1
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.17.0...v1.17.1)
