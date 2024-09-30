@@ -1,10 +1,14 @@
 <template>
   <div class="m-auto flex flex-col">
     <div>
-      <img
-        class="mx-auto w-48 rounded-full object-cover shadow-2xl shadow-themeColor-100 md:hover:animate-spinSlow"
-        src="~/assets/img/avatar.png"
-      >
+      <NuxtImg
+        class="mx-auto rounded-full object-cover shadow-2xl shadow-themeColor-100 md:hover:animate-spinSlow"
+        src="/img/avatar.png"
+        width="192"
+        height="192"
+        quality="80"
+        format="webp"
+      />
     </div>
     <div
       class="mx-auto mt-5 text-center font-serif text-3xl font-bold text-themeColor-400 dark:text-themeColor-100"
@@ -37,4 +41,5 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+</script>
