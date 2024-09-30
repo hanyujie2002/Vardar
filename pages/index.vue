@@ -8,6 +8,7 @@
         height="192"
         quality="80"
         format="webp"
+        loading="lazy"
       />
     </div>
     <div
