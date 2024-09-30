@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v1.17.3
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.17.2...v1.17.3)
+
+### 🔥 Performance
+
+- Implemented lazy loading for avatar picture ([921f446](https://github.com/hanyujie2002/Vardar/commit/921f446))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v1.17.2
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.17.1...v1.17.2)
