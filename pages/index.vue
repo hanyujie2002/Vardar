@@ -3,13 +3,13 @@
     <div>
       <NuxtImg
         class="mx-auto rounded-full object-cover shadow-2xl shadow-themeColor-100 md:hover:animate-spinSlow"
+        preload
         src="/img/avatar.png"
         alt="Profile image"
         width="192"
         height="192"
         quality="80"
         format="webp"
-        loading="lazy"
       />
     </div>
     <div
