@@ -33,7 +33,7 @@
     "@nuxtjs/i18n": "^8.5.5",
     "autoprefixer": "^10.4.20",
     "changelogen": "^0.5.7",
-    "eslint": "^9.10.0",
+    "eslint": "^9.11.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-vue": "^9.28.0",
