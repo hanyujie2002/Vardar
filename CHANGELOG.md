@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v1.17.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.16.2...v1.17.0)
+
+### 🔥 Performance
+
+- Enhance image loading ([02b8c04](https://github.com/hanyujie2002/Vardar/commit/02b8c04))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v1.16.2
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.16.1...v1.16.2)
