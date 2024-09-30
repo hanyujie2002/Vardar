@@ -1,5 +1,21 @@
 # Changelog of Vardar
 
+## v1.18.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.17.3...v1.18.0)
+
+### 🚀 Enhancements
+
+- **accessibility:** Enhance page accessibility ([cfcaae7](https://github.com/hanyujie2002/Vardar/commit/cfcaae7))
+
+### 🎨 Styles
+
+- Linted code ([400930e](https://github.com/hanyujie2002/Vardar/commit/400930e))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v1.17.3
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.17.2...v1.17.3)
