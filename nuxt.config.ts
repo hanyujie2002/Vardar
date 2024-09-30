@@ -18,6 +18,9 @@ export default defineNuxtConfig({
           onload: "this.media='all'",
         },
       ],
+      htmlAttrs: {
+        lang: 'en'
+      }
     },
     pageTransition: { name: 'page', mode: 'out-in' },
   },

@@ -11,6 +11,7 @@
             :class="{ active: isAboutPage }"
             to="/about"
             @click="hideFixedMenu"
+            aria-label="About Page"
             >{{ $t('about') }}</NuxtLink
           >
         </li>
@@ -20,6 +21,7 @@
             :class="{ active: isBlogPage }"
             to="/blog"
             @click="hideFixedMenu"
+            aria-lable="Blog List Page"
             >{{ $t('blog') }}</NuxtLink
           >
         </li>
@@ -29,6 +31,8 @@
             target="_blank"
             to="/feed.xml"
             @click="hideFixedMenu"
+            title="RSS Feed"
+            aria-label="RSS Feed"
           >
             RSS
           </NuxtLink>
@@ -47,6 +51,8 @@
               class="flex flex-auto rounded px-4 py-2 text-2xl font-extrabold transition-colors"
               to="/"
               @click="hideFixedMenu"
+              title="Home"
+              aria-label="Home Page"
               >Alex Johnson</NuxtLink
             >
           </li>
@@ -55,6 +61,7 @@
               class="my-auto flex flex-auto rounded px-4 py-2 text-lg font-bold transition-colors hover:text-yellow-500 dark:hover:text-yellow-100"
               :class="{ active: isAboutPage }"
               to="/about"
+              aria-label="About"
               >{{ $t('about') }}</NuxtLink
             >
           </li>
@@ -63,11 +70,12 @@
               class="flex flex-auto rounded px-4 py-2 text-lg font-bold transition-colors hover:text-yellow-500 dark:hover:text-yellow-100"
               :class="{ active: isBlogPage }"
               to="/blog"
+              aria-label="Blog Page"
               >{{ $t('blog') }}</NuxtLink
             >
           </li>
           <li class="my-auto ml-auto list-item">
-            <button @click="showSearchModal">
+            <button @click="showSearchModal" title="Search" aria-label="Open Search Modal">
               <Icon
                 name="mdi:search"
                 class="size-10 transition-colors hover:text-yellow-500 active:text-yellow-400 sm:size-12 dark:hover:text-yellow-100 dark:active:text-yellow-200"
@@ -75,7 +83,7 @@
             </button>
           </li>
           <li class="my-auto list-item">
-            <button @click="switchColorMode">
+            <button @click="switchColorMode" title="Switch Color Mode" aria-label="Switch Color Mode">
               <Icon
                 :name="
                   savedTheme === 'dark'
@@ -87,7 +95,7 @@
             </button>
           </li>
           <li class="my-auto hidden sm:list-item">
-            <NuxtLink target="_blank" to="/feed.xml">
+            <NuxtLink target="_blank" to="/feed.xml" title="RSS" aria-label="RSS Feed">
               <Icon
                 name="mdi:rss"
                 class="size:5 transition-colors hover:text-yellow-500 active:text-yellow-400 sm:size-12 dark:hover:text-yellow-100 dark:active:text-yellow-200"
@@ -95,7 +103,7 @@
             </NuxtLink>
           </li>
           <li class="my-auto mr-2 sm:hidden">
-            <button @click="toggleFixedMenuState">
+            <button @click="toggleFixedMenuState" aria-label="Toggle Menu">
               <Icon :name="burgerMenuIconName" class="size-10 sm:size-12" />
             </button>
           </li>
