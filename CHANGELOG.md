@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v1.19.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.18.2...v1.19.0)
+
+### 🚀 Enhancements
+
+- **accessibility:** Implement aria for code blocks ([26c63ed](https://github.com/hanyujie2002/Vardar/commit/26c63ed))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v1.18.2
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.18.1...v1.18.2)

@@ -1,6 +1,6 @@
 {
   "name": "Vardar",
-  "version": "1.18.2",
+  "version": "1.19.0",
   "private": true,
   "type": "module",
   "description": "A personal blog framework built on Nuxt.js and Nuxt Content",
