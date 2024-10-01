@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v1.20.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.19.1...v1.20.0)
+
+### 🚀 Enhancements
+
+- Add dynamic code highlighing themes for light and dark modes ([2484185](https://github.com/hanyujie2002/Vardar/commit/2484185))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v1.19.1
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.19.0...v1.19.1)
