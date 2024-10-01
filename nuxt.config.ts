@@ -91,7 +91,11 @@ export default defineNuxtConfig({
       },
     },
     highlight: {
-      theme: 'everforest-dark',
+      theme: {
+        default: 'everforest-light',
+        dark: 'everforest-dark',
+        light: 'everforest-light'
+      },
       preload: ['python', 'c', 'java', 'go'],
     },
     markdown: {
