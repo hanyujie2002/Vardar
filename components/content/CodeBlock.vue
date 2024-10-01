@@ -20,11 +20,15 @@
       >
       <button
         :class="`ml-auto mr-3 flex gap-1 rounded p-1 transition-all hover:backdrop-brightness-95 dark:hover:backdrop-brightness-125 ${isCopyButtonActive ? 'backdrop-brightness-95 dark:backdrop-brightness-125' : ''}`"
-        @click="copyButtonHandleClick"
         aria-label="Copy code"
+        @click="copyButtonHandleClick"
       >
         <span v-show="isCopyButtonActive" aria-live="polite">Copied</span
-        ><Icon :name="copyButtonIconName" class="text-2xl" :aria-label="isCopyButtonActive ? 'Copy succesful' : 'Copy code'" />
+        ><Icon
+          :name="copyButtonIconName"
+          class="text-2xl"
+          :aria-label="isCopyButtonActive ? 'Copy succesful' : 'Copy code'"
+        />
       </button>
     </div>
     <pre
