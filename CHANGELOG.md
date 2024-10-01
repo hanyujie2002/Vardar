@@ -1,5 +1,22 @@
 # Changelog of Vardar
 
+## v1.19.1
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.19.0...v1.19.1)
+
+### 🏡 Chore
+
+- Bump version of nuxt-toc ([70e012c](https://github.com/hanyujie2002/Vardar/commit/70e012c))
+- Bump version of nuxt-toc (part 2) ([2de9748](https://github.com/hanyujie2002/Vardar/commit/2de9748))
+
+### 🎨 Styles
+
+- Linted code ([50bcdd5](https://github.com/hanyujie2002/Vardar/commit/50bcdd5))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v1.19.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.18.2...v1.19.0)
