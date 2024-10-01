@@ -3,23 +3,28 @@
     <div
       v-if="language || filename"
       class="flex h-12 items-center gap-1.5 rounded-t border-b border-themeColor-200 bg-themeColor-50 dark:border-none dark:bg-themeColor-800"
+      role="group"
+      aria-label="Code block header"
     >
       <Icon
         v-if="language"
         :name="getIconName(language)"
         class="ml-3 text-2xl"
+        :aria-label="`Programming language: ${language}`"
       />
       <span
         v-if="filename"
         class="ml-3 text-themeColor-400 dark:text-themeColor-200"
+        aria-label="Filename"
         >{{ filename }}</span
       >
       <button
         :class="`ml-auto mr-3 flex gap-1 rounded p-1 transition-all hover:backdrop-brightness-95 dark:hover:backdrop-brightness-125 ${isCopyButtonActive ? 'backdrop-brightness-95 dark:backdrop-brightness-125' : ''}`"
         @click="copyButtonHandleClick"
+        aria-label="Copy code"
       >
-        <span v-show="isCopyButtonActive">Copied</span
-        ><Icon :name="copyButtonIconName" class="text-2xl" />
+        <span v-show="isCopyButtonActive" aria-live="polite">Copied</span
+        ><Icon :name="copyButtonIconName" class="text-2xl" :aria-label="isCopyButtonActive ? 'Copy succesful' : 'Copy code'" />
       </button>
     </div>
     <pre
@@ -28,6 +33,8 @@
         'overflow-x-auto bg-themeColor-50 px-4 py-3 text-black shadow-xl dark:bg-themeColor-900 dark:text-white',
         filename || language ? 'rounded-b' : 'rounded',
       ]"
+      role="region"
+      aria-label="Code block"
     ><slot /></pre>
   </div>
 </template>
