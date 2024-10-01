@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v1.18.2
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.18.1...v1.18.2)
+
+### 🏡 Chore
+
+- Remove dependency of remark-mermaid ([20df523](https://github.com/hanyujie2002/Vardar/commit/20df523))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v1.18.1
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.18.0...v1.18.1)
