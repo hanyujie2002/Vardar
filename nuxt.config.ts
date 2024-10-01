@@ -100,7 +100,6 @@ export default defineNuxtConfig({
         'rehype-katex': {
           output: 'html', // the default value is 'htmlAndMathml'
         },
-        'remark-mermaid': { simple: true },
       },
     },
   },
