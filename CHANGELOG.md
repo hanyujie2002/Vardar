@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v1.20.1
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.20.0...v1.20.1)
+
+### 🏡 Chore
+
+- Extract color mode swtich into a standalone component ([7cd705a](https://github.com/hanyujie2002/Vardar/commit/7cd705a))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v1.20.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.19.1...v1.20.0)
