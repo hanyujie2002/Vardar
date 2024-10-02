@@ -87,20 +87,7 @@
             </button>
           </li>
           <li class="my-auto list-item">
-            <button
-              title="Switch Color Mode"
-              aria-label="Switch Color Mode"
-              @click="switchColorMode"
-            >
-              <Icon
-                :name="
-                  savedTheme === 'dark'
-                    ? 'material-symbols:dark-mode-outline-rounded'
-                    : 'material-symbols:sunny-outline-rounded'
-                "
-                class="size-10 transition-colors hover:text-yellow-500 active:text-yellow-400 sm:size-12 dark:hover:text-yellow-100 dark:active:text-yellow-200"
-              />
-            </button>
+            <ColorModeSwitch />
           </li>
           <li class="my-auto hidden sm:list-item">
             <NuxtLink
@@ -170,7 +157,7 @@
             v-model="search"
             placeholder="search blog"
             class="flex h-[--header-height] flex-grow bg-transparent placeholder:text-themeColor-400/50 focus:outline-none sm:h-12 dark:placeholder:text-themeColor-200/50"
-          >
+          />
           <button class="group" @click="hideSearchModal">
             <Icon
               name="mdi:close"
@@ -234,12 +221,6 @@ watch(search, async (newSearch: string) => {
   results.value = res.value;
 });
 
-useHead({
-  htmlAttrs: {
-    class: computed(() => (savedTheme.value === 'dark' ? 'dark' : '')),
-  },
-});
-
 onMounted(() => {
   documentElement.value = document.documentElement;
 });
@@ -275,15 +256,6 @@ const hideSearchModal = () => {
   documentElement.value.classList.remove('overflow-hidden');
   search.value = '';
   dialogRef.value?.close();
-};
-const switchColorMode = () => {
-  if (savedTheme.value === 'dark') {
-    documentElement.value.classList.remove('dark');
-    savedTheme.value = '';
-  } else {
-    documentElement.value.classList.add('dark');
-    savedTheme.value = 'dark';
-  }
 };
 
 const handleBackdropClicked = (event: MouseEvent) => {
