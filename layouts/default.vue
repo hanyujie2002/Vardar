@@ -19,7 +19,7 @@
           <NuxtLink
             class="flex px-4 py-2 text-3xl font-bold transition-colors"
             :class="{ active: isBlogPage }"
-            to="/blog"
+            to="/blog/page/1"
             aria-lable="Blog List Page"
             @click="hideFixedMenu"
             >{{ $t('blog') }}</NuxtLink
@@ -69,7 +69,7 @@
             <NuxtLink
               class="flex flex-auto rounded px-4 py-2 text-lg font-bold transition-colors hover:text-yellow-500 dark:hover:text-yellow-100"
               :class="{ active: isBlogPage }"
-              to="/blog"
+              to="/blog/page/1"
               aria-label="Blog Page"
               >{{ $t('blog') }}</NuxtLink
             >
@@ -157,7 +157,7 @@
             v-model="search"
             placeholder="search blog"
             class="flex h-[--header-height] flex-grow bg-transparent placeholder:text-themeColor-400/50 focus:outline-none sm:h-12 dark:placeholder:text-themeColor-200/50"
-          />
+          >
           <button class="group" @click="hideSearchModal">
             <Icon
               name="mdi:close"

@@ -40,6 +40,7 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxtjs/i18n',
     'nuxt-toc',
+    '@nuxtjs/color-mode',
   ],
   i18n: {
     vueI18n: './i18n.config.ts', // if you are using custom path, default
@@ -94,7 +95,7 @@ export default defineNuxtConfig({
       theme: {
         default: 'everforest-light',
         dark: 'everforest-dark',
-        light: 'everforest-light'
+        light: 'everforest-light',
       },
       preload: ['python', 'c', 'java', 'go'],
     },
@@ -106,5 +107,9 @@ export default defineNuxtConfig({
         },
       },
     },
+  },
+  colorMode: {
+    classSuffix: '',
+    storage: 'cookie',
   },
 });
