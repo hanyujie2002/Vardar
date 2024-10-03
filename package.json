@@ -30,6 +30,7 @@
     "@nuxt/eslint": "^0.5.7",
     "@nuxt/icon": "^1.5.2",
     "@nuxt/image": "^1.8.0",
+    "@nuxtjs/color-mode": "^3.5.1",
     "@nuxtjs/i18n": "^8.5.5",
     "autoprefixer": "^10.4.20",
     "changelogen": "^0.5.7",

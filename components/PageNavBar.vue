@@ -7,7 +7,7 @@
       :max-pages-shown="3"
       :disable-breakpoint-buttons="true"
       type="link"
-      link-url="/blog?page=[page]"
+      link-url="/blog/page/[page]"
       @click="onPageChange"
     />
   </div>
@@ -25,7 +25,7 @@ const perPage = ref(15);
 const route = useRoute();
 
 const page: (string | null | undefined) | (string | null | undefined)[] =
-  route.query.page;
+  route.params.pageNumber;
 
 const currentPage: globalThis.Ref<number> = ref(1);
 
