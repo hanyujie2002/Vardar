@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.0.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.20.1...v2.0.0)
+
+### 🚀 Enhancements
+
+- Turn to nuxt generate instead of nuxt build for better performance ([5e4096e](https://github.com/hanyujie2002/Vardar/commit/5e4096e))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v1.20.1
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.20.0...v1.20.1)
