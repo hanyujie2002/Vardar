@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.2.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.1.0...v2.2.0)
+
+### 🚀 Enhancements
+
+- Enhance webpage aesthetics by making font thinner ([ec3cce2](https://github.com/hanyujie2002/Vardar/commit/ec3cce2))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.1.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.0.0...v2.1.0)
