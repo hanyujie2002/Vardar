@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav
-      class="fixed top-[--header-height] z-50 h-[calc(100vh-var(--header-height))] w-screen text-slate-600 backdrop-blur-2xl dark:text-white"
+      class="fixed top-[--header-height] z-50 h-[calc(100vh-var(--header-height))] w-screen text-slate-600 backdrop-blur-2xl dark:text-themeColor-200"
       :class="{ hidden: isFixedNavHidden }"
     >
       <ul class="mx-auto mt-5 flex w-full flex-col">
@@ -43,12 +43,12 @@
     <div class="flex w-full flex-col rounded">
       <!-- 导航栏 -->
       <nav
-        class="sticky top-0 z-40 flex h-[--header-height] flex-auto text-black backdrop-blur-2xl dark:text-white"
+        class="sticky top-0 z-40 flex h-[--header-height] flex-auto text-black backdrop-blur-2xl dark:text-slate-200"
       >
         <ul class="mx-auto my-auto flex w-full max-w-screen-xl gap-4">
           <li class="list-item">
             <NuxtLink
-              class="flex flex-auto rounded px-4 py-2 text-2xl font-extrabold transition-colors"
+              class="flex flex-auto rounded px-4 py-2 text-2xl font-extrabold transition-colors dark:text-slate-100"
               to="/"
               title="Home"
               aria-label="Home Page"

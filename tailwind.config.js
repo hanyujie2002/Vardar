@@ -19,7 +19,7 @@ module.exports = {
         spinSlow: 'spin 10s linear infinite',
       },
       colors: {
-        themeColor: colors.amber,
+        themeColor: colors.sky,
       },
     },
   },

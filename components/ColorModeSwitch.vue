@@ -15,7 +15,7 @@
       />
     </div>
     <div v-else>
-      <div class="size-10 sm:size-12"/>
+      <div class="size-10 sm:size-12" />
     </div>
   </button>
 </template>
