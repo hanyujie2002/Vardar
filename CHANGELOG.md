@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.1.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.0.0...v2.1.0)
+
+### 🚀 Enhancements
+
+- Enhance colors in dark mode ([c6d795c](https://github.com/hanyujie2002/Vardar/commit/c6d795c))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.0.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v1.20.1...v2.0.0)
