@@ -13,7 +13,7 @@
       />
     </div>
     <div
-      class="mx-auto mt-5 text-center font-serif text-3xl font-bold text-themeColor-400 dark:text-themeColor-100"
+      class="mx-auto mt-5 text-center text-3xl font-thin tracking-widest text-slate-600 dark:text-slate-100"
     >
       Vardar's example site
     </div>

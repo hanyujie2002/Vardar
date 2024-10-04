@@ -1,15 +1,17 @@
 <template>
-  <div class="my-4 flex flex-col sm:shadow-lg sm:shadow-themeColor-100 sm:dark:shadow-themeColor-900">
+  <div
+    class="my-4 flex flex-col sm:shadow-lg sm:shadow-themeColor-100 sm:dark:shadow-themeColor-900"
+  >
     <div
       v-if="language || filename"
-      class="flex h-12 items-center gap-1.5 rounded-t border-b border-themeColor-100 bg-white dark:bg-themeColor-950 dark:border-themeColor-900"
+      class="flex h-12 items-center gap-1.5 rounded-t border-b border-themeColor-100 bg-white dark:border-themeColor-900 dark:bg-themeColor-950"
       role="group"
       aria-label="Code block header"
     >
       <Icon
         v-if="language"
         :name="getIconName(language)"
-        class="ml-1 sm:ml-3 text-2xl"
+        class="ml-1 text-2xl sm:ml-3"
         :aria-label="`Programming language: ${language}`"
       />
       <span
@@ -19,7 +21,7 @@
         >{{ filename }}</span
       >
       <button
-        :class="`ml-auto sm:mr-3 mr-1 flex gap-1 rounded p-1 transition-all hover:backdrop-brightness-95 dark:hover:backdrop-brightness-125 ${isCopyButtonActive ? 'backdrop-brightness-95 dark:backdrop-brightness-125' : ''}`"
+        :class="`ml-auto mr-1 flex gap-1 rounded p-1 transition-all hover:backdrop-brightness-95 sm:mr-3 dark:hover:backdrop-brightness-125 ${isCopyButtonActive ? 'backdrop-brightness-95 dark:backdrop-brightness-125' : ''}`"
         aria-label="Copy code"
         @click="copyButtonHandleClick"
       >
@@ -34,7 +36,7 @@
     <pre
       :class="[
         $props.class,
-        'overflow-x-auto bg-white px-1 sm:px-4 py-3 text-black dark:bg-themeColor-950 dark:text-slate-200',
+        'overflow-x-auto bg-white px-1 py-3 text-black sm:px-4 dark:bg-themeColor-950 dark:text-slate-200',
         filename || language ? 'rounded-b' : 'rounded',
       ]"
       role="region"

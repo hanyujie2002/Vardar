@@ -142,12 +142,12 @@
     <!-- 搜索框 -->
     <dialog
       ref="dialogRef"
-      class="custom-max-width h-dvh max-h-none w-screen max-w-none bg-themeColor-100 backdrop:backdrop-blur-sm sm:h-[28rem] sm:w-full sm:bg-themeColor-100/80 dark:bg-themeColor-600 dark:sm:bg-themeColor-600/80"
+      class="custom-max-width h-dvh max-h-none w-screen max-w-none rounded bg-white shadow-lg shadow-themeColor-100 backdrop:backdrop-blur-sm sm:h-[28rem] sm:w-full sm:bg-white dark:bg-themeColor-950 dark:shadow-themeColor-900 dark:sm:bg-themeColor-950"
       @click="handleBackdropClicked"
       @keydown="handleEscKeyDown"
     >
       <div
-        class="flex h-full w-full flex-col rounded text-slate-700 shadow-xl dark:text-slate-100"
+        class="flex h-full w-full flex-col text-slate-700 dark:text-slate-100"
       >
         <div
           class="relative flex items-center border-b border-themeColor-300/50 dark:border-themeColor-200/30"
@@ -156,7 +156,7 @@
           <input
             v-model="search"
             placeholder="search blog"
-            class="flex h-[--header-height] flex-grow bg-transparent placeholder:text-themeColor-400/50 focus:outline-none sm:h-12 dark:placeholder:text-themeColor-200/50"
+            class="flex h-[--header-height] flex-grow bg-transparent placeholder:text-slate-800/50 focus:outline-none sm:h-12 dark:placeholder:text-slate-200/50"
           >
           <button class="group" @click="hideSearchModal">
             <Icon
@@ -176,7 +176,9 @@
               :to="result.id"
               @click="hideSearchModal"
             >
-              <h3 class="result.title line-clamp-2 text-lg font-semibold">
+              <h3
+                class="result.title line-clamp-2 text-lg font-semibold text-slate-800 dark:text-slate-100"
+              >
                 <span v-if="result.titles.length" class="after:content-['_>_']">
                   {{ result.titles[0] }}
                 </span>
@@ -185,7 +187,7 @@
                 </span>
               </h3>
               <p
-                class="line-clamp-2 text-sm text-themeColor-400 dark:text-themeColor-200"
+                class="line-clamp-2 text-sm text-slate-400 dark:text-slate-200"
               >
                 {{ result.content }}
               </p>

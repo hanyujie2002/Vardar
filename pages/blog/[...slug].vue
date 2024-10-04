@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full font-extralight">
+  <div class="w-full font-extralight sm:tracking-wide">
     <ContentDoc
       class="mx-auto max-w-3xl overflow-x-auto text-wrap px-3 text-slate-700 dark:text-slate-300"
     />
