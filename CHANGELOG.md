@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.2.1
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.2.0...v2.2.1)
+
+### 🚀 Enhancements
+
+- Enhanced UI: ([81535bc](https://github.com/hanyujie2002/Vardar/commit/81535bc))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.2.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.1.0...v2.2.0)
