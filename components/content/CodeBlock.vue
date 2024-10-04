@@ -36,7 +36,7 @@
     <pre
       :class="[
         $props.class,
-        'overflow-x-auto bg-white px-1 py-3 text-black sm:px-4 dark:bg-themeColor-950 dark:text-slate-200',
+        'overflow-x-auto bg-white px-1 py-3 text-black scrollbar:h-1.5 scrollbar:w-1.5 scrollbar-track:rounded scrollbar-track:bg-slate-100 scrollbar-thumb:rounded scrollbar-thumb:bg-slate-300 sm:px-4 dark:bg-themeColor-950 dark:text-slate-200 dark:scrollbar-track:bg-slate-500/[0.16] dark:scrollbar-thumb:bg-slate-500/50',
         filename || language ? 'rounded-b' : 'rounded',
       ]"
       role="region"

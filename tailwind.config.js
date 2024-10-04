@@ -19,7 +19,7 @@ module.exports = {
         spinSlow: 'spin 10s linear infinite',
       },
       colors: {
-        themeColor: colors.sky,
+        themeColor: colors.rose,
       },
     },
   },
@@ -28,6 +28,7 @@ module.exports = {
       addVariant('scrollbar', '&::-webkit-scrollbar');
       addVariant('scrollbar-track', '&::-webkit-scrollbar-track');
       addVariant('scrollbar-thumb', '&::-webkit-scrollbar-thumb');
+      addVariant('scrollbar-corner', '&::-webkit-scrollbar-corner');
     }),
   ],
 };

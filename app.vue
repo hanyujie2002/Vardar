@@ -34,7 +34,7 @@ useSeoMeta({
 <style>
 :root {
   --header-height: 4rem;
-  @apply scroll-smooth bg-gradient-to-r from-white to-themeColor-50 transition-all delay-1000 selection:bg-themeColor-100 selection:text-themeColor-400 dark:from-themeColor-950 dark:to-themeColor-900;
+  @apply scroll-smooth bg-gradient-to-r from-white to-themeColor-50 transition-all delay-1000 selection:bg-themeColor-100 selection:text-themeColor-400 scrollbar:w-2.5 scrollbar:bg-transparent scrollbar-track:bg-slate-200 scrollbar-thumb:rounded scrollbar-thumb:bg-slate-300 dark:from-themeColor-950 dark:to-themeColor-900 dark:scrollbar-track:bg-themeColor-950 dark:scrollbar-thumb:bg-slate-500/50;
   scroll-behavior: smooth;
   scroll-margin-top: 1000px;
 }
