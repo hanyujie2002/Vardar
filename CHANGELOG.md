@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.3.1
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.3.0...v2.3.1)
+
+### 🩹 Fixes
+
+- Use localstorage instead of cookie to store color mode preference ([05ecb06](https://github.com/hanyujie2002/Vardar/commit/05ecb06))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.3.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.2.1...v2.3.0)
