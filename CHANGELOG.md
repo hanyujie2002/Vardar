@@ -1,5 +1,15 @@
 # Changelog of Vardar
 
+## v2.3.4
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.3.3...v2.3.4)
+
+### 📦 Build
+
+- **deps:** Bump micromatch from 4.0.7 to 4.0.8 ([5cfb519](https://github.com/hanyujie2002/Vardar/commit/5cfb519))
+- **deps:** Bump rollup from 4.21.0 to 4.24.0 ([07793e3](https://github.com/hanyujie2002/Vardar/commit/07793e3))
+- **deps:** Bump serve-static from 1.15.0 to 1.16.2 ([1a4398b](https://github.com/hanyujie2002/Vardar/commit/1a4398b))
+
 ## v2.3.3
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.3.2...v2.3.3)
