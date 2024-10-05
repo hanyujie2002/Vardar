@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.3.5
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.3.4...v2.3.5)
+
+### 🚀 Enhancements
+
+- Enhanced style of text selection ([165428d](https://github.com/hanyujie2002/Vardar/commit/165428d))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.3.4
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.3.3...v2.3.4)
