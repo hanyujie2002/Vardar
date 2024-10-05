@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.3.6
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.3.5...v2.3.6)
+
+### 🚀 Enhancements
+
+- Add animation for searching ([f77caaa](https://github.com/hanyujie2002/Vardar/commit/f77caaa))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.3.5
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.3.4...v2.3.5)
