@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.3.3
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.3.2...v2.3.3)
+
+### 🚀 Enhancements
+
+- Updated style of search box ([003d718](https://github.com/hanyujie2002/Vardar/commit/003d718))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.3.2
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.3.1...v2.3.2)
