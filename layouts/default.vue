@@ -152,7 +152,7 @@
         <div
           class="relative flex items-center border-b border-themeColor-300/50 dark:border-themeColor-200/30"
         >
-          <Icon name="mdi:search" class="m-3 flex h-10 w-10 sm:h-5 sm:w-5" />
+          <Icon :name="isSearching ? 'svg-spinners:clock' : 'mdi:search'" class="m-3 flex h-10 w-10 sm:h-5 sm:w-5" />
           <input
             v-model="search"
             placeholder="search blog"
@@ -208,8 +208,11 @@
 </template>
 
 <script setup lang="ts">
+import { debounce } from 'lodash';
+
 const route = useRoute();
 const isFixedNavHidden = ref<boolean>(true);
+const isSearching = ref<boolean>(false);
 const documentElement = ref();
 const burgerMenuIconName = ref<string>('mdi:menu');
 
@@ -221,9 +224,19 @@ const dialogRef = ref<HTMLDialogElement>();
 
 const results = ref();
 
-watch(search, async (newSearch: string) => {
+const debouncedSearch = debounce(async (newSearch: string) => {
+  const searchTimeout = setTimeout(() => {
+    isSearching.value = true;
+  }, 100);
+
   const res = await searchContent(newSearch);
+  clearTimeout(searchTimeout);
   results.value = res.value;
+  isSearching.value = false;
+}, 300);
+
+watch(search, async (newSearch: string) => {
+  debouncedSearch(newSearch);
 });
 
 onMounted(() => {
