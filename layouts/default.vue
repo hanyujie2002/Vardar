@@ -165,7 +165,10 @@
             />
           </button>
         </div>
-        <div v-if="search.length" class="flex flex-col overflow-y-auto">
+        <div
+          v-if="search.length"
+          class="flex flex-col overflow-y-auto scrollbar:h-1.5 scrollbar:w-1.5 scrollbar-track:rounded scrollbar-track:bg-slate-100 scrollbar-thumb:rounded scrollbar-thumb:bg-slate-300 dark:scrollbar-track:bg-slate-500/[0.16] dark:scrollbar-thumb:bg-slate-500/50"
+        >
           <div
             v-for="result in results"
             :key="result.id"
