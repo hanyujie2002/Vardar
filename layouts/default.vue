@@ -175,7 +175,7 @@
             class="border-b border-themeColor-200 dark:border-themeColor-200/30"
           >
             <NuxtLink
-              class="flex flex-col p-4 hover:backdrop-brightness-95 active:backdrop-brightness-90"
+              class="flex flex-col p-4 hover:backdrop-brightness-95 active:backdrop-brightness-90 dark:hover:backdrop-brightness-105 dark:active:backdrop-brightness-110"
               :to="result.id"
               @click="hideSearchModal"
             >
