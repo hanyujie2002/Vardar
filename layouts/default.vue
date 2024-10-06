@@ -167,34 +167,39 @@
         </div>
         <div
           v-if="search.length"
-          class="flex flex-col overflow-y-auto scrollbar:h-1.5 scrollbar:w-1.5 scrollbar-track:rounded scrollbar-track:bg-slate-100 scrollbar-thumb:rounded scrollbar-thumb:bg-slate-300 dark:scrollbar-track:bg-slate-500/[0.16] dark:scrollbar-thumb:bg-slate-500/50"
+          class="flex flex-col flex-grow overflow-y-auto scrollbar:h-1.5 scrollbar:w-1.5 scrollbar-track:rounded scrollbar-track:bg-slate-100 scrollbar-thumb:rounded scrollbar-thumb:bg-slate-300 dark:scrollbar-track:bg-slate-500/[0.16] dark:scrollbar-thumb:bg-slate-500/50"
         >
-          <div
-            v-for="result in results"
-            :key="result.id"
-            class="border-b border-themeColor-200 dark:border-themeColor-200/30"
-          >
-            <NuxtLink
-              class="flex flex-col p-4 hover:backdrop-brightness-95 active:backdrop-brightness-90 dark:hover:backdrop-brightness-105 dark:active:backdrop-brightness-110"
-              :to="result.id"
-              @click="hideSearchModal"
+          <div v-if="results.length > 0">
+            <div
+              v-for="result in results"
+              :key="result.id"
+              class="border-b border-themeColor-200 dark:border-themeColor-200/30"
             >
-              <h3
-                class="result.title line-clamp-2 text-lg font-semibold text-slate-800 dark:text-slate-100"
+              <NuxtLink
+                class="flex flex-col p-4 hover:backdrop-brightness-95 active:backdrop-brightness-90 dark:hover:backdrop-brightness-105 dark:active:backdrop-brightness-110"
+                :to="result.id"
+                @click="hideSearchModal"
               >
-                <span v-if="result.titles.length" class="after:content-['_>_']">
-                  {{ result.titles[0] }}
-                </span>
-                <span>
-                  {{ result.title }}
-                </span>
-              </h3>
-              <p
-                class="line-clamp-2 text-sm text-slate-400 dark:text-slate-200"
-              >
-                {{ result.content }}
-              </p>
-            </NuxtLink>
+                <h3
+                  class="result.title line-clamp-2 text-lg font-semibold text-slate-800 dark:text-slate-100"
+                >
+                  <span v-if="result.titles.length" class="after:content-['_>_']">
+                    {{ result.titles[0] }}
+                  </span>
+                  <span>
+                    {{ result.title }}
+                  </span>
+                </h3>
+                <p
+                  class="line-clamp-2 text-sm text-slate-400 dark:text-slate-200"
+                >
+                  {{ result.content }}
+                </p>
+              </NuxtLink>
+            </div>
+          </div>
+          <div v-else-if="results.length === 0 && isSearchEnded" class="flex flex-grow items-center justify-center">
+            <span class="flex flex-grow justify-center text-center text-5xl">No Result</span>
           </div>
         </div>
         <div v-else class="flex flex-grow items-center justify-center">
@@ -213,6 +218,7 @@ import { debounce } from 'lodash-es';
 const route = useRoute();
 const isFixedNavHidden = ref<boolean>(true);
 const isSearching = ref<boolean>(false);
+const isSearchEnded = ref<boolean>(true);
 const documentElement = ref();
 const burgerMenuIconName = ref<string>('mdi:menu');
 
@@ -235,9 +241,11 @@ const debouncedSearch = debounce(async (newSearch: string) => {
   clearTimeout(searchTimeout);
   results.value = res.value;
   isSearching.value = false;
+  isSearchEnded.value = true;
 }, 300);
 
 watch(search, async (newSearch: string) => {
+  isSearchEnded.value = false;
   debouncedSearch(newSearch);
 });
 
