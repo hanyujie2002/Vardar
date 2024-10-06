@@ -208,7 +208,7 @@
 </template>
 
 <script setup lang="ts">
-import { debounce } from 'lodash';
+import { debounce } from 'lodash-es';
 
 const route = useRoute();
 const isFixedNavHidden = ref<boolean>(true);

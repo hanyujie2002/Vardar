@@ -8,6 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@types/lodash-es':
+        specifier: ^4.17.12
+        version: 4.17.12
+      lodash-es:
+        specifier: ^4.17.21
+        version: 4.17.21
       mermaid:
         specifier: ^11.2.1
         version: 11.2.1
@@ -69,9 +75,6 @@ importers:
       '@nuxtjs/i18n':
         specifier: ^8.5.5
         version: 8.5.5(magicast@0.3.5)(rollup@4.24.0)(vue@3.5.8(typescript@5.6.2))(webpack-sources@3.2.3)
-      '@types/lodash':
-        specifier: ^4.17.10
-        version: 4.17.10
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.45)
@@ -90,9 +93,6 @@ importers:
       eslint-plugin-vue:
         specifier: ^9.28.0
         version: 9.28.0(eslint@9.11.1(jiti@1.21.6))
-      lodash:
-        specifier: ^4.17.21
-        version: 4.17.21
       nuxt:
         specifier: ^3.13.2
         version: 3.13.2(@parcel/watcher@2.4.1)(@types/node@22.5.0)(eslint@9.11.1(jiti@1.21.6))(ioredis@5.4.1)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.24.0)(terser@5.31.6)(typescript@5.6.2)(vite@5.4.6(@types/node@22.5.0)(terser@5.31.6))(webpack-sources@3.2.3)
@@ -1415,6 +1415,9 @@ packages:
 
   '@types/katex@0.16.7':
     resolution: {integrity: sha512-HMwFiRujE5PjrgwHQ25+bsLJgowjGjm5Z8FVSf0N6PwgJrwxH0QxzHYDcKsTfV3wva0vzrpqMTJS2jXPr5BMEQ==}
+
+  '@types/lodash-es@4.17.12':
+    resolution: {integrity: sha512-0NgftHUcV4v34VhXm8QBSftKVXtbkBG3ViCjs6+eJ5a6y6Mi/jiFGPc1sC7QK+9BFhWrURE3EOggmWaSxL9OzQ==}
 
   '@types/lodash@4.17.10':
     resolution: {integrity: sha512-YpS0zzoduEhuOWjAotS6A5AVCva7X4lVlYLF0FYHAY9sdraBfnatttHItlWeZdGhuEkf+OzMNg2ZYAx8t+52uQ==}
@@ -7018,6 +7021,10 @@ snapshots:
   '@types/json-schema@7.0.15': {}
 
   '@types/katex@0.16.7': {}
+
+  '@types/lodash-es@4.17.12':
+    dependencies:
+      '@types/lodash': 4.17.10
 
   '@types/lodash@4.17.10': {}
 
