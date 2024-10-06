@@ -226,7 +226,9 @@ const results = ref();
 
 const debouncedSearch = debounce(async (newSearch: string) => {
   const searchTimeout = setTimeout(() => {
-    isSearching.value = true;
+    if (newSearch !== '') {
+      isSearching.value = true;
+    }
   }, 100);
 
   const res = await searchContent(newSearch);
