@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.3.8
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.3.7...v2.3.8)
+
+### 🚀 Enhancements
+
+- Enhanced details of search UI ([447e632](https://github.com/hanyujie2002/Vardar/commit/447e632))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.3.7
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.3.6...v2.3.7)
