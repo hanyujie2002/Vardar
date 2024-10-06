@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.3.7
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.3.6...v2.3.7)
+
+### 🩹 Fixes
+
+- Fix the problem of static site generation ([5454b7e](https://github.com/hanyujie2002/Vardar/commit/5454b7e))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.3.6
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.3.5...v2.3.6)
