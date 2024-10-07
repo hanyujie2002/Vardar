@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.4.2
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.4.1...v2.4.2)
+
+### 🚀 Enhancements
+
+- Update styles in navigation ([00901ba](https://github.com/hanyujie2002/Vardar/commit/00901ba))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.4.1
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.4.0...v2.4.1)
