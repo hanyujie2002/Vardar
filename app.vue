@@ -11,25 +11,7 @@
   </NuxtLayout>
 </template>
 
-<script setup lang="ts">
-useHead({
-  title: 'Vardar Example Site',
-  meta: [
-    {
-      name: 'description',
-      content: 'Example site of Vardar for demenstration',
-    },
-  ],
-});
-
-useSeoMeta({
-  title: 'Vardar Example Site',
-  ogTitle: 'Vardar Example Site',
-  description: 'Example site of Vardar for demenstration',
-  ogDescription: 'Example site of Vardar for demenstration',
-  ogImage: 'https://vardar-example.vercel.app/ogImage.png',
-});
-</script>
+<script setup lang="ts"></script>
 
 <style>
 :root {

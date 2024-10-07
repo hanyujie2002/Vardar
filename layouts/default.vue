@@ -152,7 +152,10 @@
         <div
           class="relative flex items-center border-b border-themeColor-300/50 dark:border-themeColor-200/30"
         >
-          <Icon :name="isSearching ? 'svg-spinners:clock' : 'mdi:search'" class="m-3 flex h-10 w-10 sm:h-5 sm:w-5" />
+          <Icon
+            :name="isSearching ? 'svg-spinners:clock' : 'mdi:search'"
+            class="m-3 flex h-10 w-10 sm:h-5 sm:w-5"
+          />
           <input
             v-model="search"
             placeholder="search blog"
@@ -167,7 +170,7 @@
         </div>
         <div
           v-if="search.length"
-          class="flex flex-col flex-grow overflow-y-auto scrollbar:h-1.5 scrollbar:w-1.5 scrollbar-track:rounded scrollbar-track:bg-slate-100 scrollbar-thumb:rounded scrollbar-thumb:bg-slate-300 dark:scrollbar-track:bg-slate-500/[0.16] dark:scrollbar-thumb:bg-slate-500/50"
+          class="flex flex-grow flex-col overflow-y-auto scrollbar:h-1.5 scrollbar:w-1.5 scrollbar-track:rounded scrollbar-track:bg-slate-100 scrollbar-thumb:rounded scrollbar-thumb:bg-slate-300 dark:scrollbar-track:bg-slate-500/[0.16] dark:scrollbar-thumb:bg-slate-500/50"
         >
           <div v-if="results.length > 0">
             <div
@@ -183,7 +186,10 @@
                 <h3
                   class="result.title line-clamp-2 text-lg font-semibold text-slate-800 dark:text-slate-100"
                 >
-                  <span v-if="result.titles.length" class="after:content-['_>_']">
+                  <span
+                    v-if="result.titles.length"
+                    class="after:content-['_>_']"
+                  >
                     {{ result.titles[0] }}
                   </span>
                   <span>
@@ -198,8 +204,13 @@
               </SiteLink>
             </div>
           </div>
-          <div v-else-if="results.length === 0 && isSearchEnded" class="flex flex-grow items-center justify-center">
-            <span class="flex flex-grow justify-center text-center text-5xl">No Result</span>
+          <div
+            v-else-if="results.length === 0 && isSearchEnded"
+            class="flex flex-grow items-center justify-center"
+          >
+            <span class="flex flex-grow justify-center text-center text-5xl"
+              >No Result</span
+            >
           </div>
         </div>
         <div v-else class="flex flex-grow items-center justify-center">
