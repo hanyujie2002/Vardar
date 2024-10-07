@@ -6,7 +6,7 @@
       <li v-for="article in paginatedArticles" :key="article._path">
         <SiteLink
           :to="article._path"
-          class="block h-20 rounded px-4 py-2 font-sans font-extralight transition-all visited:block visited:h-20 visited:px-4 visited:py-2 visited:font-sans visited:text-lg visited:font-extrabold hover:backdrop-brightness-95 active:backdrop-brightness-90 sm:tracking-wide dark:text-slate-300 dark:hover:backdrop-brightness-105 dark:active:backdrop-brightness-110"
+          class="block h-20 rounded px-4 py-2 font-sans font-extralight transition-all visited:block visited:h-20 visited:px-4 visited:py-2 visited:font-sans visited:text-lg visited:font-extrabold hover:backdrop-brightness-95 active:backdrop-brightness-90 sm:tracking-wide dark:text-slate-300 dark:hover:backdrop-brightness-105 dark:active:backdrop-brightness-110 dark:hover:text-slate-200"
         >
           <p class="line-clamp-2">{{ article.title }}</p>
         </SiteLink>
