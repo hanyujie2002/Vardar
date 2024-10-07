@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.4.1
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.4.0...v2.4.1)
+
+### 🚀 Enhancements
+
+- Enhanced UI of first level title ([beb061c](https://github.com/hanyujie2002/Vardar/commit/beb061c))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.4.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.3.9...v2.4.0)
