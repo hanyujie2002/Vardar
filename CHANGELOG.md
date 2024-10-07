@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.4.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.3.9...v2.4.0)
+
+### 🚀 Enhancements
+
+- Enhanced the SEO ([b6bee6e](https://github.com/hanyujie2002/Vardar/commit/b6bee6e))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.3.9
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.3.8...v2.3.9)
