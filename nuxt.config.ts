@@ -41,6 +41,7 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     'nuxt-toc',
     '@nuxtjs/color-mode',
+    '@nuxtjs/seo',
   ],
   i18n: {
     vueI18n: './i18n.config.ts', // if you are using custom path, default
@@ -110,5 +111,10 @@ export default defineNuxtConfig({
   },
   colorMode: {
     classSuffix: '',
+  },
+  site: {
+    url: 'https://vardar-example.xyz/',
+    name: 'Vardar Example Site',
+    description: 'Example site of Vardar for demenstration',
   },
 });

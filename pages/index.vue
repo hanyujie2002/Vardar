@@ -19,7 +19,7 @@
     </div>
 
     <div class="mx-auto my-3 space-x-5 text-3xl">
-      <NuxtLink
+      <SiteLink
         to="https://github.com/hanyujie2002/Vardar"
         target="_blank"
         title="Github Profile"
@@ -29,9 +29,9 @@
           name="mdi:github-face"
           class="bg-themeColor-300 transition-all hover:bg-neutral-900 dark:bg-themeColor-200"
         />
-      </NuxtLink>
+      </SiteLink>
 
-      <NuxtLink
+      <SiteLink
         to="mailto:example@example.com"
         target="_blank"
         title="Send Email"
@@ -41,9 +41,9 @@
           name="mdi:email"
           class="bg-themeColor-300 transition-colors hover:bg-yellow-400 dark:bg-themeColor-200 dark:hover:bg-yellow-200"
         />
-      </NuxtLink>
+      </SiteLink>
 
-      <NuxtLink
+      <SiteLink
         to="https://twitter.com/Twitter"
         target="_blank"
         title="Twitter Profile"
@@ -53,7 +53,7 @@
           name="mdi:twitter"
           class="bg-themeColor-300 transition-colors hover:bg-sky-300 dark:bg-themeColor-200"
         />
-      </NuxtLink>
+      </SiteLink>
     </div>
   </div>
 </template>
