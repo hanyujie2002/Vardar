@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.5.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.4.2...v2.5.0)
+
+### 🚀 Enhancements
+
+- Updated style of checkbox ([2f60a05](https://github.com/hanyujie2002/Vardar/commit/2f60a05))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.4.2
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.4.1...v2.4.2)
