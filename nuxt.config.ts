@@ -42,7 +42,15 @@ export default defineNuxtConfig({
     'nuxt-toc',
     '@nuxtjs/color-mode',
     '@nuxtjs/seo',
+    '@nuxtjs/mdc',
   ],
+  mdc: {
+    components: {
+      map: {
+        input: 'ProseInput'
+      }
+    }
+  },
   i18n: {
     vueI18n: './i18n.config.ts', // if you are using custom path, default
     defaultLocale: 'en',
