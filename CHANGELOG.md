@@ -1,5 +1,16 @@
 # Changelog of Vardar
 
+## v2.5.1
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.5.0...v2.5.1)
+
+### 📦 Build
+
+- **deps-dev:** Bump prettier-plugin-tailwindcss from 0.6.6 to 0.6.8 ([0ad28e0](https://github.com/hanyujie2002/Vardar/commit/0ad28e0))
+- **deps-dev:** Bump postcss from 8.4.45 to 8.4.47 ([5b3577d](https://github.com/hanyujie2002/Vardar/commit/5b3577d))
+- **deps-dev:** Bump @nuxt/devtools from 1.5.1 to 1.5.2 ([9f2ffcb](https://github.com/hanyujie2002/Vardar/commit/9f2ffcb))
+- **deps-dev:** Bump eslint from 9.11.1 to 9.12.0 ([3836cad](https://github.com/hanyujie2002/Vardar/commit/3836cad))
+
 ## v2.5.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.4.2...v2.5.0)
