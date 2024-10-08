@@ -1,5 +1,13 @@
 # Changelog of Vardar
 
+## v2.5.2
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.5.1...v2.5.2)
+
+### 📦 Build
+
+- **deps:** Bump mermaid from 11.2.1 to 11.3.0 ([a209cba](https://github.com/hanyujie2002/Vardar/commit/a209cba))
+
 ## v2.5.1
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.5.0...v2.5.1)
