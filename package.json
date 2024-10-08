@@ -54,7 +54,7 @@
   "dependencies": {
     "@types/lodash-es": "^4.17.12",
     "lodash-es": "^4.17.21",
-    "mermaid": "^11.2.1",
+    "mermaid": "^11.3.0",
     "postcss-custom-properties": "^14.0.0",
     "rehype-katex": "^7.0.0",
     "remark-gfm": "^4.0.0",
