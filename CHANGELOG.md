@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.7.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.6.0...v2.7.0)
+
+### 🚀 Enhancements
+
+- Added mono style to inline code ([a98109f](https://github.com/hanyujie2002/Vardar/commit/a98109f))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.6.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.5.2...v2.6.0)
