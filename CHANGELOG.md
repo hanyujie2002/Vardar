@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.8.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.7.0...v2.8.0)
+
+### 🚀 Enhancements
+
+- Scale down font size on small screen ([ab60af0](https://github.com/hanyujie2002/Vardar/commit/ab60af0))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.7.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.6.0...v2.7.0)
