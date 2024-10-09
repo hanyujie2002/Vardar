@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.6.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.5.2...v2.6.0)
+
+### 🚀 Enhancements
+
+- Added github flavored alert block support ([565afbc](https://github.com/hanyujie2002/Vardar/commit/565afbc))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.5.2
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.5.1...v2.5.2)
