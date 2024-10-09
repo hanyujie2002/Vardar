@@ -47,9 +47,9 @@ export default defineNuxtConfig({
   mdc: {
     components: {
       map: {
-        input: 'ProseInput'
-      }
-    }
+        input: 'ProseInput',
+      },
+    },
   },
   i18n: {
     vueI18n: './i18n.config.ts', // if you are using custom path, default
@@ -109,7 +109,12 @@ export default defineNuxtConfig({
       preload: ['python', 'c', 'java', 'go'],
     },
     markdown: {
-      remarkPlugins: ['remark-math', 'remark-gfm'],
+      mdc: false,
+      remarkPlugins: {
+        'remark-math': {},
+        'remark-gfm': {},
+        'remark-github-beta-blockquote-admonitions': {},
+      },
       rehypePlugins: {
         'rehype-katex': {
           output: 'html', // the default value is 'htmlAndMathml'

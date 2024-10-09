@@ -1,0 +1,63 @@
+{
+  "name": "remark-github-beta-blockquote-admonitions",
+  "version": "3.1.1",
+  "description": "remark plugin to add support for GitHub beta blockquote-based admonitions",
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "test": "vitest",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [
+    "remark-plugin",
+    "markdown",
+    "admonitions",
+    "remark",
+    "github"
+  ],
+  "author": "myl7 <myl@myl.moe> (https://myl.moe)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myl7/remark-github-beta-blockquote-admonitions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/myl7/remark-github-beta-blockquote-admonitions/issues"
+  },
+  "homepage": "https://github.com/myl7/remark-github-beta-blockquote-admonitions#readme",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "dependencies": {
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/mdast": "^4.0.3",
+    "@types/node": "^20.10.6",
+    "@types/unist": "^3.0.2",
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0",
+    "css-select": "^5.1.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "htmlparser2": "^9.0.0",
+    "prettier": "^3.1.1",
+    "rehype-stringify": "^10.0.0",
+    "remark": "^15.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.0.0",
+    "typescript": "^5.3.3",
+    "unified": "^11.0.4",
+    "vite": "^5.0.10",
+    "vitest": "^1.1.1"
+  }
+}
