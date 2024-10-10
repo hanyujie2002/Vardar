@@ -172,7 +172,7 @@
           v-if="search.length"
           class="flex flex-grow flex-col overflow-y-auto scrollbar:h-1.5 scrollbar:w-1.5 scrollbar-track:rounded scrollbar-track:bg-slate-100 scrollbar-thumb:rounded scrollbar-thumb:bg-slate-300 dark:scrollbar-track:bg-slate-500/[0.16] dark:scrollbar-thumb:bg-slate-500/50"
         >
-          <div v-if="results.length > 0">
+          <div v-if="results?.length > 0">
             <div
               v-for="result in results"
               :key="result.id"
@@ -205,7 +205,7 @@
             </div>
           </div>
           <div
-            v-else-if="results.length === 0 && isSearchEnded"
+            v-else-if="results?.length === 0 && isSearchEnded"
             class="flex flex-grow items-center justify-center"
           >
             <span class="flex flex-grow justify-center text-center text-5xl"
