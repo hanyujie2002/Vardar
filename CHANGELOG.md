@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.10.8
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.7...v2.10.8)
+
+### 💅 Refactors
+
+- Simplified the code line number logic ([6649219](https://github.com/hanyujie2002/Vardar/commit/6649219))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.10.7
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.6...v2.10.7)
