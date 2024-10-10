@@ -1,5 +1,5 @@
 <template>
-  <th class="">
+  <th class="px-2">
     <slot />
   </th>
 </template>
