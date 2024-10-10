@@ -35,7 +35,7 @@
             @click="hideFixedMenu"
           >
             RSS
-        </a>
+          </a>
         </li>
       </ul>
     </nav>
