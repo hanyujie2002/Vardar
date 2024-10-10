@@ -6,27 +6,27 @@
     >
       <ul class="mx-auto mt-5 flex w-full flex-col">
         <li class="">
-          <SiteLink
+          <NuxtLink
             class="flex px-4 py-2 text-3xl font-bold transition-colors"
             :class="{ active: isAboutPage }"
             to="/about"
             aria-label="About Page"
             @click="hideFixedMenu"
-            >{{ $t('about') }}</SiteLink
+            >{{ $t('about') }}</NuxtLink
           >
         </li>
         <li class="">
-          <SiteLink
+          <NuxtLink
             class="flex px-4 py-2 text-3xl font-bold transition-colors"
             :class="{ active: isBlogPage }"
             to="/blog/page/1"
             aria-lable="Blog List Page"
             @click="hideFixedMenu"
-            >{{ $t('blog') }}</SiteLink
+            >{{ $t('blog') }}</NuxtLink
           >
         </li>
         <li>
-          <SiteLink
+          <a
             class="flex px-4 py-2 text-3xl font-bold transition-colors"
             target="_blank"
             to="/feed.xml"
@@ -35,7 +35,7 @@
             @click="hideFixedMenu"
           >
             RSS
-          </SiteLink>
+        </a>
         </li>
       </ul>
     </nav>
@@ -47,31 +47,31 @@
       >
         <ul class="mx-auto my-auto flex w-full max-w-screen-xl gap-4">
           <li class="list-item">
-            <SiteLink
+            <NuxtLink
               class="flex flex-auto rounded px-4 py-2 text-2xl font-extrabold transition-colors dark:text-slate-100"
               to="/"
               title="Home"
               aria-label="Home Page"
               @click="hideFixedMenu"
-              >Alex Johnson</SiteLink
+              >Alex Johnson</NuxtLink
             >
           </li>
           <li class="my-auto hidden sm:list-item">
-            <SiteLink
+            <NuxtLink
               class="my-auto flex flex-auto rounded px-4 py-2 text-lg font-bold transition-colors hover:text-yellow-500 dark:hover:text-yellow-100"
               :class="{ active: isAboutPage }"
               to="/about"
               aria-label="About"
-              >{{ $t('about') }}</SiteLink
+              >{{ $t('about') }}</NuxtLink
             >
           </li>
           <li class="my-auto hidden sm:list-item">
-            <SiteLink
+            <NuxtLink
               class="flex flex-auto rounded px-4 py-2 text-lg font-bold transition-colors hover:text-yellow-500 dark:hover:text-yellow-100"
               :class="{ active: isBlogPage }"
               to="/blog/page/1"
               aria-label="Blog Page"
-              >{{ $t('blog') }}</SiteLink
+              >{{ $t('blog') }}</NuxtLink
             >
           </li>
           <li class="my-auto ml-auto list-item">
@@ -90,7 +90,7 @@
             <ColorModeSwitch />
           </li>
           <li class="my-auto hidden sm:list-item">
-            <SiteLink
+            <NuxtLink
               target="_blank"
               to="/feed.xml"
               title="RSS"
@@ -100,7 +100,7 @@
                 name="mdi:rss"
                 class="size:5 transition-colors hover:text-yellow-500 active:text-yellow-400 sm:size-12 dark:hover:text-yellow-100 dark:active:text-yellow-200"
               />
-            </SiteLink>
+            </NuxtLink>
           </li>
           <li class="my-auto mr-2 sm:hidden">
             <button aria-label="Toggle Menu" @click="toggleFixedMenuState">
@@ -129,11 +129,11 @@
           <span class="ml-auto text-slate-700 dark:text-slate-200"
             >Powered by</span
           >
-          <SiteLink
+          <NuxtLink
             class="ml-1 text-yellow-400 hover:underline dark:text-yellow-200"
             to="https://github.com/hanyujie2002/Vardar"
             target="_blank"
-            >Vardar blog template</SiteLink
+            >Vardar blog template</NuxtLink
           >
         </div>
       </footer>
@@ -178,7 +178,7 @@
               :key="result.id"
               class="border-b border-themeColor-200 dark:border-themeColor-200/30"
             >
-              <SiteLink
+              <NuxtLink
                 class="flex flex-col p-4 hover:backdrop-brightness-95 active:backdrop-brightness-90 dark:hover:backdrop-brightness-105 dark:active:backdrop-brightness-110"
                 :to="result.id"
                 @click="hideSearchModal"
@@ -201,7 +201,7 @@
                 >
                   {{ result.content }}
                 </p>
-              </SiteLink>
+              </NuxtLink>
             </div>
           </div>
           <div

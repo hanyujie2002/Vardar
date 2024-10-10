@@ -1,11 +1,11 @@
 <template>
-  <SiteLink
+  <NuxtLink
     :href="href"
     :target="target"
     class="scroll-mt-[calc(16px+var(--header-height))] text-yellow-500 hover:underline dark:text-yellow-200"
   >
     <slot />
-  </SiteLink>
+  </NuxtLink>
 </template>
 
 <script setup lang="ts">
