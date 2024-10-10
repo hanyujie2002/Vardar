@@ -36,7 +36,7 @@
     <pre
       :class="[
         $props.class,
-        'overflow-x-auto bg-white px-1 py-3 text-black scrollbar:h-1.5 scrollbar:w-1.5 scrollbar-track:rounded scrollbar-track:bg-slate-100 scrollbar-thumb:rounded scrollbar-thumb:bg-slate-300 sm:px-4 dark:bg-themeColor-950 dark:text-slate-200 dark:scrollbar-track:bg-slate-500/[0.16] dark:scrollbar-thumb:bg-slate-500/50',
+        'flex overflow-x-auto bg-white py-3 text-black scrollbar:h-1.5 scrollbar:w-1.5 scrollbar-track:rounded scrollbar-track:bg-slate-100 scrollbar-thumb:rounded scrollbar-thumb:bg-slate-300 dark:bg-themeColor-950 dark:text-slate-200 dark:scrollbar-track:bg-slate-500/[0.16] dark:scrollbar-thumb:bg-slate-500/50',
         filename || language ? 'rounded-b' : 'rounded',
       ]"
       role="region"
@@ -111,3 +111,17 @@ function getIconName(language: string | null): string {
   return langMap[language.toLowerCase()] || '';
 }
 </script>
+
+<style>
+pre code {
+  @apply flex flex-col;
+}
+
+pre code span.line {
+  @apply px-1 sm:px-4;
+}
+
+pre code span.line.highlight {
+  @apply flex bg-yellow-200 relative dark:bg-green-800;
+}
+</style>
