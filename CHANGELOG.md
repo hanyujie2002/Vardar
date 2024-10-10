@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.11.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.13...v2.11.0)
+
+### 🚀 Enhancements
+
+- Enhanced style of footnotes ([67b537e](https://github.com/hanyujie2002/Vardar/commit/67b537e))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.10.13
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.12...v2.10.13)
