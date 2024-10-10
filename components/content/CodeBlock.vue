@@ -113,15 +113,11 @@ function getIconName(language: string | null): string {
 </script>
 
 <style>
-pre code {
-  @apply flex flex-col;
-}
-
 pre code span.line {
-  @apply px-1 sm:px-4;
+  @apply block px-1 sm:px-4;
 }
 
 pre code span.line.highlight {
-  @apply flex bg-yellow-200 relative dark:bg-green-800;
+  @apply bg-yellow-200 dark:bg-green-800;
 }
 </style>
