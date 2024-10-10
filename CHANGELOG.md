@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.10.5
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.4...v2.10.5)
+
+### 🚀 Enhancements
+
+- Make line numbers sticky in code box ([b9c74a4](https://github.com/hanyujie2002/Vardar/commit/b9c74a4))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.10.4
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.3...v2.10.4)
