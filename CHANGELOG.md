@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.10.7
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.6...v2.10.7)
+
+### 🩹 Fixes
+
+- Code line number rendering problem ([990e487](https://github.com/hanyujie2002/Vardar/commit/990e487))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.10.6
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.5...v2.10.6)
