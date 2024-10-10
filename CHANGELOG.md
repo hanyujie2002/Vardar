@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.10.4
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.3...v2.10.4)
+
+### 🚀 Enhancements
+
+- Enhanced style of table ([b789edc](https://github.com/hanyujie2002/Vardar/commit/b789edc))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.10.3
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.2...v2.10.3)
