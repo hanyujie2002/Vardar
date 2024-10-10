@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.10.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.9.3...v2.10.0)
+
+### 🚀 Enhancements
+
+- Implemented line numbers in code block ([120f543](https://github.com/hanyujie2002/Vardar/commit/120f543))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.9.3
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.9.2...v2.9.3)
