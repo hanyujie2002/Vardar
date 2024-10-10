@@ -118,6 +118,6 @@ pre code span.line {
 }
 
 pre code span.line.highlight {
-  @apply bg-yellow-200 dark:bg-green-800;
+  @apply bg-yellow-100 dark:bg-green-800;
 }
 </style>
