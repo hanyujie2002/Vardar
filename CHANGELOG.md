@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.9.3
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.9.2...v2.9.3)
+
+### 🚀 Enhancements
+
+- Enhanced style of code lines highlighting ([1fa5357](https://github.com/hanyujie2002/Vardar/commit/1fa5357))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.9.2
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.9.1...v2.9.2)
