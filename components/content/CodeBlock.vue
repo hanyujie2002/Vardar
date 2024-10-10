@@ -113,8 +113,13 @@ function getIconName(language: string | null): string {
 </script>
 
 <style>
+pre code {
+  counter-reset: line;
+}
+
 pre code span.line {
-  @apply block px-1 sm:px-4;
+  counter-increment: line;
+  @apply block px-1 before:inline-block before:w-8 before:text-slate-400 before:content-[counter(line)] sm:px-4;
 }
 
 pre code span.line.highlight {
