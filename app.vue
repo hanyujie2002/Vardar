@@ -22,35 +22,35 @@
 }
 
 .admonition-note {
-  @apply rounded-r border border-l-4 border-blue-500 bg-blue-50 p-2 sm:p-4 dark:border-blue-700 dark:bg-blue-900;
+  @apply rounded-r border border-l-4 border-blue-500 bg-white p-2 sm:p-4 dark:border-blue-700 dark:bg-themeColor-900;
 }
 .admonition-note-title {
   @apply font-bold;
 }
 
 .admonition-warning {
-  @apply rounded-r border border-l-4 border-yellow-500 bg-yellow-50 p-2 sm:p-4 dark:border-yellow-700 dark:bg-yellow-900;
+  @apply rounded-r border border-l-4 border-amber-500 bg-white p-2 sm:p-4 dark:border-amber-700 dark:bg-themeColor-900;
 }
 .admonition-warning-title {
   @apply font-bold;
 }
 
 .admonition-important {
-  @apply rounded-r border border-l-4 border-red-500 bg-red-50 p-2 sm:p-4 dark:border-red-700 dark:bg-red-900;
+  @apply rounded-r border border-l-4 border-red-500 bg-white p-2 sm:p-4 dark:border-red-700 dark:bg-themeColor-900;
 }
 .admonition-important-title {
   @apply font-bold;
 }
 
 .admonition-tip {
-  @apply rounded-r border border-l-4 border-green-500 bg-green-50 p-2 sm:p-4 dark:border-green-700 dark:bg-green-900;
+  @apply rounded-r border border-l-4 border-green-500 bg-white p-2 sm:p-4 dark:border-green-700 dark:bg-themeColor-900;
 }
 .admonition-tip-title {
   @apply font-bold;
 }
 
 .admonition-caution {
-  @apply rounded-r border border-l-4 border-orange-500 bg-orange-50 p-2 sm:p-4 dark:border-orange-700 dark:bg-orange-900;
+  @apply rounded-r border border-l-4 border-orange-500 bg-white p-2 sm:p-4 dark:border-orange-700 dark:bg-themeColor-900;
 }
 .admonition-caution-title {
   @apply font-bold;
