@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.10.6
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.5...v2.10.6)
+
+### 🚀 Enhancements
+
+- Implemented right margin for sticky code line numbers ([c91d709](https://github.com/hanyujie2002/Vardar/commit/c91d709))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.10.5
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.4...v2.10.5)
