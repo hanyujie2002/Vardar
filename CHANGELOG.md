@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.10.3
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.2...v2.10.3)
+
+### 🚀 Enhancements
+
+- Implement margin between table head (th) ([1d4a5b2](https://github.com/hanyujie2002/Vardar/commit/1d4a5b2))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.10.2
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.1...v2.10.2)
