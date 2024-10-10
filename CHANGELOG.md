@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.10.13
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.12...v2.10.13)
+
+### 🩹 Fixes
+
+- Hydration completed but contains mismatches error ([00be40d](https://github.com/hanyujie2002/Vardar/commit/00be40d))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.10.12
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.11...v2.10.12)
