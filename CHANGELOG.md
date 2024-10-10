@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.10.2
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.1...v2.10.2)
+
+### 🚀 Enhancements
+
+- Set text align right for code block line number ([69fdc2b](https://github.com/hanyujie2002/Vardar/commit/69fdc2b))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.10.1
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.0...v2.10.1)
