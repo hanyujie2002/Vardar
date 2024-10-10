@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.10.1
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.0...v2.10.1)
+
+### 🩹 Fixes
+
+- Fixed rss link ([8abed20](https://github.com/hanyujie2002/Vardar/commit/8abed20))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.10.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.9.3...v2.10.0)
