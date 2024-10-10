@@ -55,4 +55,8 @@
 .admonition-caution-title {
   @apply font-bold;
 }
+
+[id^="user-content-fn-"] {
+  @apply my-3;
+}
 </style>

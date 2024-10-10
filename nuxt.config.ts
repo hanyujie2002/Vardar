@@ -114,6 +114,9 @@ export default defineNuxtConfig({
         'remark-math': {},
         'remark-gfm': {},
         'remark-github-beta-blockquote-admonitions': {},
+        'remark-rehype': {
+          footnoteBackContent: '^'
+        }
       },
       rehypePlugins: {
         'rehype-katex': {
