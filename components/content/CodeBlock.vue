@@ -119,7 +119,7 @@ pre code {
 
 pre code span.line {
   counter-increment: line;
-  @apply block before:sticky before:left-0 before:inline-block before:w-8 before:bg-white before:text-right before:text-slate-400 before:content-[counter(line)_'\00A0'] sm:before:w-10 dark:before:bg-themeColor-950;
+  @apply block before:sticky before:left-0 before:inline-block before:w-10 before:bg-white before:text-right before:text-slate-400 before:content-[counter(line)_'\00A0'] dark:before:bg-themeColor-950;
 }
 
 pre code span.line.highlight {
