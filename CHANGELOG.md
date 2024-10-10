@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.10.12
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.11...v2.10.12)
+
+### 🩹 Fixes
+
+- Fix search box problem ([6f0a58d](https://github.com/hanyujie2002/Vardar/commit/6f0a58d))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.10.11
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.10.10...v2.10.11)
