@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.12.1
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.12.0...v2.12.1)
+
+### 🚀 Enhancements
+
+- Added icons for github flavored alart blocks (part 2) ([1eba1ec](https://github.com/hanyujie2002/Vardar/commit/1eba1ec))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.12.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.11.0...v2.12.0)
