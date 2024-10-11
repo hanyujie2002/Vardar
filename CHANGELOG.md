@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.13.3
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.13.2...v2.13.3)
+
+### 🩹 Fixes
+
+- Fixed text shown behind table header ([4662381](https://github.com/hanyujie2002/Vardar/commit/4662381))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.13.2
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.13.1...v2.13.2)
