@@ -14,15 +14,20 @@
 <script setup lang="ts"></script>
 
 <style>
-:root {
+body {
   --header-height: 4rem;
-  @apply scroll-smooth bg-gradient-to-r from-white to-themeColor-50 text-sm transition-all delay-1000 selection:bg-themeColor-100 selection:text-themeColor-400 scrollbar:w-2.5 scrollbar:bg-transparent scrollbar-track:bg-slate-200 scrollbar-thumb:rounded scrollbar-thumb:bg-slate-300 sm:text-base dark:from-themeColor-950 dark:to-themeColor-900 dark:selection:bg-themeColor-800/50 dark:selection:text-inherit dark:scrollbar-track:bg-themeColor-950 dark:scrollbar-thumb:bg-slate-500/50;
+  @apply scroll-smooth bg-gradient-to-r from-white to-themeColor-50 text-sm transition-all selection:bg-themeColor-100 selection:text-themeColor-400 scrollbar:w-2.5 scrollbar:bg-transparent scrollbar-track:bg-slate-200 scrollbar-thumb:rounded scrollbar-thumb:bg-slate-300 sm:text-base dark:selection:bg-themeColor-800/50 dark:selection:text-inherit dark:scrollbar-track:bg-themeColor-950 dark:scrollbar-thumb:bg-slate-500/50;
   scroll-behavior: smooth;
   scroll-margin-top: 1000px;
 }
 
+body::before {
+  content: '';
+  @apply fixed left-0 top-0 -z-10 h-[100dvh] w-screen bg-gradient-to-r from-themeColor-950 to-themeColor-900 opacity-0 transition-opacity dark:opacity-100;
+}
+
 .admonition-note {
-  @apply rounded-r border border-l-4 border-blue-200 bg-white p-2 shadow-lg shadow-blue-100 sm:p-4 dark:border-blue-600 dark:bg-blue-800 dark:shadow-blue-900;
+  @apply rounded-r border border-l-4 border-blue-200 bg-white p-2 shadow-lg shadow-blue-100 transition-colors sm:p-4 dark:border-blue-600 dark:bg-blue-800 dark:shadow-blue-900;
 }
 .admonition-note-title {
   @apply font-bold;
@@ -33,7 +38,7 @@
 }
 
 .admonition-warning {
-  @apply rounded-r border border-l-4 border-amber-200 bg-white p-2 shadow-lg shadow-amber-100 sm:p-4 dark:border-amber-600 dark:bg-amber-800 dark:shadow-amber-900;
+  @apply rounded-r border border-l-4 border-amber-200 bg-white p-2 shadow-lg shadow-amber-100 transition-colors sm:p-4 dark:border-amber-600 dark:bg-amber-800 dark:shadow-amber-900;
 }
 .admonition-warning-title {
   @apply font-bold;
@@ -48,7 +53,7 @@
 }
 
 .admonition-important {
-  @apply rounded-r border border-l-4 border-red-200 bg-white p-2 shadow-lg shadow-red-100 sm:p-4 dark:border-red-600 dark:bg-red-800 dark:shadow-red-900;
+  @apply rounded-r border border-l-4 border-red-200 bg-white p-2 shadow-lg shadow-red-100 transition-colors sm:p-4 dark:border-red-600 dark:bg-red-800 dark:shadow-red-900;
 }
 .admonition-important-title {
   @apply font-bold;
@@ -59,7 +64,7 @@
 }
 
 .admonition-tip {
-  @apply rounded-r border border-l-4 border-green-200 bg-white p-2 shadow-lg shadow-green-100 sm:p-4 dark:border-green-600 dark:bg-green-800 dark:shadow-green-900;
+  @apply rounded-r border border-l-4 border-green-200 bg-white p-2 shadow-lg shadow-green-100 transition-colors sm:p-4 dark:border-green-600 dark:bg-green-800 dark:shadow-green-900;
 }
 .admonition-tip-title {
   @apply font-bold;
@@ -73,9 +78,8 @@
   @apply mr-1;
 }
 
-
 .admonition-caution {
-  @apply rounded-r border border-l-4 border-orange-200 bg-white p-2 shadow-lg shadow-orange-100 sm:p-4 dark:border-orange-600 dark:bg-orange-800 dark:shadow-orange-900;
+  @apply rounded-r border border-l-4 border-orange-200 bg-white p-2 shadow-lg shadow-orange-100 transition-colors sm:p-4 dark:border-orange-600 dark:bg-orange-800 dark:shadow-orange-900;
 }
 .admonition-caution-title {
   @apply font-bold;
@@ -87,7 +91,7 @@
   content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='0.9em' height='0.9em' viewBox='0 0 24 24'%3E%3Cg fill='none' stroke='%23fed7aa'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M13.253 5.98L12 13.5l-1.253-7.52a1.27 1.27 0 1 1 2.506 0'/%3E%3Ccircle cx='12' cy='19' r='1' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E");
 }
 
-[id^="user-content-fn-"] {
+[id^='user-content-fn-'] {
   @apply my-3;
 }
 </style>
