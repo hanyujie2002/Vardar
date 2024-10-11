@@ -1,10 +1,10 @@
 <template>
   <div
-    class="my-4 flex flex-col sm:shadow-lg sm:shadow-themeColor-100 sm:dark:shadow-themeColor-900"
+    class="my-4 flex flex-col transition-shadow duration-1000 sm:shadow-lg sm:shadow-themeColor-100 sm:dark:shadow-themeColor-900"
   >
     <div
       v-if="language || filename"
-      class="flex h-12 items-center gap-1.5 rounded-t border-b border-themeColor-100 bg-white transition-colors dark:border-themeColor-900 dark:bg-themeColor-950"
+      class="flex h-12 items-center gap-1.5 rounded-t border-b border-themeColor-100 bg-white transition-all duration-1000 dark:border-themeColor-900 dark:bg-themeColor-950"
       role="group"
       aria-label="Code block header"
     >
@@ -36,7 +36,7 @@
     <pre
       :class="[
         $props.class,
-        'flex overflow-x-auto bg-white py-3 text-black transition-colors scrollbar:h-1.5 scrollbar:w-1.5 scrollbar-track:rounded scrollbar-track:bg-slate-100 scrollbar-thumb:rounded scrollbar-thumb:bg-slate-300 dark:bg-themeColor-950 dark:text-slate-200 dark:scrollbar-track:bg-slate-500/[0.16] dark:scrollbar-thumb:bg-slate-500/50',
+        'flex overflow-x-auto bg-white py-3 text-black transition-all duration-1000 scrollbar:h-1.5 scrollbar:w-1.5 scrollbar-track:rounded scrollbar-track:bg-slate-100 scrollbar-thumb:rounded scrollbar-thumb:bg-slate-300 dark:bg-themeColor-950 dark:text-slate-200 dark:scrollbar-track:bg-slate-500/[0.16] dark:scrollbar-thumb:bg-slate-500/50',
         filename || language ? 'rounded-b' : 'rounded',
       ]"
       role="region"
@@ -114,10 +114,10 @@ function getIconName(language: string | null): string {
 
 <style>
 pre code span.line {
-  @apply block before:sticky before:left-0 before:inline-block before:w-10 before:bg-white before:text-right before:text-slate-400 before:transition-colors before:content-[attr(line)_'\00A0'] dark:before:bg-themeColor-950;
+  @apply block transition-all duration-1000 before:sticky before:left-0 before:inline-block before:w-10 before:bg-white before:text-right before:text-slate-400 before:transition-all before:duration-1000 before:content-[attr(line)_'\00A0'] dark:before:bg-themeColor-950;
 }
 
 pre code span.line.highlight {
-  @apply bg-yellow-100 transition-colors before:bg-yellow-100 dark:bg-green-800 dark:before:bg-green-800;
+  @apply bg-yellow-100 transition-all duration-1000 before:bg-yellow-100 dark:bg-green-800 dark:before:bg-green-800;
 }
 </style>

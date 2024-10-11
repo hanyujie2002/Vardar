@@ -23,11 +23,11 @@ body {
 
 body::before {
   content: '';
-  @apply fixed left-0 top-0 -z-10 h-[100dvh] w-screen bg-gradient-to-r from-themeColor-950 to-themeColor-900 opacity-0 transition-opacity dark:opacity-100;
+  @apply fixed left-0 top-0 -z-10 h-[100dvh] w-screen bg-gradient-to-r from-themeColor-950 to-themeColor-900 opacity-0 transition-opacity duration-1000 dark:opacity-100;
 }
 
 .admonition-note {
-  @apply rounded-r border border-l-4 border-blue-200 bg-white p-2 shadow-lg shadow-blue-100 transition-colors sm:p-4 dark:border-blue-600 dark:bg-blue-800 dark:shadow-blue-900;
+  @apply rounded-r border border-l-4 border-blue-200 bg-white p-2 shadow-lg shadow-blue-100 transition-all duration-1000 sm:p-4 dark:border-blue-600 dark:bg-blue-800 dark:shadow-blue-900;
 }
 .admonition-note-title {
   @apply font-bold;
@@ -38,7 +38,7 @@ body::before {
 }
 
 .admonition-warning {
-  @apply rounded-r border border-l-4 border-amber-200 bg-white p-2 shadow-lg shadow-amber-100 transition-colors sm:p-4 dark:border-amber-600 dark:bg-amber-800 dark:shadow-amber-900;
+  @apply rounded-r border border-l-4 border-amber-200 bg-white p-2 shadow-lg shadow-amber-100 transition-all duration-1000 sm:p-4 dark:border-amber-600 dark:bg-amber-800 dark:shadow-amber-900;
 }
 .admonition-warning-title {
   @apply font-bold;
@@ -53,7 +53,7 @@ body::before {
 }
 
 .admonition-important {
-  @apply rounded-r border border-l-4 border-red-200 bg-white p-2 shadow-lg shadow-red-100 transition-colors sm:p-4 dark:border-red-600 dark:bg-red-800 dark:shadow-red-900;
+  @apply rounded-r border border-l-4 border-red-200 bg-white p-2 shadow-lg shadow-red-100 transition-all duration-1000 sm:p-4 dark:border-red-600 dark:bg-red-800 dark:shadow-red-900;
 }
 .admonition-important-title {
   @apply font-bold;
@@ -64,7 +64,7 @@ body::before {
 }
 
 .admonition-tip {
-  @apply rounded-r border border-l-4 border-green-200 bg-white p-2 shadow-lg shadow-green-100 transition-colors sm:p-4 dark:border-green-600 dark:bg-green-800 dark:shadow-green-900;
+  @apply rounded-r border border-l-4 border-green-200 bg-white p-2 shadow-lg shadow-green-100 transition-all duration-1000 sm:p-4 dark:border-green-600 dark:bg-green-800 dark:shadow-green-900;
 }
 .admonition-tip-title {
   @apply font-bold;
@@ -79,7 +79,7 @@ body::before {
 }
 
 .admonition-caution {
-  @apply rounded-r border border-l-4 border-orange-200 bg-white p-2 shadow-lg shadow-orange-100 transition-colors sm:p-4 dark:border-orange-600 dark:bg-orange-800 dark:shadow-orange-900;
+  @apply rounded-r border border-l-4 border-orange-200 bg-white p-2 shadow-lg shadow-orange-100 transition-all duration-1000 sm:p-4 dark:border-orange-600 dark:bg-orange-800 dark:shadow-orange-900;
 }
 .admonition-caution-title {
   @apply font-bold;
