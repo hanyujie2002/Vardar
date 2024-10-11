@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.13.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.12.2...v2.13.0)
+
+### 🚀 Enhancements
+
+- Implemented global color transiton ([c368047](https://github.com/hanyujie2002/Vardar/commit/c368047))
+
+### ❤️ Contributors
+
+- Hanyujie2002
+
 ## v2.12.2
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.12.1...v2.12.2)
