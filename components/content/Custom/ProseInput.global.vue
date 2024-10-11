@@ -21,7 +21,7 @@ const props = defineProps({
 
 <style scoped>
 input[type='Checkbox'] {
-  @apply relative mt-auto h-3.5 w-3.5 appearance-none rounded border border-slate-200 bg-white transition-colors dark:border-slate-900 dark:bg-slate-700;
+  @apply relative mt-auto h-3.5 w-3.5 appearance-none rounded border border-slate-200 bg-white transition-colors duration-1000 dark:border-slate-900 dark:bg-slate-700;
 }
 
 input[type='checkbox']:checked::before {
