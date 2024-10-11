@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.12.2
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.12.1...v2.12.2)
+
+### 🩹 Fixes
+
+- Fixed alighment of an example table ([3de0b9d](https://github.com/hanyujie2002/Vardar/commit/3de0b9d))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.12.1
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.12.0...v2.12.1)
