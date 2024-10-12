@@ -16,7 +16,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'sans': ["ui-sans-serif", "system-ui", "sans-serif", "Apple Color Emoji", "Twemoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"],
-      'serif': ["ui-serif", "Georgia", "Cambria", "Times New Roman", "Times", "serif"],
+      'serif': ["ui-serif", "Georgia", "Cambria", "Times New Roman", "Twemoji", "Times", "serif"],
       'mono': ["ui-monospace", "SFMono-Regular", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", "monospace"]
     },
     extend: {
