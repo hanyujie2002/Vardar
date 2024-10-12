@@ -80,15 +80,15 @@ const onPageChange = async (page: number) => {
 
 <style>
 .pagination-container {
-  @apply flex space-x-1;
+  @apply flex;
 }
 
 .paginate-buttons {
-  @apply h-9 w-9 cursor-pointer rounded bg-themeColor-50 font-extralight text-black transition-colors duration-1000 hover:bg-themeColor-100 active:bg-themeColor-200 sm:h-12 sm:w-12 dark:bg-inherit dark:text-white dark:backdrop-brightness-105 dark:hover:bg-inherit dark:hover:backdrop-brightness-110 dark:active:bg-inherit dark:active:backdrop-brightness-125;
+  @apply h-9 w-9 cursor-pointer rounded text-black dark:text-white backdrop-brightness-95 transition-all hover:backdrop-brightness-90 active:backdrop-brightness-75 sm:h-12 sm:w-12;
 }
 
 .active-page {
-  @apply bg-themeColor-200 transition-colors duration-1000 hover:bg-themeColor-200 dark:bg-inherit dark:backdrop-brightness-125 dark:hover:bg-inherit dark:hover:backdrop-brightness-125;
+  @apply backdrop-brightness-75 hover:backdrop-brightness-75;
 }
 
 .back-button,
