@@ -17,19 +17,8 @@ module.exports = {
     extend: {
       animation: {
         spinSlow: 'spin 10s linear infinite',
-        popup: 'popup 0.1s ease-out',
-        fadeOut: 'fadeOut 0.1s ease-in',
       },
-      keyframes: {
-        popup: {
-          '0%': { transform: 'scale(0.5)', opacity: '0.5' },
-          '100%': { transform: 'scale(1)', opacity: '1' },
-        },
-        fadeOut: {
-          '0%': { transform: 'scale(1)', opacity: '1' },
-          '100%': { transform: 'scale(0)', opacity: '0' },
-        },
-      },
+      keyframes: {},
       colors: {
         themeColor: colors.rose,
       },
@@ -42,5 +31,6 @@ module.exports = {
       addVariant('scrollbar-thumb', '&::-webkit-scrollbar-thumb');
       addVariant('scrollbar-corner', '&::-webkit-scrollbar-corner');
     }),
+    require('tailwindcss-animate'),
   ],
 };

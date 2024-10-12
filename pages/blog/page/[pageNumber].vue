@@ -84,7 +84,7 @@ const onPageChange = async (page: number) => {
 }
 
 .paginate-buttons {
-  @apply h-9 w-9 cursor-pointer rounded text-black dark:text-white backdrop-brightness-95 transition-all hover:backdrop-brightness-90 active:backdrop-brightness-75 sm:h-12 sm:w-12;
+  @apply h-9 w-9 cursor-pointer rounded text-black backdrop-brightness-95 transition-all hover:backdrop-brightness-90 active:backdrop-brightness-75 sm:h-12 sm:w-12 dark:text-white;
 }
 
 .active-page {

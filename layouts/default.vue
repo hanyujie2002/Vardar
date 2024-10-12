@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav
-      class="fixed top-[--header-height] z-50 h-[calc(100vh-var(--header-height))] w-screen text-slate-600 backdrop-blur-2xl dark:text-themeColor-200"
+      class="fixed top-[--header-height] z-50 h-[calc(100vh-var(--header-height))] w-screen text-slate-600 backdrop-blur-2xl animate-in slide-in-from-right dark:text-themeColor-200"
       :class="{ hidden: isFixedNavHidden }"
     >
       <ul class="mx-auto mt-5 flex w-full flex-col">
@@ -142,7 +142,7 @@
     <!-- 搜索框 -->
     <dialog
       ref="dialogRef"
-      class="custom-max-width h-dvh max-h-none w-screen max-w-none rounded bg-white shadow-lg shadow-themeColor-100 backdrop:backdrop-blur-sm sm:h-[28rem] sm:w-full sm:bg-white dark:bg-themeColor-950 dark:shadow-themeColor-900 dark:sm:bg-themeColor-950"
+      class="custom-max-width h-dvh max-h-none w-screen max-w-none rounded bg-white shadow-lg shadow-themeColor-100 animate-in slide-in-from-right backdrop:backdrop-blur-sm sm:h-[28rem] sm:w-full sm:bg-white sm:zoom-in sm:slide-in-from-right-0 dark:bg-themeColor-950 dark:shadow-themeColor-900 dark:sm:bg-themeColor-950"
       @click="handleBackdropClicked"
       @keydown="handleEscKeyDown"
     >
@@ -290,21 +290,13 @@ const showSearchModal = async () => {
   isFixedNavHidden.value = true;
   burgerMenuIconName.value = 'mdi:menu';
 
-  await setTimeout(() => {
-    dialogRef.value?.showModal();
-  }, 90);
-  dialogRef.value?.classList.add('sm:animate-popup');
-  dialogRef.value?.classList.remove('sm:animate-fadeOut');
+  dialogRef.value?.showModal();
 };
 const hideSearchModal = async () => {
   documentElement.value.classList.remove('overflow-hidden');
   search.value = '';
 
-  await setTimeout(() => {
-    dialogRef.value?.close();
-  }, 90);
-  dialogRef.value?.classList.add('sm:animate-fadeOut');
-  dialogRef.value?.classList.remove('sm:animate-popup');
+  dialogRef.value?.close();
 };
 
 const handleBackdropClicked = (event: MouseEvent) => {
