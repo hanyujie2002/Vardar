@@ -142,7 +142,7 @@
     <!-- 搜索框 -->
     <dialog
       ref="dialogRef"
-      class="custom-max-width h-dvh max-h-none w-screen max-w-none rounded bg-white shadow-lg shadow-themeColor-100 animate-in slide-in-from-right backdrop:backdrop-blur-sm sm:h-[28rem] sm:w-full sm:bg-white sm:zoom-in sm:slide-in-from-right-0 dark:bg-themeColor-950 dark:shadow-themeColor-900 dark:sm:bg-themeColor-950"
+      class="custom-max-width h-dvh max-h-none w-screen max-w-none bg-white shadow-lg shadow-themeColor-100 animate-in slide-in-from-right backdrop:backdrop-blur-sm sm:h-[28rem] sm:w-full sm:bg-white sm:zoom-in sm:slide-in-from-right-0 dark:bg-themeColor-950 dark:shadow-themeColor-900 dark:sm:bg-themeColor-950"
       @click="handleBackdropClicked"
       @keydown="handleEscKeyDown"
     >
