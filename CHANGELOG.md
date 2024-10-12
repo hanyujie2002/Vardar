@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.16.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.15.1...v2.16.0)
+
+### 🚀 Enhancements
+
+- Implemented animation on scroll ([3797279](https://github.com/hanyujie2002/Vardar/commit/3797279))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.15.1
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.15.0...v2.15.1)
