@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.15.1
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.15.0...v2.15.1)
+
+### 🚀 Enhancements
+
+- Added support for more emojis via twemoji mozilla font (part 2) ([e93955a](https://github.com/hanyujie2002/Vardar/commit/e93955a))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.15.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.14.7...v2.15.0)
