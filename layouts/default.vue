@@ -159,7 +159,7 @@
           <input
             v-model="search"
             placeholder="search blog"
-            class="flex h-[--header-height] flex-grow bg-transparent placeholder:text-slate-800/50 focus:outline-none sm:h-12 dark:placeholder:text-slate-200/50"
+            class="flex h-[--header-height] flex-grow bg-transparent text-xl placeholder:text-slate-800/50 focus:outline-none sm:h-12 sm:text-base dark:placeholder:text-slate-200/50"
           >
           <button class="group" @click="hideSearchModal">
             <Icon
