@@ -285,16 +285,26 @@ const hideFixedMenu = () => {
   documentElement.value.classList.remove('overflow-hidden');
   burgerMenuIconName.value = 'mdi:menu';
 };
-const showSearchModal = () => {
+const showSearchModal = async () => {
   documentElement.value.classList.add('overflow-hidden');
   isFixedNavHidden.value = true;
   burgerMenuIconName.value = 'mdi:menu';
-  dialogRef.value?.showModal();
+
+  await setTimeout(() => {
+    dialogRef.value?.showModal();
+  }, 100);
+  dialogRef.value?.classList.add('sm:animate-popup');
+  dialogRef.value?.classList.remove('sm:animate-fadeOut');
 };
-const hideSearchModal = () => {
+const hideSearchModal = async () => {
   documentElement.value.classList.remove('overflow-hidden');
   search.value = '';
-  dialogRef.value?.close();
+
+  await setTimeout(() => {
+    dialogRef.value?.close();
+  }, 100);
+  dialogRef.value?.classList.add('sm:animate-fadeOut');
+  dialogRef.value?.classList.remove('sm:animate-popup');
 };
 
 const handleBackdropClicked = (event: MouseEvent) => {
