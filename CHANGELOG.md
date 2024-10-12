@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.14.3
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.14.2...v2.14.3)
+
+### 🚀 Enhancements
+
+- Updated color of page nav bar ([7221b7e](https://github.com/hanyujie2002/Vardar/commit/7221b7e))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.14.2
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.14.1...v2.14.2)
