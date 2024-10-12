@@ -292,7 +292,7 @@ const showSearchModal = async () => {
 
   await setTimeout(() => {
     dialogRef.value?.showModal();
-  }, 100);
+  }, 90);
   dialogRef.value?.classList.add('sm:animate-popup');
   dialogRef.value?.classList.remove('sm:animate-fadeOut');
 };
@@ -302,7 +302,7 @@ const hideSearchModal = async () => {
 
   await setTimeout(() => {
     dialogRef.value?.close();
-  }, 100);
+  }, 90);
   dialogRef.value?.classList.add('sm:animate-fadeOut');
   dialogRef.value?.classList.remove('sm:animate-popup');
 };
