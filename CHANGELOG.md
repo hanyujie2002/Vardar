@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.14.7
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.14.6...v2.14.7)
+
+### 🚀 Enhancements
+
+- Enlarged font size in search box of mobile screen ([9c0f56b](https://github.com/hanyujie2002/Vardar/commit/9c0f56b))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.14.6
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.14.5...v2.14.6)
