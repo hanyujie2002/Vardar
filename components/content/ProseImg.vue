@@ -1,6 +1,7 @@
 <template>
   <component
     :is="imgComponent"
+    data-aos="zoom-in"
     :src="refinedSrc"
     :alt="alt"
     :width="width"

@@ -1,5 +1,5 @@
 <template>
-  <CodeBlock v-if="!isMermaid" v-bind="props">
+  <CodeBlock v-if="!isMermaid" data-aos="fade-left" v-bind="props">
     <slot />
   </CodeBlock>
 

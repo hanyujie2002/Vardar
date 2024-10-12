@@ -55,6 +55,7 @@
   },
   "dependencies": {
     "@types/lodash-es": "^4.17.12",
+    "aos": "^2.3.4",
     "lodash-es": "^4.17.21",
     "mermaid": "^11.3.0",
     "postcss-custom-properties": "^14.0.0",

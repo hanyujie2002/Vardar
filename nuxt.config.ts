@@ -77,6 +77,7 @@ export default defineNuxtConfig({
   plugins: [
     // '~/plugins/vue-awesome-paginate.js'
     '~/plugins/mermaid.client.js',
+    '~/plugins/aos.client.js',
   ],
   generate: {
     routes: ['/feed.xml'],

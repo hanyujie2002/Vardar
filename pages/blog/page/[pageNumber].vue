@@ -3,7 +3,11 @@
     <ul
       class="mx-auto mb-auto flex w-full max-w-4xl flex-col divide-y divide-dashed"
     >
-      <li v-for="article in paginatedArticles" :key="article._path">
+      <li
+        v-for="article in paginatedArticles"
+        :key="article._path"
+        data-aos="fade-left"
+      >
         <NuxtLink
           :to="article._path"
           class="block h-20 rounded px-4 py-2 font-sans font-extralight transition-all visited:block visited:h-20 visited:px-4 visited:py-2 visited:font-sans visited:text-lg visited:font-extrabold hover:backdrop-brightness-95 active:backdrop-brightness-90 sm:tracking-wide dark:text-slate-300 dark:hover:text-slate-200 dark:hover:backdrop-brightness-105 dark:active:backdrop-brightness-110"

@@ -1,5 +1,5 @@
 <template>
-  <p class="my-5 leading-7">
+  <p data-aos="fade-left" class="my-5 leading-7">
     <slot />
   </p>
 </template>

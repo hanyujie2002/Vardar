@@ -1,6 +1,6 @@
 <template>
   <div class="m-auto flex flex-col">
-    <div>
+    <div data-aos="fade-in">
       <NuxtImg
         class="mx-auto rounded-full object-cover shadow-2xl shadow-themeColor-100 md:hover:animate-spinSlow"
         preload
@@ -13,12 +13,13 @@
       />
     </div>
     <div
+      data-aos="fade-down"
       class="mx-auto mt-5 text-center text-3xl font-thin tracking-widest text-slate-600 dark:text-slate-100"
     >
       Vardar's example site
     </div>
 
-    <div class="mx-auto my-3 space-x-5 text-3xl">
+    <div data-aos="fade-down" class="mx-auto my-3 space-x-5 text-3xl">
       <NuxtLink
         to="https://github.com/hanyujie2002/Vardar"
         target="_blank"
