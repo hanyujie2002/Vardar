@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.14.1
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.14.0...v2.14.1)
+
+### 🚀 Enhancements
+
+- Added popup and fadeout animation for search box (part 2) ([d7550ae](https://github.com/hanyujie2002/Vardar/commit/d7550ae))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.14.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.13.3...v2.14.0)
