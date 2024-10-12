@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.14.5
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.14.4...v2.14.5)
+
+### 🚀 Enhancements
+
+- Implemented some animations ([577a041](https://github.com/hanyujie2002/Vardar/commit/577a041))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.14.4
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.14.3...v2.14.4)
