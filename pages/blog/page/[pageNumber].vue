@@ -6,7 +6,7 @@
       <li
         v-for="article in paginatedArticles"
         :key="article._path"
-        data-aos="fade-left"
+        data-aos="fade-in"
       >
         <NuxtLink
           :to="article._path"
