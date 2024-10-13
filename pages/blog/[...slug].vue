@@ -19,6 +19,9 @@ onMounted(async () => {
   $mermaid().initialize({
     startOnLoad: true,
     deterministicIds: true,
+    themeVariables: {
+      round: true,
+    },
   });
   await nextTick();
   $mermaid().init();

@@ -51,7 +51,7 @@ module.exports = {
       },
       keyframes: {},
       colors: {
-        themeColor: colors.rose,
+        themeColor: colors.emerald,
       },
     },
   },

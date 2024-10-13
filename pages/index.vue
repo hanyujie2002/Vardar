@@ -20,7 +20,11 @@
       Vardar's example site
     </div>
 
-    <div data-aos="fade-down" data-aos-delay="300" class="mx-auto my-3 space-x-5 text-3xl">
+    <div
+      data-aos="fade-down"
+      data-aos-delay="300"
+      class="mx-auto my-3 space-x-5 text-3xl"
+    >
       <NuxtLink
         to="https://github.com/hanyujie2002/Vardar"
         target="_blank"
