@@ -43,6 +43,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxtjs/seo',
     '@nuxtjs/mdc',
+    'nuxt-easy-lightbox',
   ],
   mdc: {
     components: {

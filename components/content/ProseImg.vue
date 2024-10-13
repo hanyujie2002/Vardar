@@ -2,19 +2,32 @@
   <component
     :is="imgComponent"
     data-aos="zoom-in"
+    data-aos-delay="150"
     :src="refinedSrc"
     :alt="alt"
     :width="width"
     :height="height"
     placeholder
-    class="mx-auto my-4 max-w-full rounded"
+    class="mx-auto my-4 max-w-full rounded hover:cursor-zoom-in"
     loading="lazy"
+    @click="showImg"
+  />
+  <VueEasyLightbox
+    class="fixed bottom-0 left-0 z-50 h-dvh w-screen"
+    :visible="visibleRef"
+    :imgs="refinedSrc"
+    @hide="onHide"
   />
 </template>
 
 <script setup lang="ts">
 import { withTrailingSlash, withLeadingSlash, joinURL } from 'ufo';
 import { useRuntimeConfig, computed, resolveComponent } from '#imports';
+const visibleRef = ref(false);
+const showImg = () => {
+  visibleRef.value = true;
+};
+const onHide = () => (visibleRef.value = false);
 
 const imgComponent = useRuntimeConfig().public.mdc.useNuxtImage
   ? resolveComponent('NuxtImg')

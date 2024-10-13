@@ -2,6 +2,7 @@
   <div class="m-auto flex flex-col">
     <div data-aos="fade-in">
       <NuxtImg
+        data-aos="fade-down"
         class="mx-auto rounded-full object-cover shadow-2xl shadow-themeColor-100 md:hover:animate-spinSlow"
         preload
         src="/img/avatar.png"
@@ -14,12 +15,13 @@
     </div>
     <div
       data-aos="fade-down"
+      data-aos-delay="150"
       class="mx-auto mt-5 text-center text-3xl font-thin tracking-widest text-slate-600 dark:text-slate-100"
     >
       Vardar's example site
     </div>
 
-    <div data-aos="fade-down" class="mx-auto my-3 space-x-5 text-3xl">
+    <div data-aos="fade-down" data-aos-delay="300" class="mx-auto my-3 space-x-5 text-3xl">
       <NuxtLink
         to="https://github.com/hanyujie2002/Vardar"
         target="_blank"

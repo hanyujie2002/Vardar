@@ -1,3 +1,3 @@
 <template>
-  <li data-aos="fade-left"><slot /></li>
+  <li><slot /></li>
 </template>

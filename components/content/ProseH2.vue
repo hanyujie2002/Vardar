@@ -1,7 +1,6 @@
 <template>
   <h2
     :id="id"
-    data-aos="fade-right"
     class="mb-4 mt-4 scroll-mt-[calc(16px+var(--header-height))] text-xl font-semibold dark:text-slate-200"
   >
     <a v-if="id && generate" :href="`#${id}`">
