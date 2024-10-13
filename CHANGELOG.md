@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.17.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.16.2...v2.17.0)
+
+### 🩹 Fixes
+
+- Implemented images modal view (lightbox) ([72e5250](https://github.com/hanyujie2002/Vardar/commit/72e5250))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.16.2
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.16.1...v2.16.2)
