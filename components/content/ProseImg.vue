@@ -71,6 +71,6 @@ const refinedSrc = computed(() => {
 }
 
 .vel-img {
-  @apply max-w-[100vw] sm:max-w-[80vw];
+  @apply max-w-[100vw] lg:max-w-[80vw];
 }
 </style>
