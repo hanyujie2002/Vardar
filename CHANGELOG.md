@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.16.2
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.16.1...v2.16.2)
+
+### 🩹 Fixes
+
+- Background error on article list ([c656faa](https://github.com/hanyujie2002/Vardar/commit/c656faa))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.16.1
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.16.0...v2.16.1)
