@@ -18,7 +18,7 @@
     </ul>
     <div class="my-4 flex justify-center">
       <VueAwesomePaginate
-        v-model="currentPage"
+        :model-value="currentPage"
         :total-items="totalRecords ?? 0"
         :items-per-page="perPage"
         :max-pages-shown="3"
@@ -62,23 +62,10 @@ const paginatedArticles = computed(() => {
   return articles.value?.slice(start, end);
 });
 
-watch(
-  () => route.params.pageNumber,
-  (newPage) => {
-    if (newPage === null || Array.isArray(newPage)) {
-      currentPage.value = 1;
-    } else {
-      currentPage.value = parseInt(newPage);
-    }
-  }
-);
-
 const onPageChange = async (page: number) => {
   await navigateTo({
     path: `/blog/page/${page}`,
   });
-
-  window.scrollTo(0, 0);
 };
 </script>
 
