@@ -1,8 +1,7 @@
 <template>
   <div class="m-auto flex flex-col">
-    <div data-aos="fade-in">
+    <div data-aos="fade-down">
       <NuxtImg
-        data-aos="fade-down"
         class="mx-auto rounded-full object-cover shadow-2xl shadow-themeColor-100 md:hover:animate-spinSlow"
         preload
         src="/img/avatar.png"
