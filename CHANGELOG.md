@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.17.4
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.17.3...v2.17.4)
+
+### 🚀 Enhancements
+
+- Updated image modal view on small screen (part 2) ([b73a199](https://github.com/hanyujie2002/Vardar/commit/b73a199))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.17.3
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.17.2...v2.17.3)
