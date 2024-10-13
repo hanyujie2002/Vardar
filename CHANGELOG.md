@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.18.0
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.17.6...v2.18.0)
+
+### 🚀 Enhancements
+
+- Updated style of mermaid ([4f7bb97](https://github.com/hanyujie2002/Vardar/commit/4f7bb97))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.17.6
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.17.5...v2.17.6)
