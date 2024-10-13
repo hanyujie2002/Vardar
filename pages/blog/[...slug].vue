@@ -5,7 +5,7 @@
     />
     <div
       class="fixed top-[calc(4rem+var(--header-height))] ml-8 hidden max-h-[calc(100vh-var(--header-height))] max-w-72 flex-col overflow-y-auto text-sm/6 text-slate-700 xl:flex dark:text-gray-200"
-      data-aos="fade-up"
+      data-aos="fade-left"
     >
       <TableOfContents />
     </div>
