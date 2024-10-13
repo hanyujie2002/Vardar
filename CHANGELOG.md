@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.17.1
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.17.0...v2.17.1)
+
+### 🚀 Enhancements
+
+- Updated style of inline code blocks ([4e0680b](https://github.com/hanyujie2002/Vardar/commit/4e0680b))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.17.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.16.2...v2.17.0)
