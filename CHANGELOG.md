@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.17.2
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.17.1...v2.17.2)
+
+### 🚀 Enhancements
+
+- Updated aos style of toc ([1200657](https://github.com/hanyujie2002/Vardar/commit/1200657))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.17.1
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.17.0...v2.17.1)
