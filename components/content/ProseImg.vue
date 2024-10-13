@@ -13,7 +13,7 @@
     @click="showImg"
   />
   <VueEasyLightbox
-    class="fixed bottom-0 left-0 z-50 h-dvh w-screen"
+    class=""
     :visible="visibleRef"
     :imgs="refinedSrc"
     @hide="onHide"
@@ -64,3 +64,13 @@ const refinedSrc = computed(() => {
   return props.src;
 });
 </script>
+
+<style>
+.vel-modal {
+  @apply bg-black sm:bg-[rgba(0,0,0,.5)];
+}
+
+.vel-img {
+  @apply max-w-[100vw] sm:max-w-[80vw];
+}
+</style>
