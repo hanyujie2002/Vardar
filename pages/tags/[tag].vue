@@ -50,7 +50,7 @@
 const route = useRoute();
 const currentTag = route.params.tag;
 
-const { data: articles } = await useAsyncData('articles', () =>
+const { data: articles } = await useAsyncData(`articles${currentTag}`, () =>
   queryContent('/blog')
     .only(['title', '_path', 'tags', 'date', 'description'])
     .where({ tags: { $contains: currentTag } })
