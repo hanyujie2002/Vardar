@@ -4,9 +4,9 @@
       class="mx-auto mb-auto flex w-full max-w-4xl flex-col divide-y divide-dashed"
     >
       <NuxtLink
-        :to="`/tags/${tag}`"
+        :to="`/tags/${currentTag}`"
         class="mb-8 mt-4 px-4 font-serif text-5xl font-extralight tracking-wide dark:text-slate-200"
-        >{{ tag }}</NuxtLink
+        >{{ currentTag }}</NuxtLink
       >
       <li v-for="article in articles" :key="article._path" data-aos="fade-in">
         <div
@@ -48,12 +48,12 @@
 
 <script setup>
 const route = useRoute();
-const selectedTag = route.params.tag;
+const currentTag = route.params.tag;
 
 const { data: articles } = await useAsyncData('articles', () =>
   queryContent('/blog')
     .only(['title', '_path', 'tags', 'date', 'description'])
-    .where({ tags: { $contains: selectedTag } })
+    .where({ tags: { $contains: currentTag } })
     .find()
 );
 </script>
