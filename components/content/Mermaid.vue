@@ -1,5 +1,8 @@
 <template>
-  <div v-if="show" class="mermaid dark:invert-[.88] transition-all duration-1000 rounded px-1 py-1">
+  <div
+    v-if="show"
+    class="mermaid rounded px-1 py-1 transition-all duration-1000 dark:invert-[.88]"
+  >
     <slot />
   </div>
 </template>
