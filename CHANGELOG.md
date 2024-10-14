@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.19.1
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.0...v2.19.1)
+
+### 🚀 Enhancements
+
+- Implemented tags support (part 2) ([1979855](https://github.com/hanyujie2002/Vardar/commit/1979855))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.19.0
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.18.1...v2.19.0)
