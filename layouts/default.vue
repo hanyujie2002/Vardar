@@ -25,6 +25,16 @@
             >{{ $t('blog') }}</NuxtLink
           >
         </li>
+        <li class="">
+          <NuxtLink
+            class="flex px-4 py-2 text-3xl font-bold transition-colors"
+            :class="{ active: isTagsPage }"
+            to="/tags"
+            aria-lable="Tags List Page"
+            @click="hideFixedMenu"
+            >Tags</NuxtLink
+          >
+        </li>
         <li>
           <a
             class="flex px-4 py-2 text-3xl font-bold transition-colors"
@@ -72,6 +82,15 @@
               to="/blog/page/1"
               aria-label="Blog Page"
               >{{ $t('blog') }}</NuxtLink
+            >
+          </li>
+          <li class="my-auto hidden sm:list-item">
+            <NuxtLink
+              class="flex flex-auto rounded px-4 py-2 text-lg font-bold transition-colors hover:text-yellow-500 dark:hover:text-yellow-100"
+              :class="{ active: isTagsPage }"
+              to="/tags"
+              aria-label="Tags List Page"
+              >Tags</NuxtLink
             >
           </li>
           <li class="my-auto ml-auto list-item">
@@ -268,6 +287,9 @@ const isAboutPage = computed(() => {
 });
 const isBlogPage = computed(() => {
   return route.path.startsWith('/blog');
+});
+const isTagsPage = computed(() => {
+  return route.path.startsWith('/tags');
 });
 const toggleFixedMenuState = () => {
   if (isFixedNavHidden.value === true) {
