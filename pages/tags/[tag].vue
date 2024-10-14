@@ -48,12 +48,12 @@
 
 <script setup>
 const route = useRoute();
-const tag = route.params.tag;
+const selectedTag = route.params.tag;
 
 const { data: articles } = await useAsyncData('articles', () =>
   queryContent('/blog')
     .only(['title', '_path', 'tags', 'date', 'description'])
-    .where({ tags: { $contains: tag } })
+    .where({ tags: { $contains: selectedTag } })
     .find()
 );
 </script>
