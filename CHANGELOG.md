@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.19.2
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.1...v2.19.2)
+
+### 🩹 Fixes
+
+- Duplicated tag variable ([ed7ec91](https://github.com/hanyujie2002/Vardar/commit/ed7ec91))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.19.1
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.0...v2.19.1)
