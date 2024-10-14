@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.19.4
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.3...v2.19.4)
+
+### 🩹 Fixes
+
+- Cache error ([b1138a3](https://github.com/hanyujie2002/Vardar/commit/b1138a3))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.19.3
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.2...v2.19.3)
