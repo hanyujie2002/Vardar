@@ -5,7 +5,7 @@
     >
       <NuxtLink
         :to="`/tags/${currentTag}`"
-        class="mb-8 mt-4 px-4 font-serif text-5xl font-extralight tracking-wide dark:text-slate-200"
+        class="animate-in slide-in-from-bottom fade-in mb-8 mt-4 px-4 font-serif text-5xl font-extralight tracking-wide dark:text-slate-200"
         >{{ currentTag }}</NuxtLink
       >
       <li v-for="article in articles" :key="article._path" data-aos="fade-in">

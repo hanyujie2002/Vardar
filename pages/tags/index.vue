@@ -2,6 +2,7 @@
   <div class="w-full font-extralight sm:tracking-wide">
     <div
       class="mx-auto mt-8 flex max-w-3xl flex-wrap space-x-3 overflow-x-auto px-3"
+      data-aos="fade-up"
     >
       <NuxtLink
         v-for="(count, tag) in tagCounts"
