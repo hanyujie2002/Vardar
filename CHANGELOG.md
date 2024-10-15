@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.19.5
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.4...v2.19.5)
+
+### 🩹 Fixes
+
+- Make cases incensitive ([a2ceb2c](https://github.com/hanyujie2002/Vardar/commit/a2ceb2c))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.19.4
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.3...v2.19.4)
