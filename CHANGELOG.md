@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.19.13
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.12...v2.19.13)
+
+### 🏡 Chore
+
+- Updated the avatar image in demo site ([542b911](https://github.com/hanyujie2002/Vardar/commit/542b911))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.19.12
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.11...v2.19.12)
