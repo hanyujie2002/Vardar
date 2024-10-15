@@ -56,11 +56,11 @@
         class="sticky top-0 z-40 flex h-[--header-height] flex-auto text-black backdrop-blur-2xl dark:text-slate-200"
       >
         <ul
-          class="mx-auto my-auto flex w-full max-w-screen-xl gap-4 sm:ml-[10px]"
+          class="mx-auto my-auto flex w-full max-w-screen-xl gap-4"
         >
           <li class="list-item">
             <NuxtLink
-              class="flex flex-auto rounded px-4 py-2 text-2xl font-extrabold transition-colors dark:text-slate-100"
+              class="flex flex-auto rounded px-4 py-2 md:ml-[10px] text-2xl font-extrabold transition-colors dark:text-slate-100"
               to="/"
               title="Home"
               aria-label="Home Page"
