@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.19.6
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.5...v2.19.6)
+
+### 🚀 Enhancements
+
+- Implemented animations for tags page ([5778520](https://github.com/hanyujie2002/Vardar/commit/5778520))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.19.5
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.4...v2.19.5)
