@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="w-[calc(100vw-10px)]">
     <nav
       class="fixed top-[--header-height] z-50 h-[calc(100vh-var(--header-height))] w-screen text-slate-600 backdrop-blur-2xl animate-in slide-in-from-right dark:text-themeColor-200"
       :class="{ hidden: isFixedNavHidden }"
