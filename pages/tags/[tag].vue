@@ -5,12 +5,12 @@
     >
       <NuxtLink
         :to="`/tags/${currentTag}`"
-        class="animate-in slide-in-from-bottom fade-in mb-8 mt-4 px-4 font-serif text-5xl font-extralight tracking-wide dark:text-slate-200"
+        class="mb-8 ml-[10px] mt-4 px-4 font-serif text-5xl font-extralight tracking-wide animate-in fade-in slide-in-from-bottom dark:text-slate-200"
         >{{ currentTag }}</NuxtLink
       >
       <li v-for="article in articles" :key="article._path" data-aos="fade-in">
         <div
-          class="flex h-44 flex-col rounded px-4 py-2 font-sans font-extralight transition-all hover:backdrop-brightness-95 has-[a:active]:backdrop-brightness-90 sm:tracking-wide dark:text-slate-300 dark:hover:text-slate-200 dark:hover:backdrop-brightness-105 dark:has-[a:active]:backdrop-brightness-110"
+          class="flex h-44 flex-col rounded px-4 py-2 font-sans font-extralight transition-all hover:backdrop-brightness-95 has-[a:active]:backdrop-brightness-90 sm:tracking-wide sm:max-xl:pl-[26px] dark:text-slate-300 dark:hover:text-slate-200 dark:hover:backdrop-brightness-105 dark:has-[a:active]:backdrop-brightness-110"
         >
           <NuxtLink
             :to="article._path"

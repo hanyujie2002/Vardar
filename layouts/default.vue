@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[calc(100vw-10px)]">
+  <div class="sm:w-[calc(100vw-10px)]">
     <nav
       class="fixed top-[--header-height] z-50 h-[calc(100vh-var(--header-height))] w-screen text-slate-600 backdrop-blur-2xl animate-in slide-in-from-right dark:text-themeColor-200"
       :class="{ hidden: isFixedNavHidden }"
@@ -55,7 +55,9 @@
       <nav
         class="sticky top-0 z-40 flex h-[--header-height] flex-auto text-black backdrop-blur-2xl dark:text-slate-200"
       >
-        <ul class="mx-auto my-auto flex w-full max-w-screen-xl gap-4">
+        <ul
+          class="mx-auto my-auto flex w-full max-w-screen-xl gap-4 sm:ml-[10px]"
+        >
           <li class="list-item">
             <NuxtLink
               class="flex flex-auto rounded px-4 py-2 text-2xl font-extrabold transition-colors dark:text-slate-100"

@@ -9,7 +9,7 @@
         data-aos="fade-in"
       >
         <div
-          class="flex h-44 flex-col rounded px-4 py-2 font-sans font-extralight transition-all hover:backdrop-brightness-95 has-[a:active]:backdrop-brightness-90 sm:tracking-wide dark:text-slate-300 dark:hover:text-slate-200 dark:hover:backdrop-brightness-105 dark:has-[a:active]:backdrop-brightness-110"
+          class="flex h-44 flex-col rounded px-4 py-2 font-sans font-extralight transition-all hover:backdrop-brightness-95 has-[a:active]:backdrop-brightness-90 sm:tracking-wide sm:max-xl:pl-[26px] dark:text-slate-300 dark:hover:text-slate-200 dark:hover:backdrop-brightness-105 dark:has-[a:active]:backdrop-brightness-110"
         >
           <NuxtLink
             :to="article._path"

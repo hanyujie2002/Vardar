@@ -24,7 +24,7 @@ const { data: tags } = await useAsyncData(
 
 const tagCounts = tags.value.reduce((acc, tagObj) => {
   tagObj.tags.forEach((tag) => {
-    const lowerCasedTag = tag.toLowerCase()
+    const lowerCasedTag = tag.toLowerCase();
     if (acc[lowerCasedTag]) {
       acc[lowerCasedTag] += 1;
     } else {
