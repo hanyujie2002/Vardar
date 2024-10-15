@@ -23,10 +23,11 @@ const { data: tags } = await useAsyncData(
 
 const tagCounts = tags.value.reduce((acc, tagObj) => {
   tagObj.tags.forEach((tag) => {
-    if (acc[tag]) {
-      acc[tag] += 1;
+    const lowerCasedTag = tag.toLowerCase()
+    if (acc[lowerCasedTag]) {
+      acc[lowerCasedTag] += 1;
     } else {
-      acc[tag] = 1;
+      acc[lowerCasedTag] = 1;
     }
   });
   return acc;
