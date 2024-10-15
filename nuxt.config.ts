@@ -67,7 +67,7 @@ export default defineNuxtConfig({
       { code: 'ru', iso: 'ru-RU', name: 'Русский' },
       { code: 'uk', iso: 'uk-UA', name: 'Українська' },
     ],
-    strategy: 'no_prefix',
+    strategy: 'prefix_and_default',
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',

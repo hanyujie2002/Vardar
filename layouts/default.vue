@@ -19,7 +19,7 @@
           <NuxtLink
             class="flex px-4 py-2 text-3xl font-bold transition-colors"
             :class="{ active: isBlogPage }"
-            to="/blog/page/1"
+            :to="localePath('/blog/page/1')"
             aria-lable="Blog List Page"
             @click="hideFixedMenu"
             >{{ $t('blog') }}</NuxtLink
@@ -29,10 +29,10 @@
           <NuxtLink
             class="flex px-4 py-2 text-3xl font-bold transition-colors"
             :class="{ active: isTagsPage }"
-            to="/tags"
+            :to="localePath('/tags')"
             aria-lable="Tags List Page"
             @click="hideFixedMenu"
-            >Tags</NuxtLink
+            >{{ $t('tags') }}</NuxtLink
           >
         </li>
         <li>
@@ -81,7 +81,7 @@
             <NuxtLink
               class="flex flex-auto rounded px-4 py-2 text-lg font-bold transition-colors hover:text-yellow-500 dark:hover:text-yellow-100"
               :class="{ active: isBlogPage }"
-              to="/blog/page/1"
+              :to="localePath('/blog/page/1')"
               aria-label="Blog Page"
               >{{ $t('blog') }}</NuxtLink
             >
@@ -90,9 +90,9 @@
             <NuxtLink
               class="flex flex-auto rounded px-4 py-2 text-lg font-bold transition-colors hover:text-yellow-500 dark:hover:text-yellow-100"
               :class="{ active: isTagsPage }"
-              to="/tags"
+              :to="localePath('/tags')"
               aria-label="Tags List Page"
-              >Tags</NuxtLink
+              >{{ $t('tags') }}</NuxtLink
             >
           </li>
           <li class="my-auto ml-auto list-item">
@@ -230,13 +230,13 @@
             class="flex flex-grow items-center justify-center"
           >
             <span class="flex flex-grow justify-center text-center text-5xl"
-              >No Result</span
+              >{{ $t('noResult') }}</span
             >
           </div>
         </div>
         <div v-else class="flex flex-grow items-center justify-center">
           <span class="flex flex-grow justify-center text-center text-5xl"
-            >Type to search🔎</span
+            >{{ $t('typeToSearch') }}</span
           >
         </div>
       </div>
@@ -261,6 +261,7 @@ const search = ref<string>('');
 const dialogRef = ref<HTMLDialogElement>();
 
 const results = ref();
+const localePath = useLocalePath()
 
 const debouncedSearch = debounce(async (newSearch: string) => {
   const searchTimeout = setTimeout(() => {
