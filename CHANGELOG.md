@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.19.12
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.11...v2.19.12)
+
+### 🚀 Enhancements
+
+- Set i18n strategy to prefix and default ([b82c06a](https://github.com/hanyujie2002/Vardar/commit/b82c06a))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.19.11
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.10...v2.19.11)
