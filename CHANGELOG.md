@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.19.10
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.9...v2.19.10)
+
+### 🩹 Fixes
+
+- Scrollbar layout shift (part 5) ([a729fd6](https://github.com/hanyujie2002/Vardar/commit/a729fd6))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.19.9
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.8...v2.19.9)
