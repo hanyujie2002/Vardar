@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.19.11
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.10...v2.19.11)
+
+### 🚀 Enhancements
+
+- Implemented flex wrap for tags ([4a8b5be](https://github.com/hanyujie2002/Vardar/commit/4a8b5be))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.19.10
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.9...v2.19.10)
