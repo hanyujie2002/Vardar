@@ -79,6 +79,7 @@ if (!(Array.isArray(page) || page === undefined || page === null)) {
 const { data: articles } = await useAsyncData('articles', () =>
   queryContent('/blog')
     .only(['title', '_path', 'tags', 'date', 'description'])
+    .sort({ date: -1 })
     .find()
 );
 

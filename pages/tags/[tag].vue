@@ -54,6 +54,7 @@ const { data: articles } = await useAsyncData(`articles${currentTag}`, () =>
   queryContent('/blog')
     .only(['title', '_path', 'tags', 'date', 'description'])
     .where({ tags: { $icontains: currentTag } })
+    .sort({ date: -1 })
     .find()
 );
 </script>
