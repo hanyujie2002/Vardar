@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.19.16
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.15...v2.19.16)
+
+### 🩹 Fixes
+
+- Updated name in demo site ([c4686b8](https://github.com/hanyujie2002/Vardar/commit/c4686b8))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.19.15
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.14...v2.19.15)
