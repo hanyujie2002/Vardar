@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.19.14
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.13...v2.19.14)
+
+### 🚀 Enhancements
+
+- Sort articles by date ([a2014a4](https://github.com/hanyujie2002/Vardar/commit/a2014a4))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.19.13
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.12...v2.19.13)
