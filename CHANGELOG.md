@@ -1,5 +1,17 @@
 # Changelog of Vardar
 
+## v2.19.15
+
+[compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.14...v2.19.15)
+
+### 🏡 Chore
+
+- Updated release script ([e13fa29](https://github.com/hanyujie2002/Vardar/commit/e13fa29))
+
+### ❤️ Contributors
+
+- Hanyujie2002 ([@hanyujie2002](http://github.com/hanyujie2002))
+
 ## v2.19.14
 
 [compare changes](https://github.com/hanyujie2002/Vardar/compare/v2.19.13...v2.19.14)
