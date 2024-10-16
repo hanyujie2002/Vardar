@@ -65,7 +65,7 @@
               title="Home"
               aria-label="Home Page"
               @click="hideFixedMenu"
-              >Alex Johnson</NuxtLink
+              >Vardar Blog</NuxtLink
             >
           </li>
           <li class="my-auto hidden sm:list-item">
